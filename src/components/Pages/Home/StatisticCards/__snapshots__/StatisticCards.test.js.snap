@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row mt-3"
+      >
+        <div
+          class="col-md-12"
+        >
+          <h3
+            class="fw-bold"
+          >
+            What are your customers talking about?
+          </h3>
+          <p>
+            Understand what's happening on sales calls, so you can coachyour sellers better.
+          </p>
+          <div
+            class="row border border-2 rounded shadow"
+          >
+            <div
+              class="col-md-12"
+            >
+              <div
+                class="row align-items-center"
+              >
+                <div
+                  class="col-md-6"
+                >
+                  <canvas
+                    height="0"
+                    role="img"
+                    style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                    width="0"
+                  />
+                </div>
+                <div
+                  class="col-md-6"
+                >
+                  <div>
+                    <h4>
+                      Tracked keywords 
+                      <span
+                        class="fw-bold"
+                      >
+                        3D Printing
+                      </span>
+                       and 
+                      <span
+                        class="fw-bold"
+                      >
+                        Manufacturing
+                      </span>
+                       are trending upward across sales calls
+                    </h4>
+                    <p
+                      class="text-muted"
+                    >
+                      Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row mt-3"
+    >
+      <div
+        class="col-md-12"
+      >
+        <h3
+          class="fw-bold"
+        >
+          What are your customers talking about?
+        </h3>
+        <p>
+          Understand what's happening on sales calls, so you can coachyour sellers better.
+        </p>
+        <div
+          class="row border border-2 rounded shadow"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="row align-items-center"
+            >
+              <div
+                class="col-md-6"
+              >
+                <canvas
+                  height="0"
+                  role="img"
+                  style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                  width="0"
+                />
+              </div>
+              <div
+                class="col-md-6"
+              >
+                <div>
+                  <h4>
+                    Tracked keywords 
+                    <span
+                      class="fw-bold"
+                    >
+                      3D Printing
+                    </span>
+                     and 
+                    <span
+                      class="fw-bold"
+                    >
+                      Manufacturing
+                    </span>
+                     are trending upward across sales calls
+                  </h4>
+                  <p
+                    class="text-muted"
+                  >
+                    Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

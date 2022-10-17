@@ -7,7 +7,8 @@ test('should render component', () => {
     <StatisticCard
       chart={<div>chart</div>}
       description={<div>description</div>}
-    />)
+    />
+  )
 
   expect(container).toMatchSnapshot()
 })
