@@ -94,7 +94,6 @@ Object {
                       class="col-md-6"
                     >
                       <div
-                        aria-label="Basic example"
                         class="btn-group"
                         role="group"
                       >
@@ -306,7 +305,6 @@ Object {
                     class="col-md-6"
                   >
                     <div
-                      aria-label="Basic example"
                       class="btn-group"
                       role="group"
                     >

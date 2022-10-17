@@ -6,7 +6,6 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        aria-label="Basic example"
         class="btn-group"
         role="group"
       >
@@ -45,7 +44,6 @@ Object {
   </body>,
   "container": <div>
     <div
-      aria-label="Basic example"
       class="btn-group"
       role="group"
     >

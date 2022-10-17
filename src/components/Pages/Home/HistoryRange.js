@@ -5,13 +5,13 @@ const HistoryRange = () => {
   const ranges = ['Last 24h', 'Last 7 days', 'Last 30 days', 'This Month', 'Custom']
 
   return (
-    <ButtonGroup aria-label="Basic example">
-	    {
-	    	ranges.map((v,i) => (
-	    		<Button key={i} variant="outline-primary">{v}</Button>
-	    	))
-	    }
-	  </ButtonGroup>
+    <ButtonGroup>
+      {
+        ranges.map((v, i) => (
+          <Button key={i} variant="outline-primary">{v}</Button>
+        ))
+      }
+    </ButtonGroup>
   )
 }
 
