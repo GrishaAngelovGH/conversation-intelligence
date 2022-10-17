@@ -131,6 +131,83 @@ Object {
                       </div>
                     </div>
                   </div>
+                  <div
+                    class="row border border-2 rounded"
+                  >
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Mon Oct 17 2022
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Q2, 48 days left
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Actual Rev.
+                        : 
+                        $300k
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Open Rev.
+                        : 
+                        $150k
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Deals-Won
+                        : 
+                        $280k
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Win-Rate
+                        : 
+                        63%
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="fw-bold"
+                      >
+                        Avg. Deal Size
+                        : 
+                        58%
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -263,6 +340,83 @@ Object {
                       >
                         Custom
                       </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row border border-2 rounded"
+                >
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Mon Oct 17 2022
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Q2, 48 days left
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Actual Rev.
+                      : 
+                      $300k
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Open Rev.
+                      : 
+                      $150k
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Deals-Won
+                      : 
+                      $280k
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Win-Rate
+                      : 
+                      63%
+                    </div>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <div
+                      class="fw-bold"
+                    >
+                      Avg. Deal Size
+                      : 
+                      58%
                     </div>
                   </div>
                 </div>
