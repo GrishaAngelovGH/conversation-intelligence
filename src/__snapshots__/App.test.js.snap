@@ -289,6 +289,46 @@ Object {
                           </div>
                         </div>
                       </div>
+                      <div
+                        class="row align-items-center mt-3 border border-2 rounded shadow"
+                      >
+                        <div
+                          class="col-md-6"
+                        >
+                          <canvas
+                            height="0"
+                            role="img"
+                            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                            width="0"
+                          />
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <div>
+                            <h4>
+                              Customer mentions of the brands 
+                              <span
+                                class="fw-bold"
+                              >
+                                Brand 1
+                              </span>
+                               and 
+                              <span
+                                class="fw-bold"
+                              >
+                                Brand 2
+                              </span>
+                               have been detected across sales calls
+                            </h4>
+                            <p
+                              class="text-muted"
+                            >
+                              When customers mention brands, it can surface new competitors and opportunities to update sales strategies
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -580,6 +620,46 @@ Object {
                             class="text-muted"
                           >
                             Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="row align-items-center mt-3 border border-2 rounded shadow"
+                    >
+                      <div
+                        class="col-md-6"
+                      >
+                        <canvas
+                          height="0"
+                          role="img"
+                          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                          width="0"
+                        />
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <div>
+                          <h4>
+                            Customer mentions of the brands 
+                            <span
+                              class="fw-bold"
+                            >
+                              Brand 1
+                            </span>
+                             and 
+                            <span
+                              class="fw-bold"
+                            >
+                              Brand 2
+                            </span>
+                             have been detected across sales calls
+                          </h4>
+                          <p
+                            class="text-muted"
+                          >
+                            When customers mention brands, it can surface new competitors and opportunities to update sales strategies
                           </p>
                         </div>
                       </div>

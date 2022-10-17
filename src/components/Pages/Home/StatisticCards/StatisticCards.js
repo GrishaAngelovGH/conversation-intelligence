@@ -1,5 +1,6 @@
 import TrackedKeywordsCard from './TrackedKeywordsCard'
 import SentimentCard from './SentimentCard'
+import BrandsCard from './BrandsCard'
 
 const StatisticCards = () => (
   <div className="row mt-3 p-3">
@@ -9,6 +10,7 @@ const StatisticCards = () => (
 
       <TrackedKeywordsCard />
       <SentimentCard />
+      <BrandsCard />
     </div>
   </div>
 )
