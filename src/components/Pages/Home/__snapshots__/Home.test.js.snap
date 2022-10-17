@@ -156,7 +156,7 @@ Object {
                 Understand what's happening on sales calls, so you can coachyour sellers better.
               </p>
               <div
-                class="row border border-2 rounded shadow"
+                class="row mt-3 border border-2 rounded shadow"
               >
                 <div
                   class="col-md-12"
@@ -197,6 +197,42 @@ Object {
                           class="text-muted"
                         >
                           Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row mt-3 border border-2 rounded shadow"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row align-items-center"
+                  >
+                    <div
+                      class="col-md-6"
+                    >
+                      <canvas
+                        height="0"
+                        role="img"
+                        style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                        width="0"
+                      />
+                    </div>
+                    <div
+                      class="col-md-6"
+                    >
+                      <div>
+                        <h4>
+                          35 sales calls have noticeably higher positive sentiment than average
+                        </h4>
+                        <p
+                          class="text-muted"
+                        >
+                          Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
                         </p>
                       </div>
                     </div>
@@ -361,7 +397,7 @@ Object {
               Understand what's happening on sales calls, so you can coachyour sellers better.
             </p>
             <div
-              class="row border border-2 rounded shadow"
+              class="row mt-3 border border-2 rounded shadow"
             >
               <div
                 class="col-md-12"
@@ -402,6 +438,42 @@ Object {
                         class="text-muted"
                       >
                         Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row mt-3 border border-2 rounded shadow"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row align-items-center"
+                >
+                  <div
+                    class="col-md-6"
+                  >
+                    <canvas
+                      height="0"
+                      role="img"
+                      style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                      width="0"
+                    />
+                  </div>
+                  <div
+                    class="col-md-6"
+                  >
+                    <div>
+                      <h4>
+                        35 sales calls have noticeably higher positive sentiment than average
+                      </h4>
+                      <p
+                        class="text-muted"
+                      >
+                        Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
                       </p>
                     </div>
                   </div>
