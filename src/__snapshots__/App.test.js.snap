@@ -5,14 +5,154 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        HOME
+      <div
+        class="row g-0"
+      >
+        <div
+          class="col-md-12"
+        >
+          <div
+            class="row g-0"
+          >
+            <div
+              class="col-md-12"
+            >
+              <div
+                class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+              >
+                <div
+                  class="col-1 col-md-1"
+                >
+                  <i
+                    class="bi bi-grid-3x3-gap text-white"
+                    style="font-size: 30px;"
+                  />
+                </div>
+                <div
+                  class="col-5 col-md-4"
+                >
+                  <div
+                    class="input-group"
+                  >
+                    <input
+                      class="form-control"
+                      placeholder="Search for keywords, brands, tags and more"
+                    />
+                    <span
+                      class="input-group-text"
+                    >
+                      <i
+                        class="bi bi-search"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="col-3 col-md-1 d-flex"
+                >
+                  <i
+                    class="bi bi-gear text-white"
+                    style="font-size: 30px;"
+                  />
+                  <img
+                    alt="user"
+                    class="rounded-circle ms-1"
+                    height="50"
+                    src="https://randomuser.me/api/portraits/men/18.jpg"
+                    width="50"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row g-0"
+          >
+            <div
+              class="col-md-12"
+            >
+              <div>
+                HOME
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      HOME
+    <div
+      class="row g-0"
+    >
+      <div
+        class="col-md-12"
+      >
+        <div
+          class="row g-0"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+            >
+              <div
+                class="col-1 col-md-1"
+              >
+                <i
+                  class="bi bi-grid-3x3-gap text-white"
+                  style="font-size: 30px;"
+                />
+              </div>
+              <div
+                class="col-5 col-md-4"
+              >
+                <div
+                  class="input-group"
+                >
+                  <input
+                    class="form-control"
+                    placeholder="Search for keywords, brands, tags and more"
+                  />
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="bi bi-search"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                class="col-3 col-md-1 d-flex"
+              >
+                <i
+                  class="bi bi-gear text-white"
+                  style="font-size: 30px;"
+                />
+                <img
+                  alt="user"
+                  class="rounded-circle ms-1"
+                  height="50"
+                  src="https://randomuser.me/api/portraits/men/18.jpg"
+                  width="50"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row g-0"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div>
+              HOME
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
