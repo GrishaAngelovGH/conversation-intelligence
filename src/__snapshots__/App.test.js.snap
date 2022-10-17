@@ -71,8 +71,67 @@ Object {
             <div
               class="col-md-12"
             >
-              <div>
-                HOME
+              <div
+                class="row g-0 justify-content-center text-center"
+              >
+                <div
+                  class="col-md-11"
+                >
+                  <div
+                    class="row g-0 p-3"
+                  >
+                    <div
+                      class="col-md-6"
+                    >
+                      <h3
+                        class="fw-bold"
+                      >
+                        Good morning, 
+                        James Smith
+                      </h3>
+                    </div>
+                    <div
+                      class="col-md-6"
+                    >
+                      <div
+                        aria-label="Basic example"
+                        class="btn-group"
+                        role="group"
+                      >
+                        <button
+                          class="btn btn-outline-primary"
+                          type="button"
+                        >
+                          Last 24h
+                        </button>
+                        <button
+                          class="btn btn-outline-primary"
+                          type="button"
+                        >
+                          Last 7 days
+                        </button>
+                        <button
+                          class="btn btn-outline-primary"
+                          type="button"
+                        >
+                          Last 30 days
+                        </button>
+                        <button
+                          class="btn btn-outline-primary"
+                          type="button"
+                        >
+                          This Month
+                        </button>
+                        <button
+                          class="btn btn-outline-primary"
+                          type="button"
+                        >
+                          Custom
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -147,8 +206,67 @@ Object {
           <div
             class="col-md-12"
           >
-            <div>
-              HOME
+            <div
+              class="row g-0 justify-content-center text-center"
+            >
+              <div
+                class="col-md-11"
+              >
+                <div
+                  class="row g-0 p-3"
+                >
+                  <div
+                    class="col-md-6"
+                  >
+                    <h3
+                      class="fw-bold"
+                    >
+                      Good morning, 
+                      James Smith
+                    </h3>
+                  </div>
+                  <div
+                    class="col-md-6"
+                  >
+                    <div
+                      aria-label="Basic example"
+                      class="btn-group"
+                      role="group"
+                    >
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Last 24h
+                      </button>
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Last 7 days
+                      </button>
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Last 30 days
+                      </button>
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        This Month
+                      </button>
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Custom
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
