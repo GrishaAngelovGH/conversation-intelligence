@@ -3,6 +3,7 @@ import Tabs from "react-bootstrap/Tabs"
 
 import OverviewTab from "./OverviewTab"
 import ActionItemsTab from "./ActionItemsTab"
+import HighlightsTab from "./HighlightsTab"
 
 const TabsWrapper = () => (
   <Tabs defaultActiveKey="overview" id="tabs-id" className="mb-3"   >
@@ -13,7 +14,7 @@ const TabsWrapper = () => (
       <ActionItemsTab />
     </Tab>
     <Tab eventKey="highlights" title="Highlights">
-      Highlights
+      <HighlightsTab />
     </Tab>
   </Tabs>
 )
