@@ -52,6 +52,32 @@ Object {
                       />
                     </a>
                   </li>
+                  <li
+                    class="sc-bqWxrE ewrzPa menu-item"
+                  >
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
+                      href="/transcript-summary"
+                    >
+                      <span
+                        class="sc-iBYQkv elxmsR menu-icon"
+                      >
+                        <i
+                          class="bi bi-card-list"
+                        />
+                      </span>
+                      <span
+                        class="sc-ftTHYK fEqIKp menu-prefix"
+                      >
+                        <span>
+                          Transcript Summary
+                        </span>
+                      </span>
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      />
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -108,6 +134,32 @@ Object {
                     >
                       <span>
                         Home
+                      </span>
+                    </span>
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="sc-bqWxrE ewrzPa menu-item"
+                >
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
+                    href="/transcript-summary"
+                  >
+                    <span
+                      class="sc-iBYQkv elxmsR menu-icon"
+                    >
+                      <i
+                        class="bi bi-card-list"
+                      />
+                    </span>
+                    <span
+                      class="sc-ftTHYK fEqIKp menu-prefix"
+                    >
+                      <span>
+                        Transcript Summary
                       </span>
                     </span>
                     <span
