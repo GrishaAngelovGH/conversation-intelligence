@@ -6,6 +6,7 @@ import Header from './components/Header'
 
 import Home from './components/Pages/Home'
 import TranscriptSummary from './components/Pages/TranscriptSummary'
+import SellerDetails from './components/Pages/SellerDetails'
 
 const HomeRoute = () => (
   <ProSidebarProvider>
@@ -33,12 +34,26 @@ const TranscriptSummaryRoute = () => (
   </ProSidebarProvider>
 )
 
+const SellerDetailsRoute = () => (
+  <ProSidebarProvider>
+    <Layout
+      header={<Header />}
+      body={(
+        <SidebarLayout>
+          <SellerDetails />
+        </SidebarLayout>
+      )}
+    />
+  </ProSidebarProvider>
+)
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path='/' element={<HomeRoute />} />
         <Route path='/transcript-summary' element={<TranscriptSummaryRoute />} />
+        <Route path='/seller-details' element={<SellerDetailsRoute />} />
       </Routes>
     </Router>
   )

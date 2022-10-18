@@ -144,6 +144,32 @@ Object {
                               />
                             </a>
                           </li>
+                          <li
+                            class="sc-bqWxrE ewrzPa menu-item"
+                          >
+                            <a
+                              class="sc-pyfCe lkTtqM menu-anchor"
+                              href="/seller-details"
+                            >
+                              <span
+                                class="sc-iBYQkv elxmsR menu-icon"
+                              >
+                                <i
+                                  class="bi bi-person"
+                                />
+                              </span>
+                              <span
+                                class="sc-ftTHYK fEqIKp menu-prefix"
+                              >
+                                <span>
+                                  Seller Details
+                                </span>
+                              </span>
+                              <span
+                                class="sc-gKPRtg ktVuSn menu-label"
+                              />
+                            </a>
+                          </li>
                         </ul>
                       </nav>
                     </div>
@@ -739,6 +765,32 @@ Object {
                             >
                               <span>
                                 Transcript Summary
+                              </span>
+                            </span>
+                            <span
+                              class="sc-gKPRtg ktVuSn menu-label"
+                            />
+                          </a>
+                        </li>
+                        <li
+                          class="sc-bqWxrE ewrzPa menu-item"
+                        >
+                          <a
+                            class="sc-pyfCe lkTtqM menu-anchor"
+                            href="/seller-details"
+                          >
+                            <span
+                              class="sc-iBYQkv elxmsR menu-icon"
+                            >
+                              <i
+                                class="bi bi-person"
+                              />
+                            </span>
+                            <span
+                              class="sc-ftTHYK fEqIKp menu-prefix"
+                            >
+                              <span>
+                                Seller Details
                               </span>
                             </span>
                             <span

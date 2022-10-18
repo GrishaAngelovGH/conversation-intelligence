@@ -8,6 +8,7 @@ const SidebarLayout = ({ children }) => (
         <Menu>
           <MenuItem href='/' prefix={<span>Home</span>} icon={<i className="bi bi-house-door"></i>} />
           <MenuItem href='/transcript-summary' prefix={<span>Transcript Summary</span>} icon={<i className="bi bi-card-list"></i>} />
+          <MenuItem href='/seller-details' prefix={<span>Seller Details</span>} icon={<i className="bi bi-person"></i>} />
         </Menu>
       </Sidebar>
     </div>
