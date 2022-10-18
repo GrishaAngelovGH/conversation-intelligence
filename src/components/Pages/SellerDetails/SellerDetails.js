@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table'
 
 import Attendee from "../common/Attendee"
 
-const StatisticSummary = () => (
+export const StatisticSummary = () => (
   <div className="row mt-3 border rounded p-3 bg-light justify-content-center text-center">
     <div className="col-md-2">
       <div className="fw-bold text-muted">Talk to listen ratio</div>
@@ -31,7 +31,7 @@ const StatisticSummary = () => (
   </div>
 )
 
-const SellerInsights = () => (
+export const SellerInsights = () => (
   <div className="row mt-3">
     <div className="col-md-12">
       <h4>Seller Insights</h4>
@@ -54,7 +54,7 @@ const SellerInsights = () => (
   </div>
 )
 
-const CallHistory = () => {
+export const CallHistory = () => {
   const data = [
     { id: 1, title: 'Closing the deal', added: '6 hours ago', duration: '31m 30s', phone: '123456789', relatedOpportunity: 'Not Set' },
     { id: 2, title: 'Initial discussion', added: '3 days ago', duration: '35m 14s', phone: '123456789', relatedOpportunity: 'Not Set' },

@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 import Attendee from "../common/Attendee"
 
-const TranscriptRow = ({ attendee, duration, content }) => (
+export const TranscriptRow = ({ attendee, duration, content }) => (
   <div className="row border rounded mt-3 p-1 bg-light">
     <div className="col-md-12">
       <div className="row">

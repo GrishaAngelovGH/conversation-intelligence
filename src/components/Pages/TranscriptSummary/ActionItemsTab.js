@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-const EmailSuggestion = ({ content }) => (
+export const EmailSuggestion = ({ content }) => (
   <div className="row mt-3 border rounded p-3">
     <div className="col-md-12">
       <i className="bi bi-envelope"></i>
