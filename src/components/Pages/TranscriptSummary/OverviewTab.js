@@ -1,4 +1,4 @@
-import Attendee from "./Attendee"
+import Attendee from "../common/Attendee"
 
 const OverviewTab = () => (
   <div className="row">
