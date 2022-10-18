@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const StatisticRow = ({ data }) => (
   <div className="row border border-2 rounded">
     <div className="col">
-      <div className="fw-bold">{new Date().toDateString()}</div>
+      <div className="fw-bold">Tuesday 18</div>
     </div>
     <div className="col">
       <div className="fw-bold">Q2, 48 days left</div>
