@@ -159,7 +159,7 @@ Object {
                       class="col-md-11"
                     >
                       <div
-                        class="row g-0 p-3"
+                        class="row g-0 p-3 align-items-center"
                       >
                         <div
                           class="col-md-6"
@@ -761,7 +761,7 @@ Object {
                     class="col-md-11"
                   >
                     <div
-                      class="row g-0 p-3"
+                      class="row g-0 p-3 align-items-center"
                     >
                       <div
                         class="col-md-6"

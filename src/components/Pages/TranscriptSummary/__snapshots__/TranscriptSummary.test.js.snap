@@ -8,11 +8,6 @@ Object {
       <div
         class="row g-0 mt-3 justify-content-center"
       >
-        <h3
-          class="text-center"
-        >
-          Transcript Summary
-        </h3>
         <div
           class="col-md-5"
         >
@@ -112,11 +107,6 @@ Object {
                         />
                       </div>
                     </div>
-                    <div
-                      class="col-md-5 text-end"
-                    >
-                      Edit
-                    </div>
                   </div>
                   <div
                     class="row mt-3 justify-content-between"
@@ -164,7 +154,7 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="col-md-5"
+                          class="col-md-6"
                         >
                           <h4
                             class="m-0"
@@ -187,7 +177,7 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="col-md-5"
+                          class="col-md-6"
                         >
                           <h4
                             class="m-0"
@@ -210,7 +200,7 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="col-md-5"
+                          class="col-md-6"
                         >
                           <h4
                             class="m-0"
@@ -334,7 +324,319 @@ Object {
         </div>
         <div
           class="col-md-5"
-        />
+        >
+          <div
+            class="row p-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <h3
+                class="text-center"
+              >
+                Transcript
+              </h3>
+              <div
+                class="row border rounded mt-3 p-1 bg-light"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          <div
+                            class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                            style="width: 40px; height: 40px;"
+                          >
+                            JS
+                          </div>
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <h4
+                            class="m-0"
+                          >
+                            James Smith
+                          </h4>
+                        </div>
+                      </div>
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          00:10
+                        </div>
+                        <div
+                          class="col-md-10"
+                        >
+                          <div>
+                            Good morning, everyone.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row border rounded mt-3 p-1 bg-light"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          <div
+                            class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                            style="width: 40px; height: 40px;"
+                          >
+                            JS
+                          </div>
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <h4
+                            class="m-0"
+                          >
+                            James Smith
+                          </h4>
+                        </div>
+                      </div>
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          00:15
+                        </div>
+                        <div
+                          class="col-md-10"
+                        >
+                          <div>
+                            Hi, 
+                            <span
+                              class="fw-bold"
+                            >
+                              Madison
+                            </span>
+                            ! How are you?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row border rounded mt-3 p-1 bg-light"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          <div
+                            class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                            style="width: 40px; height: 40px;"
+                          >
+                            MB
+                          </div>
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <h4
+                            class="m-0"
+                          >
+                            Madison Butler
+                          </h4>
+                        </div>
+                      </div>
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          00:05
+                        </div>
+                        <div
+                          class="col-md-10"
+                        >
+                          <div>
+                            Very good, thanks !
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row border rounded mt-3 p-1 bg-light"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          <div
+                            class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                            style="width: 40px; height: 40px;"
+                          >
+                            MB
+                          </div>
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <h4
+                            class="m-0"
+                          >
+                            Madison Butler
+                          </h4>
+                        </div>
+                      </div>
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          00:17
+                        </div>
+                        <div
+                          class="col-md-10"
+                        >
+                          <div>
+                            Oh, before I forget, can you please send me the 
+                            <span
+                              class="fw-bold"
+                            >
+                              quote
+                            </span>
+                             we discussed 
+                            <span
+                              class="fw-bold"
+                            >
+                              yesterday
+                            </span>
+                            ?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row border rounded mt-3 p-1 bg-light"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          <div
+                            class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                            style="width: 40px; height: 40px;"
+                          >
+                            JS
+                          </div>
+                        </div>
+                        <div
+                          class="col-md-6"
+                        >
+                          <h4
+                            class="m-0"
+                          >
+                            James Smith
+                          </h4>
+                        </div>
+                      </div>
+                      <div
+                        class="row mt-1 align-items-center"
+                      >
+                        <div
+                          class="col-md-2"
+                        >
+                          00:04
+                        </div>
+                        <div
+                          class="col-md-10"
+                        >
+                          <div>
+                            Sure, I will send you an email with the 
+                            <span
+                              class="fw-bold"
+                            >
+                              quote
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
@@ -342,11 +644,6 @@ Object {
     <div
       class="row g-0 mt-3 justify-content-center"
     >
-      <h3
-        class="text-center"
-      >
-        Transcript Summary
-      </h3>
       <div
         class="col-md-5"
       >
@@ -446,11 +743,6 @@ Object {
                       />
                     </div>
                   </div>
-                  <div
-                    class="col-md-5 text-end"
-                  >
-                    Edit
-                  </div>
                 </div>
                 <div
                   class="row mt-3 justify-content-between"
@@ -498,7 +790,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="col-md-5"
+                        class="col-md-6"
                       >
                         <h4
                           class="m-0"
@@ -521,7 +813,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="col-md-5"
+                        class="col-md-6"
                       >
                         <h4
                           class="m-0"
@@ -544,7 +836,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="col-md-5"
+                        class="col-md-6"
                       >
                         <h4
                           class="m-0"
@@ -668,7 +960,319 @@ Object {
       </div>
       <div
         class="col-md-5"
-      />
+      >
+        <div
+          class="row p-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <h3
+              class="text-center"
+            >
+              Transcript
+            </h3>
+            <div
+              class="row border rounded mt-3 p-1 bg-light"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-md-12"
+                  >
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <div
+                          class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                          style="width: 40px; height: 40px;"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          James Smith
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        00:10
+                      </div>
+                      <div
+                        class="col-md-10"
+                      >
+                        <div>
+                          Good morning, everyone.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row border rounded mt-3 p-1 bg-light"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-md-12"
+                  >
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <div
+                          class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                          style="width: 40px; height: 40px;"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          James Smith
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        00:15
+                      </div>
+                      <div
+                        class="col-md-10"
+                      >
+                        <div>
+                          Hi, 
+                          <span
+                            class="fw-bold"
+                          >
+                            Madison
+                          </span>
+                          ! How are you?
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row border rounded mt-3 p-1 bg-light"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-md-12"
+                  >
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <div
+                          class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                          style="width: 40px; height: 40px;"
+                        >
+                          MB
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          Madison Butler
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        00:05
+                      </div>
+                      <div
+                        class="col-md-10"
+                      >
+                        <div>
+                          Very good, thanks !
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row border rounded mt-3 p-1 bg-light"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-md-12"
+                  >
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <div
+                          class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                          style="width: 40px; height: 40px;"
+                        >
+                          MB
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          Madison Butler
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        00:17
+                      </div>
+                      <div
+                        class="col-md-10"
+                      >
+                        <div>
+                          Oh, before I forget, can you please send me the 
+                          <span
+                            class="fw-bold"
+                          >
+                            quote
+                          </span>
+                           we discussed 
+                          <span
+                            class="fw-bold"
+                          >
+                            yesterday
+                          </span>
+                          ?
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row border rounded mt-3 p-1 bg-light"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-md-12"
+                  >
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <div
+                          class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                          style="width: 40px; height: 40px;"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-6"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          James Smith
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="row mt-1 align-items-center"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        00:04
+                      </div>
+                      <div
+                        class="col-md-10"
+                      >
+                        <div>
+                          Sure, I will send you an email with the 
+                          <span
+                            class="fw-bold"
+                          >
+                            quote
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],

@@ -13,7 +13,6 @@ const OverviewTab = () => (
             <i className="bi bi-inboxes ms-3"></i>
           </div>
         </div>
-        <div className="col-md-5 text-end">Edit</div>
       </div>
 
       <div className="row mt-3 justify-content-between">

@@ -37,11 +37,6 @@ Object {
                 />
               </div>
             </div>
-            <div
-              class="col-md-5 text-end"
-            >
-              Edit
-            </div>
           </div>
           <div
             class="row mt-3 justify-content-between"
@@ -89,7 +84,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="col-md-5"
+                  class="col-md-6"
                 >
                   <h4
                     class="m-0"
@@ -112,7 +107,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="col-md-5"
+                  class="col-md-6"
                 >
                   <h4
                     class="m-0"
@@ -135,7 +130,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="col-md-5"
+                  class="col-md-6"
                 >
                   <h4
                     class="m-0"
@@ -182,11 +177,6 @@ Object {
                 class="bi bi-inboxes ms-3"
               />
             </div>
-          </div>
-          <div
-            class="col-md-5 text-end"
-          >
-            Edit
           </div>
         </div>
         <div
@@ -235,7 +225,7 @@ Object {
                 </div>
               </div>
               <div
-                class="col-md-5"
+                class="col-md-6"
               >
                 <h4
                   class="m-0"
@@ -258,7 +248,7 @@ Object {
                 </div>
               </div>
               <div
-                class="col-md-5"
+                class="col-md-6"
               >
                 <h4
                   class="m-0"
@@ -281,7 +271,7 @@ Object {
                 </div>
               </div>
               <div
-                class="col-md-5"
+                class="col-md-6"
               >
                 <h4
                   class="m-0"

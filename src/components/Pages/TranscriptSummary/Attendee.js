@@ -5,7 +5,7 @@ const Attendee = ({ shortName, fullName }) => (
     <div className="col-md-2">
       <Avatar content={shortName} />
     </div>
-    <div className="col-md-5">
+    <div className="col-md-6">
       <h4 className="m-0">{fullName}</h4>
     </div>
   </div>

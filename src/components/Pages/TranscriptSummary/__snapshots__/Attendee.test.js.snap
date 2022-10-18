@@ -19,7 +19,7 @@ Object {
           </div>
         </div>
         <div
-          class="col-md-5"
+          class="col-md-6"
         >
           <h4
             class="m-0"
@@ -45,7 +45,7 @@ Object {
         </div>
       </div>
       <div
-        class="col-md-5"
+        class="col-md-6"
       >
         <h4
           class="m-0"
