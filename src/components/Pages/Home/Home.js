@@ -2,6 +2,7 @@ import UserGreet from './UserGreet'
 import HistoryRange from './HistoryRange'
 import StatisticRow from './StatisticRow'
 import StatisticCards from './StatisticCards'
+import TeamInsights from './TeamInsights'
 
 const Home = () => {
 
@@ -29,6 +30,8 @@ const Home = () => {
         <StatisticRow data={statisticData} />
 
         <StatisticCards />
+
+        <TeamInsights />
       </div>
     </div>
   )
