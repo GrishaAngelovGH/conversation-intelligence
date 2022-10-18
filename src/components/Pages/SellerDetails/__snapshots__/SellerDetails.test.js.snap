@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row m-3"
+      >
+        <div
+          class="col-md-12"
+        >
+          <h3
+            class="fw-bold"
+          >
+            Seller Details
+          </h3>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-5"
+            >
+              <div
+                class="row mt-1 align-items-center"
+              >
+                <div
+                  class="col-md-2"
+                >
+                  <div
+                    class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                    style="width: 40px; height: 40px;"
+                  >
+                    JS
+                  </div>
+                </div>
+                <div
+                  class="col-md-6"
+                >
+                  <h4
+                    class="m-0"
+                  >
+                    James Smith
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row mt-3 border rounded p-3 bg-light justify-content-center text-center"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="fw-bold text-muted"
+              >
+                Talk to listen ratio
+              </div>
+              <div
+                class="fw-bold"
+              >
+                52/48%
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="fw-bold text-muted"
+              >
+                Talking speed
+              </div>
+              <div
+                class="fw-bold"
+              >
+                156.8 wpm
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="fw-bold text-muted"
+              >
+                Switches per hour
+              </div>
+              <div
+                class="fw-bold"
+              >
+                32.72
+              </div>
+            </div>
+            <div
+              class="col-md-3"
+            >
+              <div
+                class="fw-bold text-muted"
+              >
+                Pause before speaking
+              </div>
+              <div
+                class="fw-bold"
+              >
+                68.97ms
+              </div>
+            </div>
+            <div
+              class="col-md-3"
+            >
+              <div
+                class="fw-bold text-muted"
+              >
+                Longest customer monologue
+              </div>
+              <div
+                class="fw-bold"
+              >
+                37sec
+              </div>
+            </div>
+          </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <h4>
+                Seller Insights
+              </h4>
+              <div
+                class="row gap-2 text-center"
+              >
+                <div
+                  class="col border border-primary rounded p-2"
+                >
+                  James Smith has been talking too fast in most conversations
+                </div>
+                <div
+                  class="col border border-primary rounded p-2"
+                >
+                  James Smith's talk-to-listen ratio is 13% higher than the team's average
+                </div>
+                <div
+                  class="col border border-primary rounded p-2"
+                >
+                  Positive customer sentiments is higher than the average in 38% of calls
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row mt-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <h4>
+                Call History
+              </h4>
+              <table
+                class="table table-bordered table-hover"
+              >
+                <thead>
+                  <tr>
+                    <th />
+                    <th>
+                      Title
+                    </th>
+                    <th>
+                      Added
+                    </th>
+                    <th>
+                      Duration
+                    </th>
+                    <th>
+                      Phone Number
+                    </th>
+                    <th>
+                      Related Opportunity
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <i
+                        class="bi bi-telephone"
+                      />
+                    </td>
+                    <td>
+                      Closing the deal
+                    </td>
+                    <td>
+                      6 hours ago
+                    </td>
+                    <td>
+                      31m 30s
+                    </td>
+                    <td>
+                      123456789
+                    </td>
+                    <td>
+                      Not Set
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i
+                        class="bi bi-telephone"
+                      />
+                    </td>
+                    <td>
+                      Initial discussion
+                    </td>
+                    <td>
+                      3 days ago
+                    </td>
+                    <td>
+                      35m 14s
+                    </td>
+                    <td>
+                      123456789
+                    </td>
+                    <td>
+                      Not Set
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i
+                        class="bi bi-telephone"
+                      />
+                    </td>
+                    <td>
+                      Initial catalog launch
+                    </td>
+                    <td>
+                      3 days ago
+                    </td>
+                    <td>
+                      45m 20s
+                    </td>
+                    <td>
+                      123456789
+                    </td>
+                    <td>
+                      Not Set
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row m-3"
+    >
+      <div
+        class="col-md-12"
+      >
+        <h3
+          class="fw-bold"
+        >
+          Seller Details
+        </h3>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-5"
+          >
+            <div
+              class="row mt-1 align-items-center"
+            >
+              <div
+                class="col-md-2"
+              >
+                <div
+                  class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+                  style="width: 40px; height: 40px;"
+                >
+                  JS
+                </div>
+              </div>
+              <div
+                class="col-md-6"
+              >
+                <h4
+                  class="m-0"
+                >
+                  James Smith
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row mt-3 border rounded p-3 bg-light justify-content-center text-center"
+        >
+          <div
+            class="col-md-2"
+          >
+            <div
+              class="fw-bold text-muted"
+            >
+              Talk to listen ratio
+            </div>
+            <div
+              class="fw-bold"
+            >
+              52/48%
+            </div>
+          </div>
+          <div
+            class="col-md-2"
+          >
+            <div
+              class="fw-bold text-muted"
+            >
+              Talking speed
+            </div>
+            <div
+              class="fw-bold"
+            >
+              156.8 wpm
+            </div>
+          </div>
+          <div
+            class="col-md-2"
+          >
+            <div
+              class="fw-bold text-muted"
+            >
+              Switches per hour
+            </div>
+            <div
+              class="fw-bold"
+            >
+              32.72
+            </div>
+          </div>
+          <div
+            class="col-md-3"
+          >
+            <div
+              class="fw-bold text-muted"
+            >
+              Pause before speaking
+            </div>
+            <div
+              class="fw-bold"
+            >
+              68.97ms
+            </div>
+          </div>
+          <div
+            class="col-md-3"
+          >
+            <div
+              class="fw-bold text-muted"
+            >
+              Longest customer monologue
+            </div>
+            <div
+              class="fw-bold"
+            >
+              37sec
+            </div>
+          </div>
+        </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <h4>
+              Seller Insights
+            </h4>
+            <div
+              class="row gap-2 text-center"
+            >
+              <div
+                class="col border border-primary rounded p-2"
+              >
+                James Smith has been talking too fast in most conversations
+              </div>
+              <div
+                class="col border border-primary rounded p-2"
+              >
+                James Smith's talk-to-listen ratio is 13% higher than the team's average
+              </div>
+              <div
+                class="col border border-primary rounded p-2"
+              >
+                Positive customer sentiments is higher than the average in 38% of calls
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row mt-3"
+        >
+          <div
+            class="col-md-12"
+          >
+            <h4>
+              Call History
+            </h4>
+            <table
+              class="table table-bordered table-hover"
+            >
+              <thead>
+                <tr>
+                  <th />
+                  <th>
+                    Title
+                  </th>
+                  <th>
+                    Added
+                  </th>
+                  <th>
+                    Duration
+                  </th>
+                  <th>
+                    Phone Number
+                  </th>
+                  <th>
+                    Related Opportunity
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <i
+                      class="bi bi-telephone"
+                    />
+                  </td>
+                  <td>
+                    Closing the deal
+                  </td>
+                  <td>
+                    6 hours ago
+                  </td>
+                  <td>
+                    31m 30s
+                  </td>
+                  <td>
+                    123456789
+                  </td>
+                  <td>
+                    Not Set
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i
+                      class="bi bi-telephone"
+                    />
+                  </td>
+                  <td>
+                    Initial discussion
+                  </td>
+                  <td>
+                    3 days ago
+                  </td>
+                  <td>
+                    35m 14s
+                  </td>
+                  <td>
+                    123456789
+                  </td>
+                  <td>
+                    Not Set
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i
+                      class="bi bi-telephone"
+                    />
+                  </td>
+                  <td>
+                    Initial catalog launch
+                  </td>
+                  <td>
+                    3 days ago
+                  </td>
+                  <td>
+                    45m 20s
+                  </td>
+                  <td>
+                    123456789
+                  </td>
+                  <td>
+                    Not Set
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
