@@ -26,84 +26,48 @@ Object {
                 <ul
                   class="sc-eDvSVe gnJkew"
                 >
-                  <li
-                    class="sc-bqWxrE ewrzPa menu-item"
+                  <a
+                    class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    href="/"
                   >
-                    <a
-                      class="sc-pyfCe lkTtqM menu-anchor"
-                      href="/"
+                    <i
+                      class="bi bi-house-door"
+                    />
+                     
+                    <span
+                      class="fw-bold"
                     >
-                      <span
-                        class="sc-iBYQkv elxmsR menu-icon"
-                      >
-                        <i
-                          class="bi bi-house-door"
-                        />
-                      </span>
-                      <span
-                        class="sc-ftTHYK fEqIKp menu-prefix"
-                      >
-                        <span>
-                          Home
-                        </span>
-                      </span>
-                      <span
-                        class="sc-gKPRtg ktVuSn menu-label"
-                      />
-                    </a>
-                  </li>
-                  <li
-                    class="sc-bqWxrE ewrzPa menu-item"
+                      Home
+                    </span>
+                  </a>
+                  <a
+                    class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    href="/transcript-summary"
                   >
-                    <a
-                      class="sc-pyfCe lkTtqM menu-anchor"
-                      href="/transcript-summary"
+                    <i
+                      class="bi bi-card-list"
+                    />
+                     
+                    <span
+                      class="fw-bold"
                     >
-                      <span
-                        class="sc-iBYQkv elxmsR menu-icon"
-                      >
-                        <i
-                          class="bi bi-card-list"
-                        />
-                      </span>
-                      <span
-                        class="sc-ftTHYK fEqIKp menu-prefix"
-                      >
-                        <span>
-                          Transcript Summary
-                        </span>
-                      </span>
-                      <span
-                        class="sc-gKPRtg ktVuSn menu-label"
-                      />
-                    </a>
-                  </li>
-                  <li
-                    class="sc-bqWxrE ewrzPa menu-item"
+                      Transcript Summary
+                    </span>
+                  </a>
+                  <a
+                    class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    href="/seller-details"
                   >
-                    <a
-                      class="sc-pyfCe lkTtqM menu-anchor"
-                      href="/seller-details"
+                    <i
+                      class="bi bi-person"
+                    />
+                     
+                    <span
+                      class="fw-bold"
                     >
-                      <span
-                        class="sc-iBYQkv elxmsR menu-icon"
-                      >
-                        <i
-                          class="bi bi-person"
-                        />
-                      </span>
-                      <span
-                        class="sc-ftTHYK fEqIKp menu-prefix"
-                      >
-                        <span>
-                          Seller Details
-                        </span>
-                      </span>
-                      <span
-                        class="sc-gKPRtg ktVuSn menu-label"
-                      />
-                    </a>
-                  </li>
+                      Seller Details
+                    </span>
+                  </a>
                 </ul>
               </nav>
             </div>
@@ -141,84 +105,48 @@ Object {
               <ul
                 class="sc-eDvSVe gnJkew"
               >
-                <li
-                  class="sc-bqWxrE ewrzPa menu-item"
+                <a
+                  class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  href="/"
                 >
-                  <a
-                    class="sc-pyfCe lkTtqM menu-anchor"
-                    href="/"
+                  <i
+                    class="bi bi-house-door"
+                  />
+                   
+                  <span
+                    class="fw-bold"
                   >
-                    <span
-                      class="sc-iBYQkv elxmsR menu-icon"
-                    >
-                      <i
-                        class="bi bi-house-door"
-                      />
-                    </span>
-                    <span
-                      class="sc-ftTHYK fEqIKp menu-prefix"
-                    >
-                      <span>
-                        Home
-                      </span>
-                    </span>
-                    <span
-                      class="sc-gKPRtg ktVuSn menu-label"
-                    />
-                  </a>
-                </li>
-                <li
-                  class="sc-bqWxrE ewrzPa menu-item"
+                    Home
+                  </span>
+                </a>
+                <a
+                  class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  href="/transcript-summary"
                 >
-                  <a
-                    class="sc-pyfCe lkTtqM menu-anchor"
-                    href="/transcript-summary"
+                  <i
+                    class="bi bi-card-list"
+                  />
+                   
+                  <span
+                    class="fw-bold"
                   >
-                    <span
-                      class="sc-iBYQkv elxmsR menu-icon"
-                    >
-                      <i
-                        class="bi bi-card-list"
-                      />
-                    </span>
-                    <span
-                      class="sc-ftTHYK fEqIKp menu-prefix"
-                    >
-                      <span>
-                        Transcript Summary
-                      </span>
-                    </span>
-                    <span
-                      class="sc-gKPRtg ktVuSn menu-label"
-                    />
-                  </a>
-                </li>
-                <li
-                  class="sc-bqWxrE ewrzPa menu-item"
+                    Transcript Summary
+                  </span>
+                </a>
+                <a
+                  class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  href="/seller-details"
                 >
-                  <a
-                    class="sc-pyfCe lkTtqM menu-anchor"
-                    href="/seller-details"
+                  <i
+                    class="bi bi-person"
+                  />
+                   
+                  <span
+                    class="fw-bold"
                   >
-                    <span
-                      class="sc-iBYQkv elxmsR menu-icon"
-                    >
-                      <i
-                        class="bi bi-person"
-                      />
-                    </span>
-                    <span
-                      class="sc-ftTHYK fEqIKp menu-prefix"
-                    >
-                      <span>
-                        Seller Details
-                      </span>
-                    </span>
-                    <span
-                      class="sc-gKPRtg ktVuSn menu-label"
-                    />
-                  </a>
-                </li>
+                    Seller Details
+                  </span>
+                </a>
               </ul>
             </nav>
           </div>
