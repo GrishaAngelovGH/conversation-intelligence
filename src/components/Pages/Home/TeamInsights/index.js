@@ -1,3 +1,3 @@
-import TeamInsights from "./TeamInsights"
+import TeamInsights from './TeamInsights'
 
 export default TeamInsights

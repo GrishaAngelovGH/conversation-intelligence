@@ -15,14 +15,14 @@ const Home = () => {
   ]
 
   return (
-    <div className="row g-0 justify-content-center text-center">
-      <div className="col-md-11">
+    <div className='row g-0 justify-content-center text-center'>
+      <div className='col-md-11'>
 
-        <div className="row g-0 p-3 align-items-center">
-          <div className="col-md-6">
-            <UserGreet username="James Smith" />
+        <div className='row g-0 p-3 align-items-center'>
+          <div className='col-md-6'>
+            <UserGreet username='James Smith' />
           </div>
-          <div className="col-md-6">
+          <div className='col-md-6'>
             <HistoryRange />
           </div>
         </div>

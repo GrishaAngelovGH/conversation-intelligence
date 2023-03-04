@@ -9,7 +9,7 @@ test('should render component', () => {
 })
 
 test('should render EmailSuggestion', () => {
-  const container = render(<EmailSuggestion content="content" />)
+  const container = render(<EmailSuggestion content='content' />)
 
   expect(container).toMatchSnapshot()
 })

@@ -8,7 +8,7 @@ const HistoryRange = () => {
     <ButtonGroup>
       {
         ranges.map((v, i) => (
-          <Button key={i} variant="outline-primary">{v}</Button>
+          <Button key={i} variant='outline-primary'>{v}</Button>
         ))
       }
     </ButtonGroup>

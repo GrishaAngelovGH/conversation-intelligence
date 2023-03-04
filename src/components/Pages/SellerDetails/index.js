@@ -1,3 +1,3 @@
-import SellerDetails from "./SellerDetails"
+import SellerDetails from './SellerDetails'
 
 export default SellerDetails
