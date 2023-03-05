@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Tabs from './Tabs'
 
-test('should render component', () => {
-  const container = render(<Tabs />)
+test('should render Tabs component', () => {
+  const view = render(<Tabs />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

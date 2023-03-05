@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import UserGreet from './UserGreet'
 
-test('should render component', () => {
-  const container = render(<UserGreet username='James Smith' />)
+test('should render UserGreet component', () => {
+  const view = render(<UserGreet username='James Smith' />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

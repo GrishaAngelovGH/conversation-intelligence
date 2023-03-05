@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 
 import StatisticRow from './StatisticRow'
 
-test('should render component', () => {
+test('should render StatisticRow component', () => {
   const statisticData = [
     { type: 'Actual Rev.', value: '$300k' },
     { type: 'Open Rev.', value: '$150k' },
@@ -11,7 +11,7 @@ test('should render component', () => {
     { type: 'Avg. Deal Size', value: '58%' }
   ]
 
-  const container = render(<StatisticRow data={statisticData} />)
+  const view = render(<StatisticRow data={statisticData} />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

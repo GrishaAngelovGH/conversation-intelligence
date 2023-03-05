@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import TranscriptSummary from './TranscriptSummary'
 
-test('should render component', () => {
-  const container = render(<TranscriptSummary />)
+test('should render TranscriptSummary component', () => {
+  const view = render(<TranscriptSummary />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

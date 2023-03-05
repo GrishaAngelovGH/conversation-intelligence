@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import TeamInsights from './TeamInsights'
 
-test('should render component', () => {
-  const container = render(<TeamInsights />)
+test('should render TeamInsights component', () => {
+  const view = render(<TeamInsights />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

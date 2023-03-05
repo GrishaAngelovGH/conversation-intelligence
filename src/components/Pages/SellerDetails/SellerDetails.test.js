@@ -2,26 +2,26 @@ import { render } from '@testing-library/react'
 
 import SellerDetails, { StatisticSummary, SellerInsights, CallHistory } from './SellerDetails'
 
-test('should render component', () => {
-  const container = render(<SellerDetails />)
+test('should render SellerDetails component', () => {
+  const view = render(<SellerDetails />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render StatisticSummary', () => {
-  const container = render(<StatisticSummary />)
+test('should render StatisticSummary component', () => {
+  const view = render(<StatisticSummary />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render SellerInsights', () => {
-  const container = render(<SellerInsights />)
+test('should render SellerInsights component', () => {
+  const view = render(<SellerInsights />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render CallHistory', () => {
-  const container = render(<CallHistory />)
+test('should render CallHistory component', () => {
+  const view = render(<CallHistory />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

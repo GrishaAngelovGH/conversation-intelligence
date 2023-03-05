@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Header from './Header'
 
-test('should render component', () => {
-  const container = render(<Header />)
+test('should render Header component', () => {
+  const view = render(<Header />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

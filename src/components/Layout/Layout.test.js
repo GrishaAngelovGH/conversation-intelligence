@@ -5,20 +5,20 @@ import Layout from './Layout'
 const header = (<div>Header</div>)
 const body = (<div>Body</div>)
 
-test('should render component', () => {
-  const container = render(<Layout header={header} body={body} />)
+test('should render Layout component', () => {
+  const view = render(<Layout header={header} body={body} />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render Layout.Header', () => {
-  const container = render(<Layout.Header content={header} />)
+test('should render Layout.Header component', () => {
+  const view = render(<Layout.Header content={header} />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render Layout.Body', () => {
-  const container = render(<Layout.Body content={body} />)
+test('should render Layout.Body component', () => {
+  const view = render(<Layout.Body content={body} />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import SentimentCard from './SentimentCard'
 
-test('should render component', () => {
-  const container = render(<SentimentCard />)
+test('should render SentimentCard component', () => {
+  const view = render(<SentimentCard />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

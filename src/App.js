@@ -8,39 +8,13 @@ import Home from './components/Pages/Home'
 import TranscriptSummary from './components/Pages/TranscriptSummary'
 import SellerDetails from './components/Pages/SellerDetails'
 
-const HomeRoute = () => (
+const withLayout = Component => (
   <ProSidebarProvider>
     <Layout
       header={<Header />}
       body={(
         <SidebarLayout>
-          <Home />
-        </SidebarLayout>
-      )}
-    />
-  </ProSidebarProvider>
-)
-
-const TranscriptSummaryRoute = () => (
-  <ProSidebarProvider>
-    <Layout
-      header={<Header />}
-      body={(
-        <SidebarLayout>
-          <TranscriptSummary />
-        </SidebarLayout>
-      )}
-    />
-  </ProSidebarProvider>
-)
-
-const SellerDetailsRoute = () => (
-  <ProSidebarProvider>
-    <Layout
-      header={<Header />}
-      body={(
-        <SidebarLayout>
-          <SellerDetails />
+          <Component />
         </SidebarLayout>
       )}
     />
@@ -51,9 +25,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<HomeRoute />} />
-        <Route path='/transcript-summary' element={<TranscriptSummaryRoute />} />
-        <Route path='/seller-details' element={<SellerDetailsRoute />} />
+        <Route path='/' element={withLayout(Home)} />
+        <Route path='/transcript-summary' element={withLayout(TranscriptSummary)} />
+        <Route path='/seller-details' element={withLayout(SellerDetails)} />
       </Routes>
     </Router>
   )

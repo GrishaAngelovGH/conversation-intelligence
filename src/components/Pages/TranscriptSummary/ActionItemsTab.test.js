@@ -2,14 +2,14 @@ import { render } from '@testing-library/react'
 
 import ActionItemsTab, { EmailSuggestion } from './ActionItemsTab'
 
-test('should render component', () => {
-  const container = render(<ActionItemsTab />)
+test('should render ActionItemsTab component', () => {
+  const view = render(<ActionItemsTab />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
 
-test('should render EmailSuggestion', () => {
-  const container = render(<EmailSuggestion content='content' />)
+test('should render EmailSuggestion component', () => {
+  const view = render(<EmailSuggestion content='content' />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

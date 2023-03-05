@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Home from './Home'
 
-test('should render component', () => {
-  const container = render(<Home />)
+test('should render Home component', () => {
+  const view = render(<Home />)
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })
