@@ -4,13 +4,4 @@ Front-end project implementing visualizations for Conversation Intelligence Plat
 
 ## The front-end project is using the following technologies:
 
-* Initial structure is created with **create-react-app**
-* Integrated **react 18**
-* Integrated **bootstrap v5**
-* Integrated **bootstrap-icons**
-* Integrated **prop-types**
-* Integrated **react-bootstrap**
-* Integrated **react-chartjs-2**
-* Integrated **react-dom**
-* Integrated **react-pro-sidebar**
-* Integrated **react-router-dom**
+<img src="https://img.shields.io/badge/create--react--app-%23563D7C.svg?style=flat&logo=create-react-app&color=white" height="30"> <img src="https://img.shields.io/badge/babel--eslint--parser-%23563D7C.svg?style=flat&logo=babel&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&color=white&logoColor=red" height="30"> <img src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&color=white&logoColor=purple" height="30"> <img src="https://img.shields.io/badge/bootstrap--icons-%23563D7C.svg?style=flat&logo=bootstrap&color=white&logoColor=purple" height="30"> <img src="https://img.shields.io/badge/prop--types-311C87?style=flat&color=white" height="30"> <img src="https://img.shields.io/badge/react--bootstrap-blue.svg?style=flat&logo=react&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/react--chartjs--2-blue.svg?style=flat&logo=react&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/react--pro--sidebar-311C87?style=flat&color=white" height="30">
