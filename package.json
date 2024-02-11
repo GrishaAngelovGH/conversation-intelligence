@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
+    "canvas": "^2.11.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -45,7 +46,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.19.1",
-    "canvas": "^2.10.1"
+    "@babel/eslint-parser": "^7.19.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
