@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-import Attendee from '../common/Attendee'
+import Attendee from 'components/Pages/common/Attendee'
 
 export const TranscriptRow = ({ attendee, duration, content }) => (
   <div className='row border rounded mt-3 p-1 bg-light'>

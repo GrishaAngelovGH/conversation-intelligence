@@ -1,4 +1,4 @@
-import Avatar from '../Avatar'
+import Avatar from 'components/Pages/common/Avatar'
 
 const Attendee = ({ shortName, fullName }) => (
   <div className='row mt-1 align-items-center'>

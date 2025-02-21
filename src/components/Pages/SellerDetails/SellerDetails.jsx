@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table'
 
-import Attendee from '../common/Attendee'
+import Attendee from 'components/Pages/common/Attendee'
 
 export const StatisticSummary = () => (
   <div className='row mt-3 border rounded p-3 bg-light justify-content-center text-center'>
