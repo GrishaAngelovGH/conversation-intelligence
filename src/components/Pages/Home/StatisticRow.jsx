@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types'
-
 const StatisticRow = ({ data }) => (
   <div className='row border border-2 rounded'>
     <div className='col'>
@@ -17,9 +15,5 @@ const StatisticRow = ({ data }) => (
     }
   </div>
 )
-
-StatisticRow.propTypes = {
-  data: PropTypes.array.isRequired
-}
 
 export default StatisticRow

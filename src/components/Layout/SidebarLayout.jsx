@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import { Sidebar, Menu } from 'react-pro-sidebar'
 
@@ -26,9 +25,5 @@ const SidebarLayout = ({ children }) => (
     </div>
   </div>
 )
-
-SidebarLayout.propTypes = {
-  children: PropTypes.element.isRequired
-}
 
 export default SidebarLayout

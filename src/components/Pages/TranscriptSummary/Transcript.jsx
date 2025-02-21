@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types'
-
 import Attendee from 'components/Pages/common/Attendee'
 
 export const TranscriptRow = ({ attendee, duration, content }) => (
@@ -23,14 +21,7 @@ export const TranscriptRow = ({ attendee, duration, content }) => (
   </div >
 )
 
-TranscriptRow.propTypes = {
-  attendee: PropTypes.object.isRequired,
-  duration: PropTypes.string.isRequired,
-  content: PropTypes.element.isRequired
-}
-
 const Transcript = () => {
-
   const transcript = [
     { id: 1, attendee: { shortName: 'JS', fullName: 'James Smith' }, duration: '00:10', content: (<div>Good morning, everyone.</div>) },
     { id: 2, attendee: { shortName: 'JS', fullName: 'James Smith' }, duration: '00:15', content: (<div>Hi, <span className='fw-bold'>Madison</span>! How are you?</div>) },
