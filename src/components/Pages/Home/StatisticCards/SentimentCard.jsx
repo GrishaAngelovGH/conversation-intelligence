@@ -5,7 +5,7 @@ import StatisticCard from './StatisticCard'
 
 ChartJS.register(ArcElement, Tooltip, Legend)
 
-export const data = {
+const data = {
   labels: ['Positive', 'Neutral', 'Negative'],
   datasets: [
     {

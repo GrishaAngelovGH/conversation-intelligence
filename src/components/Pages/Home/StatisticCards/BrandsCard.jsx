@@ -11,7 +11,7 @@ import { Bubble } from 'react-chartjs-2'
 import StatisticCard from './StatisticCard'
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend)
 
-export const options = {
+const options = {
   scales: {
     y: {
       beginAtZero: true
@@ -19,7 +19,7 @@ export const options = {
   }
 }
 
-export const data = {
+const data = {
   datasets: [{
     label: 'Brand 1',
     data: Array.from({ length: 50 }, () => ({

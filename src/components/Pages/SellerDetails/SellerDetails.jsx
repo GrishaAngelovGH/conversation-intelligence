@@ -42,7 +42,7 @@ export const SellerInsights = () => (
         </div>
 
         <div className='col border border-primary rounded p-2'>
-          James Smith's talk-to-listen ratio is 13% higher than the team's average
+          James Smith&apos;s talk-to-listen ratio is 13% higher than the team&apos;s average
         </div>
 
         <div className='col border border-primary rounded p-2'>
