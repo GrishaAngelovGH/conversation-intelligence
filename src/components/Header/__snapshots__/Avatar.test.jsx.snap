@@ -1,25 +1,27 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render UserGreet component 1`] = `
-Object {
+exports[`should render Avatar component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <h3
-        class="fw-bold"
-      >
-        Good morning, 
-        James Smith
-      </h3>
+      <img
+        alt="user"
+        class="rounded-circle ms-1"
+        height="50"
+        src="https://randomuser.me/api/portraits/men/18.jpg"
+        width="50"
+      />
     </div>
   </body>,
   "container": <div>
-    <h3
-      class="fw-bold"
-    >
-      Good morning, 
-      James Smith
-    </h3>
+    <img
+      alt="user"
+      class="rounded-circle ms-1"
+      height="50"
+      src="https://randomuser.me/api/portraits/men/18.jpg"
+      width="50"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

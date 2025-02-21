@@ -1,48 +1,24 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render StatisticCard component 1`] = `
-Object {
+exports[`should render Avatar component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row align-items-center mt-3 border border-2 rounded shadow"
+        class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+        style="width: 40px; height: 40px;"
       >
-        <div
-          class="col-md-6"
-        >
-          <div>
-            chart
-          </div>
-        </div>
-        <div
-          class="col-md-6"
-        >
-          <div>
-            description
-          </div>
-        </div>
+        AB
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="row align-items-center mt-3 border border-2 rounded shadow"
+      class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
+      style="width: 40px; height: 40px;"
     >
-      <div
-        class="col-md-6"
-      >
-        <div>
-          chart
-        </div>
-      </div>
-      <div
-        class="col-md-6"
-      >
-        <div>
-          description
-        </div>
-      </div>
+      AB
     </div>
   </div>,
   "debug": [Function],

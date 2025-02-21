@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render CallHistory component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -270,7 +270,7 @@ Object {
 `;
 
 exports[`should render SellerDetails component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -835,7 +835,7 @@ Object {
 `;
 
 exports[`should render SellerInsights component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -958,7 +958,7 @@ Object {
 `;
 
 exports[`should render StatisticSummary component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>

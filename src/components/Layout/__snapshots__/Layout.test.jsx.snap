@@ -1,52 +1,36 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render ActionItemsTab component 1`] = `
-Object {
+exports[`should render Layout component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row"
+        class="row g-0"
       >
         <div
           class="col-md-12"
         >
           <div
-            class="row mt-3 border rounded p-3"
+            class="row g-0"
           >
             <div
               class="col-md-12"
             >
-              <i
-                class="bi bi-envelope"
-              />
-              <span
-                class="fw-bold ms-3"
-              >
-                Email Suggestion
-              </span>
-              <h5>
-                Madison Butler to send email about "the quote"
-              </h5>
+              <div>
+                Header
+              </div>
             </div>
           </div>
           <div
-            class="row mt-3 border rounded p-3"
+            class="row g-0"
           >
             <div
               class="col-md-12"
             >
-              <i
-                class="bi bi-envelope"
-              />
-              <span
-                class="fw-bold ms-3"
-              >
-                Email Suggestion
-              </span>
-              <h5>
-                Madison Butler to send email about "presentation"
-              </h5>
+              <div>
+                Body
+              </div>
             </div>
           </div>
         </div>
@@ -55,47 +39,31 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="row"
+      class="row g-0"
     >
       <div
         class="col-md-12"
       >
         <div
-          class="row mt-3 border rounded p-3"
+          class="row g-0"
         >
           <div
             class="col-md-12"
           >
-            <i
-              class="bi bi-envelope"
-            />
-            <span
-              class="fw-bold ms-3"
-            >
-              Email Suggestion
-            </span>
-            <h5>
-              Madison Butler to send email about "the quote"
-            </h5>
+            <div>
+              Header
+            </div>
           </div>
         </div>
         <div
-          class="row mt-3 border rounded p-3"
+          class="row g-0"
         >
           <div
             class="col-md-12"
           >
-            <i
-              class="bi bi-envelope"
-            />
-            <span
-              class="fw-bold ms-3"
-            >
-              Email Suggestion
-            </span>
-            <h5>
-              Madison Butler to send email about "presentation"
-            </h5>
+            <div>
+              Body
+            </div>
           </div>
         </div>
       </div>
@@ -155,50 +123,119 @@ Object {
 }
 `;
 
-exports[`should render EmailSuggestion component 1`] = `
-Object {
+exports[`should render Layout.Body component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row mt-3 border rounded p-3"
+        class="row g-0"
       >
         <div
           class="col-md-12"
         >
-          <i
-            class="bi bi-envelope"
-          />
-          <span
-            class="fw-bold ms-3"
-          >
-            Email Suggestion
-          </span>
-          <h5>
-            content
-          </h5>
+          <div>
+            Body
+          </div>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="row mt-3 border rounded p-3"
+      class="row g-0"
     >
       <div
         class="col-md-12"
       >
-        <i
-          class="bi bi-envelope"
-        />
-        <span
-          class="fw-bold ms-3"
+        <div>
+          Body
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`should render Layout.Header component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row g-0"
+      >
+        <div
+          class="col-md-12"
         >
-          Email Suggestion
-        </span>
-        <h5>
-          content
-        </h5>
+          <div>
+            Header
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row g-0"
+    >
+      <div
+        class="col-md-12"
+      >
+        <div>
+          Header
+        </div>
       </div>
     </div>
   </div>,

@@ -1,73 +1,25 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render TeamInsight component 1`] = `
-Object {
+exports[`should render UserGreet component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="row mt-3 mb-3 p-3 bg-light border rounded"
+      <h3
+        class="fw-bold"
       >
-        <div
-          class="col-md-12"
-        >
-          <div
-            class="row"
-          >
-            <div
-              class="col-md-12"
-            >
-              <div>
-                content
-              </div>
-            </div>
-          </div>
-          <div
-            class="row mt-3 text-muted"
-          >
-            <div
-              class="col-md-12"
-            >
-              <div>
-                statistic
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        Good morning, 
+        James Smith
+      </h3>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="row mt-3 mb-3 p-3 bg-light border rounded"
+    <h3
+      class="fw-bold"
     >
-      <div
-        class="col-md-12"
-      >
-        <div
-          class="row"
-        >
-          <div
-            class="col-md-12"
-          >
-            <div>
-              content
-            </div>
-          </div>
-        </div>
-        <div
-          class="row mt-3 text-muted"
-        >
-          <div
-            class="col-md-12"
-          >
-            <div>
-              statistic
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      Good morning, 
+      James Smith
+    </h3>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

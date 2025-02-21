@@ -1,12 +1,13 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render Tabs component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <ul
         class="mb-3 nav nav-tabs"
+        id="tabs-id"
         role="tablist"
       >
         <li
@@ -320,6 +321,7 @@ Object {
   "container": <div>
     <ul
       class="mb-3 nav nav-tabs"
+      id="tabs-id"
       role="tablist"
     >
       <li

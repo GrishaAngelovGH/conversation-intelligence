@@ -1,42 +1,82 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render InputGroup component 1`] = `
-Object {
+exports[`should render HistoryRange component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="input-group"
+        class="btn-group"
+        role="group"
       >
-        <input
-          class="form-control"
-          placeholder="Search for keywords, brands, tags and more"
-        />
-        <span
-          class="input-group-text"
+        <button
+          class="btn btn-outline-primary"
+          type="button"
         >
-          <i
-            class="bi bi-search"
-          />
-        </span>
+          Last 24h
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+        >
+          Last 7 days
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+        >
+          Last 30 days
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+        >
+          This Month
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+        >
+          Custom
+        </button>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="input-group"
+      class="btn-group"
+      role="group"
     >
-      <input
-        class="form-control"
-        placeholder="Search for keywords, brands, tags and more"
-      />
-      <span
-        class="input-group-text"
+      <button
+        class="btn btn-outline-primary"
+        type="button"
       >
-        <i
-          class="bi bi-search"
-        />
-      </span>
+        Last 24h
+      </button>
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        Last 7 days
+      </button>
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        Last 30 days
+      </button>
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        This Month
+      </button>
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        Custom
+      </button>
     </div>
   </div>,
   "debug": [Function],

@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render TrackedKeywordsCard component 1`] = `
-Object {
+exports[`should render BrandsCard component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -23,24 +23,24 @@ Object {
         >
           <div>
             <h4>
-              Tracked keywords 
+              Customer mentions of the brands 
               <span
                 class="fw-bold"
               >
-                3D Printing
+                Brand 1
               </span>
                and 
               <span
                 class="fw-bold"
               >
-                Manufacturing
+                Brand 2
               </span>
-               are trending upward across sales calls
+               have been detected across sales calls
             </h4>
             <p
               class="text-muted"
             >
-              Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+              When customers mention brands, it can surface new competitors and opportunities to update sales strategies
             </p>
           </div>
         </div>
@@ -66,24 +66,24 @@ Object {
       >
         <div>
           <h4>
-            Tracked keywords 
+            Customer mentions of the brands 
             <span
               class="fw-bold"
             >
-              3D Printing
+              Brand 1
             </span>
              and 
             <span
               class="fw-bold"
             >
-              Manufacturing
+              Brand 2
             </span>
-             are trending upward across sales calls
+             have been detected across sales calls
           </h4>
           <p
             class="text-muted"
           >
-            Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+            When customers mention brands, it can surface new competitors and opportunities to update sales strategies
           </p>
         </div>
       </div>

@@ -1,91 +1,103 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render BrandsCard component 1`] = `
-Object {
+exports[`should render Header component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row align-items-center mt-3 border border-2 rounded shadow"
+        class="row g-0 bg-primary p-2 justify-content-between align-items-center"
       >
         <div
-          class="col-md-6"
+          class="col-1 col-md-1"
         >
-          <canvas
-            height="0"
-            role="img"
-            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-            width="0"
+          <i
+            class="bi bi-grid-3x3-gap text-white"
+            style="font-size: 30px;"
           />
         </div>
         <div
-          class="col-md-6"
+          class="col-5 col-md-4"
         >
-          <div>
-            <h4>
-              Customer mentions of the brands 
-              <span
-                class="fw-bold"
-              >
-                Brand 1
-              </span>
-               and 
-              <span
-                class="fw-bold"
-              >
-                Brand 2
-              </span>
-               have been detected across sales calls
-            </h4>
-            <p
-              class="text-muted"
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              placeholder="Search for keywords, brands, tags and more"
+            />
+            <span
+              class="input-group-text"
             >
-              When customers mention brands, it can surface new competitors and opportunities to update sales strategies
-            </p>
+              <i
+                class="bi bi-search"
+              />
+            </span>
           </div>
+        </div>
+        <div
+          class="col-3 col-md-1 d-flex"
+        >
+          <i
+            class="bi bi-gear text-white"
+            style="font-size: 30px;"
+          />
+          <img
+            alt="user"
+            class="rounded-circle ms-1"
+            height="50"
+            src="https://randomuser.me/api/portraits/men/18.jpg"
+            width="50"
+          />
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="row align-items-center mt-3 border border-2 rounded shadow"
+      class="row g-0 bg-primary p-2 justify-content-between align-items-center"
     >
       <div
-        class="col-md-6"
+        class="col-1 col-md-1"
       >
-        <canvas
-          height="0"
-          role="img"
-          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-          width="0"
+        <i
+          class="bi bi-grid-3x3-gap text-white"
+          style="font-size: 30px;"
         />
       </div>
       <div
-        class="col-md-6"
+        class="col-5 col-md-4"
       >
-        <div>
-          <h4>
-            Customer mentions of the brands 
-            <span
-              class="fw-bold"
-            >
-              Brand 1
-            </span>
-             and 
-            <span
-              class="fw-bold"
-            >
-              Brand 2
-            </span>
-             have been detected across sales calls
-          </h4>
-          <p
-            class="text-muted"
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            placeholder="Search for keywords, brands, tags and more"
+          />
+          <span
+            class="input-group-text"
           >
-            When customers mention brands, it can surface new competitors and opportunities to update sales strategies
-          </p>
+            <i
+              class="bi bi-search"
+            />
+          </span>
         </div>
+      </div>
+      <div
+        class="col-3 col-md-1 d-flex"
+      >
+        <i
+          class="bi bi-gear text-white"
+          style="font-size: 30px;"
+        />
+        <img
+          alt="user"
+          class="rounded-circle ms-1"
+          height="50"
+          src="https://randomuser.me/api/portraits/men/18.jpg"
+          width="50"
+        />
       </div>
     </div>
   </div>,

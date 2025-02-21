@@ -1,27 +1,69 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Avatar component 1`] = `
-Object {
+exports[`should render SentimentCard component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <img
-        alt="user"
-        class="rounded-circle ms-1"
-        height="50"
-        src="https://randomuser.me/api/portraits/men/18.jpg"
-        width="50"
-      />
+      <div
+        class="row align-items-center mt-3 border border-2 rounded shadow"
+      >
+        <div
+          class="col-md-6"
+        >
+          <canvas
+            height="0"
+            role="img"
+            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+            width="0"
+          />
+        </div>
+        <div
+          class="col-md-6"
+        >
+          <div>
+            <h4>
+              35 sales calls have noticeably higher positive sentiment than average
+            </h4>
+            <p
+              class="text-muted"
+            >
+              Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <img
-      alt="user"
-      class="rounded-circle ms-1"
-      height="50"
-      src="https://randomuser.me/api/portraits/men/18.jpg"
-      width="50"
-    />
+    <div
+      class="row align-items-center mt-3 border border-2 rounded shadow"
+    >
+      <div
+        class="col-md-6"
+      >
+        <canvas
+          height="0"
+          role="img"
+          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+          width="0"
+        />
+      </div>
+      <div
+        class="col-md-6"
+      >
+        <div>
+          <h4>
+            35 sales calls have noticeably higher positive sentiment than average
+          </h4>
+          <p
+            class="text-muted"
+          >
+            Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render SidebarLayout component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -12,22 +12,23 @@ Object {
           class="col-md-2"
         >
           <aside
-            class="sc-gswNZR evtUrT sidebar"
-            data-testid="sidebar-test-id"
+            class="ps-sidebar-root css-1p7obn9"
+            data-testid="ps-sidebar-root-test-id"
             width="210px"
           >
             <div
-              class="sc-dkrFOg fpTHfu sidebar-inner"
-              data-testid="inner-sidebar-test-id"
+              class="ps-sidebar-container css-dip3t8"
+              data-testid="ps-sidebar-container-test-id"
             >
               <nav
-                class="menu"
+                class="ps-menu-root css-vj11vy"
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    data-discover="true"
                     href="/"
                   >
                     <i
@@ -42,6 +43,7 @@ Object {
                   </a>
                   <a
                     class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    data-discover="true"
                     href="/transcript-summary"
                   >
                     <i
@@ -56,6 +58,7 @@ Object {
                   </a>
                   <a
                     class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    data-discover="true"
                     href="/seller-details"
                   >
                     <i
@@ -91,22 +94,23 @@ Object {
         class="col-md-2"
       >
         <aside
-          class="sc-gswNZR evtUrT sidebar"
-          data-testid="sidebar-test-id"
+          class="ps-sidebar-root css-1p7obn9"
+          data-testid="ps-sidebar-root-test-id"
           width="210px"
         >
           <div
-            class="sc-dkrFOg fpTHfu sidebar-inner"
-            data-testid="inner-sidebar-test-id"
+            class="ps-sidebar-container css-dip3t8"
+            data-testid="ps-sidebar-container-test-id"
           >
             <nav
-              class="menu"
+              class="ps-menu-root css-vj11vy"
             >
               <ul
-                class="sc-eDvSVe gnJkew"
+                class="css-ewdv3l"
               >
                 <a
                   class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  data-discover="true"
                   href="/"
                 >
                   <i
@@ -121,6 +125,7 @@ Object {
                 </a>
                 <a
                   class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  data-discover="true"
                   href="/transcript-summary"
                 >
                   <i
@@ -135,6 +140,7 @@ Object {
                 </a>
                 <a
                   class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  data-discover="true"
                   href="/seller-details"
                 >
                   <i
