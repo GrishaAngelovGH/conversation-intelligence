@@ -6,8 +6,7 @@ exports[`should render Avatar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-        style="width: 40px; height: 40px;"
+        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
       >
         AB
       </div>
@@ -15,8 +14,7 @@ exports[`should render Avatar component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-      style="width: 40px; height: 40px;"
+      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
     >
       AB
     </div>

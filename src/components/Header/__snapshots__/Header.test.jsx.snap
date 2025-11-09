@@ -5,101 +5,111 @@ exports[`should render Header component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+      <header
+        class="flex bg-blue-500 p-2 justify-between items-center"
       >
         <div
-          class="col-1 col-md-1"
+          class="w-1/12 md:w-1/12"
         >
-          <i
-            class="bi bi-grid-3x3-gap text-white"
-            style="font-size: 30px;"
-          />
+          <button
+            aria-label="Menu"
+          >
+            <i
+              class="bi bi-grid-3x3-gap text-white text-3xl"
+            />
+          </button>
         </div>
         <div
-          class="col-5 col-md-4"
+          class="w-5/12 md:w-4/12"
         >
           <div
-            class="input-group"
+            class="relative flex items-center"
           >
             <input
-              class="form-control"
+              class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
               placeholder="Search for keywords, brands, tags and more"
+              type="text"
             />
-            <span
-              class="input-group-text"
+            <div
+              class="absolute inset-y-0 right-0 flex items-center pr-3"
             >
               <i
                 class="bi bi-search"
               />
-            </span>
+            </div>
           </div>
         </div>
         <div
-          class="col-3 col-md-1 d-flex"
+          class="w-3/12 md:w-1/12 flex items-center"
         >
-          <i
-            class="bi bi-gear text-white"
-            style="font-size: 30px;"
-          />
+          <button
+            aria-label="Settings"
+          >
+            <i
+              class="bi bi-gear text-white text-3xl"
+            />
+          </button>
           <img
             alt="user"
-            class="rounded-circle ms-1"
-            height="50"
+            class="w-12 h-12 rounded-full ml-1"
             src="https://randomuser.me/api/portraits/men/18.jpg"
-            width="50"
           />
         </div>
-      </div>
+      </header>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+    <header
+      class="flex bg-blue-500 p-2 justify-between items-center"
     >
       <div
-        class="col-1 col-md-1"
+        class="w-1/12 md:w-1/12"
       >
-        <i
-          class="bi bi-grid-3x3-gap text-white"
-          style="font-size: 30px;"
-        />
+        <button
+          aria-label="Menu"
+        >
+          <i
+            class="bi bi-grid-3x3-gap text-white text-3xl"
+          />
+        </button>
       </div>
       <div
-        class="col-5 col-md-4"
+        class="w-5/12 md:w-4/12"
       >
         <div
-          class="input-group"
+          class="relative flex items-center"
         >
           <input
-            class="form-control"
+            class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
             placeholder="Search for keywords, brands, tags and more"
+            type="text"
           />
-          <span
-            class="input-group-text"
+          <div
+            class="absolute inset-y-0 right-0 flex items-center pr-3"
           >
             <i
               class="bi bi-search"
             />
-          </span>
+          </div>
         </div>
       </div>
       <div
-        class="col-3 col-md-1 d-flex"
+        class="w-3/12 md:w-1/12 flex items-center"
       >
-        <i
-          class="bi bi-gear text-white"
-          style="font-size: 30px;"
-        />
+        <button
+          aria-label="Settings"
+        >
+          <i
+            class="bi bi-gear text-white text-3xl"
+          />
+        </button>
         <img
           alt="user"
-          class="rounded-circle ms-1"
-          height="50"
+          class="w-12 h-12 rounded-full ml-1"
           src="https://randomuser.me/api/portraits/men/18.jpg"
-          width="50"
         />
       </div>
-    </div>
+    </header>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

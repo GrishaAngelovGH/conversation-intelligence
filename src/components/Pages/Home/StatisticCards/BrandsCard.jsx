@@ -45,8 +45,8 @@ const BrandsCard = () => {
 
   const description = (
     <div>
-      <h4>Customer mentions of the brands <span className='fw-bold'>Brand 1</span> and <span className='fw-bold'>Brand 2</span> have been detected across sales calls</h4>
-      <p className='text-muted'>When customers mention brands, it can surface new competitors and opportunities to update sales strategies</p>
+      <h4>Customer mentions of the brands <span className='font-bold'>Brand 1</span> and <span className='font-bold'>Brand 2</span> have been detected across sales calls</h4>
+      <p className='text-gray-500'>When customers mention brands, it can surface new competitors and opportunities to update sales strategies</p>
     </div>
   )
 

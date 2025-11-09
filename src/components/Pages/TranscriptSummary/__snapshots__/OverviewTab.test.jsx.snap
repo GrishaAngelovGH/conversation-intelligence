@@ -6,19 +6,19 @@ exports[`should render OverviewTab component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div
-            class="row justify-content-between"
+            class="flex justify-between"
           >
             <div
-              class="col-md-5"
+              class="md:w-5/12"
             >
               <span
-                class="fw-bold"
+                class="font-bold"
               >
                 Related Records
               </span>
@@ -27,30 +27,30 @@ exports[`should render OverviewTab component 1`] = `
                   class="bi bi-journal-check"
                 />
                 <i
-                  class="bi bi-bookmark ms-3"
+                  class="bi bi-bookmark ml-3"
                 />
                 <i
-                  class="bi bi-telephone-plus ms-3"
+                  class="bi bi-telephone-plus ml-3"
                 />
                 <i
-                  class="bi bi-inboxes ms-3"
+                  class="bi bi-inboxes ml-3"
                 />
               </div>
             </div>
           </div>
           <div
-            class="row mt-3 justify-content-between"
+            class="flex mt-3 justify-between"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="fw-bold"
+                class="font-bold"
               >
                 Tags
               </div>
               <button
-                class="btn btn-primary"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Add call tags 
                 <i
@@ -60,31 +60,30 @@ exports[`should render OverviewTab component 1`] = `
             </div>
           </div>
           <div
-            class="row mt-3 justify-content-between"
+            class="flex mt-3 justify-between"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="fw-bold"
+                class="font-bold"
               >
                 Attendees
               </div>
               <div
-                class="row mt-1 align-items-center"
+                class="flex mt-1 items-center"
               >
                 <div
-                  class="col-md-2"
+                  class="md:w-2/12"
                 >
                   <div
-                    class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                    style="width: 40px; height: 40px;"
+                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                   >
                     JS
                   </div>
                 </div>
                 <div
-                  class="col-md-6"
+                  class="md:w-6/12"
                 >
                   <h4
                     class="m-0"
@@ -94,20 +93,19 @@ exports[`should render OverviewTab component 1`] = `
                 </div>
               </div>
               <div
-                class="row mt-1 align-items-center"
+                class="flex mt-1 items-center"
               >
                 <div
-                  class="col-md-2"
+                  class="md:w-2/12"
                 >
                   <div
-                    class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                    style="width: 40px; height: 40px;"
+                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                   >
                     IG
                   </div>
                 </div>
                 <div
-                  class="col-md-6"
+                  class="md:w-6/12"
                 >
                   <h4
                     class="m-0"
@@ -117,20 +115,19 @@ exports[`should render OverviewTab component 1`] = `
                 </div>
               </div>
               <div
-                class="row mt-1 align-items-center"
+                class="flex mt-1 items-center"
               >
                 <div
-                  class="col-md-2"
+                  class="md:w-2/12"
                 >
                   <div
-                    class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                    style="width: 40px; height: 40px;"
+                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                   >
                     MB
                   </div>
                 </div>
                 <div
-                  class="col-md-6"
+                  class="md:w-6/12"
                 >
                   <h4
                     class="m-0"
@@ -147,19 +144,19 @@ exports[`should render OverviewTab component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div
-          class="row justify-content-between"
+          class="flex justify-between"
         >
           <div
-            class="col-md-5"
+            class="md:w-5/12"
           >
             <span
-              class="fw-bold"
+              class="font-bold"
             >
               Related Records
             </span>
@@ -168,30 +165,30 @@ exports[`should render OverviewTab component 1`] = `
                 class="bi bi-journal-check"
               />
               <i
-                class="bi bi-bookmark ms-3"
+                class="bi bi-bookmark ml-3"
               />
               <i
-                class="bi bi-telephone-plus ms-3"
+                class="bi bi-telephone-plus ml-3"
               />
               <i
-                class="bi bi-inboxes ms-3"
+                class="bi bi-inboxes ml-3"
               />
             </div>
           </div>
         </div>
         <div
-          class="row mt-3 justify-content-between"
+          class="flex mt-3 justify-between"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="fw-bold"
+              class="font-bold"
             >
               Tags
             </div>
             <button
-              class="btn btn-primary"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
               Add call tags 
               <i
@@ -201,31 +198,30 @@ exports[`should render OverviewTab component 1`] = `
           </div>
         </div>
         <div
-          class="row mt-3 justify-content-between"
+          class="flex mt-3 justify-between"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="fw-bold"
+              class="font-bold"
             >
               Attendees
             </div>
             <div
-              class="row mt-1 align-items-center"
+              class="flex mt-1 items-center"
             >
               <div
-                class="col-md-2"
+                class="md:w-2/12"
               >
                 <div
-                  class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                  style="width: 40px; height: 40px;"
+                  class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                 >
                   JS
                 </div>
               </div>
               <div
-                class="col-md-6"
+                class="md:w-6/12"
               >
                 <h4
                   class="m-0"
@@ -235,20 +231,19 @@ exports[`should render OverviewTab component 1`] = `
               </div>
             </div>
             <div
-              class="row mt-1 align-items-center"
+              class="flex mt-1 items-center"
             >
               <div
-                class="col-md-2"
+                class="md:w-2/12"
               >
                 <div
-                  class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                  style="width: 40px; height: 40px;"
+                  class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                 >
                   IG
                 </div>
               </div>
               <div
-                class="col-md-6"
+                class="md:w-6/12"
               >
                 <h4
                   class="m-0"
@@ -258,20 +253,19 @@ exports[`should render OverviewTab component 1`] = `
               </div>
             </div>
             <div
-              class="row mt-1 align-items-center"
+              class="flex mt-1 items-center"
             >
               <div
-                class="col-md-2"
+                class="md:w-2/12"
               >
                 <div
-                  class="rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold"
-                  style="width: 40px; height: 40px;"
+                  class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
                 >
                   MB
                 </div>
               </div>
               <div
-                class="col-md-6"
+                class="md:w-6/12"
               >
                 <h4
                   class="m-0"

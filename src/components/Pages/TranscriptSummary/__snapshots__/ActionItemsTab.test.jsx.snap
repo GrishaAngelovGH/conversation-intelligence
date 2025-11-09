@@ -6,22 +6,22 @@ exports[`should render ActionItemsTab component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div
-            class="row mt-3 border rounded p-3"
+            class="flex mt-3 border rounded p-3"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <i
                 class="bi bi-envelope"
               />
               <span
-                class="fw-bold ms-3"
+                class="font-bold ml-3"
               >
                 Email Suggestion
               </span>
@@ -31,16 +31,16 @@ exports[`should render ActionItemsTab component 1`] = `
             </div>
           </div>
           <div
-            class="row mt-3 border rounded p-3"
+            class="flex mt-3 border rounded p-3"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <i
                 class="bi bi-envelope"
               />
               <span
-                class="fw-bold ms-3"
+                class="font-bold ml-3"
               >
                 Email Suggestion
               </span>
@@ -55,22 +55,22 @@ exports[`should render ActionItemsTab component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div
-          class="row mt-3 border rounded p-3"
+          class="flex mt-3 border rounded p-3"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <i
               class="bi bi-envelope"
             />
             <span
-              class="fw-bold ms-3"
+              class="font-bold ml-3"
             >
               Email Suggestion
             </span>
@@ -80,16 +80,16 @@ exports[`should render ActionItemsTab component 1`] = `
           </div>
         </div>
         <div
-          class="row mt-3 border rounded p-3"
+          class="flex mt-3 border rounded p-3"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <i
               class="bi bi-envelope"
             />
             <span
-              class="fw-bold ms-3"
+              class="font-bold ml-3"
             >
               Email Suggestion
             </span>
@@ -161,16 +161,16 @@ exports[`should render EmailSuggestion component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row mt-3 border rounded p-3"
+        class="flex mt-3 border rounded p-3"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <i
             class="bi bi-envelope"
           />
           <span
-            class="fw-bold ms-3"
+            class="font-bold ml-3"
           >
             Email Suggestion
           </span>
@@ -183,16 +183,16 @@ exports[`should render EmailSuggestion component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row mt-3 border rounded p-3"
+      class="flex mt-3 border rounded p-3"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <i
           class="bi bi-envelope"
         />
         <span
-          class="fw-bold ms-3"
+          class="font-bold ml-3"
         >
           Email Suggestion
         </span>

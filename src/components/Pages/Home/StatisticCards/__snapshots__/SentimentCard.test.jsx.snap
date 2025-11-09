@@ -6,10 +6,10 @@ exports[`should render SentimentCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row align-items-center mt-3 border border-2 rounded shadow"
+        class="flex items-center mt-3 border-2 rounded shadow"
       >
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <canvas
             height="0"
@@ -19,14 +19,14 @@ exports[`should render SentimentCard component 1`] = `
           />
         </div>
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <div>
             <h4>
               35 sales calls have noticeably higher positive sentiment than average
             </h4>
             <p
-              class="text-muted"
+              class="text-gray-500"
             >
               Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
             </p>
@@ -37,10 +37,10 @@ exports[`should render SentimentCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row align-items-center mt-3 border border-2 rounded shadow"
+      class="flex items-center mt-3 border-2 rounded shadow"
     >
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <canvas
           height="0"
@@ -50,14 +50,14 @@ exports[`should render SentimentCard component 1`] = `
         />
       </div>
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <div>
           <h4>
             35 sales calls have noticeably higher positive sentiment than average
           </h4>
           <p
-            class="text-muted"
+            class="text-gray-500"
           >
             Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
           </p>

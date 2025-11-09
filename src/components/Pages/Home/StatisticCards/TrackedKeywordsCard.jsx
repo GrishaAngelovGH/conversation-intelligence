@@ -45,8 +45,8 @@ const TrackedKeywordsCard = () => {
 
   const description = (
     <div>
-      <h4>Tracked keywords <span className='fw-bold'>3D Printing</span> and <span className='fw-bold'>Manufacturing</span> are trending upward across sales calls</h4>
-      <p className='text-muted'>Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.</p>
+      <h4>Tracked keywords <span className='font-bold'>3D Printing</span> and <span className='font-bold'>Manufacturing</span> are trending upward across sales calls</h4>
+      <p className='text-gray-500'>Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.</p>
     </div>
   )
 

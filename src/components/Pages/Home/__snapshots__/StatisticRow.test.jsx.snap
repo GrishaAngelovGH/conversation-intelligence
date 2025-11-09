@@ -6,31 +6,31 @@ exports[`should render StatisticRow component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row border border-2 rounded"
+        class="flex border-2 rounded"
       >
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Tuesday 18
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Q2, 48 days left
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Actual Rev.
             : 
@@ -38,10 +38,10 @@ exports[`should render StatisticRow component 1`] = `
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Open Rev.
             : 
@@ -49,10 +49,10 @@ exports[`should render StatisticRow component 1`] = `
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Deals-Won
             : 
@@ -60,10 +60,10 @@ exports[`should render StatisticRow component 1`] = `
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Win-Rate
             : 
@@ -71,10 +71,10 @@ exports[`should render StatisticRow component 1`] = `
           </div>
         </div>
         <div
-          class="col"
+          class="flex-1"
         >
           <div
-            class="fw-bold"
+            class="font-bold"
           >
             Avg. Deal Size
             : 
@@ -86,31 +86,31 @@ exports[`should render StatisticRow component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row border border-2 rounded"
+      class="flex border-2 rounded"
     >
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Tuesday 18
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Q2, 48 days left
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Actual Rev.
           : 
@@ -118,10 +118,10 @@ exports[`should render StatisticRow component 1`] = `
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Open Rev.
           : 
@@ -129,10 +129,10 @@ exports[`should render StatisticRow component 1`] = `
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Deals-Won
           : 
@@ -140,10 +140,10 @@ exports[`should render StatisticRow component 1`] = `
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Win-Rate
           : 
@@ -151,10 +151,10 @@ exports[`should render StatisticRow component 1`] = `
         </div>
       </div>
       <div
-        class="col"
+        class="flex-1"
       >
         <div
-          class="fw-bold"
+          class="font-bold"
         >
           Avg. Deal Size
           : 

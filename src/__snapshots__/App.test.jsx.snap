@@ -6,77 +6,83 @@ exports[`should render component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div
-            class="row g-0"
+            class="flex"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
-              <div
-                class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+              <header
+                class="flex bg-blue-500 p-2 justify-between items-center"
               >
                 <div
-                  class="col-1 col-md-1"
+                  class="w-1/12 md:w-1/12"
                 >
-                  <i
-                    class="bi bi-grid-3x3-gap text-white"
-                    style="font-size: 30px;"
-                  />
+                  <button
+                    aria-label="Menu"
+                  >
+                    <i
+                      class="bi bi-grid-3x3-gap text-white text-3xl"
+                    />
+                  </button>
                 </div>
                 <div
-                  class="col-5 col-md-4"
+                  class="w-5/12 md:w-4/12"
                 >
                   <div
-                    class="input-group"
+                    class="relative flex items-center"
                   >
                     <input
-                      class="form-control"
+                      class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
                       placeholder="Search for keywords, brands, tags and more"
+                      type="text"
                     />
-                    <span
-                      class="input-group-text"
+                    <div
+                      class="absolute inset-y-0 right-0 flex items-center pr-3"
                     >
                       <i
                         class="bi bi-search"
                       />
-                    </span>
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="col-3 col-md-1 d-flex"
+                  class="w-3/12 md:w-1/12 flex items-center"
                 >
-                  <i
-                    class="bi bi-gear text-white"
-                    style="font-size: 30px;"
-                  />
+                  <button
+                    aria-label="Settings"
+                  >
+                    <i
+                      class="bi bi-gear text-white text-3xl"
+                    />
+                  </button>
                   <img
                     alt="user"
-                    class="rounded-circle ms-1"
-                    height="50"
+                    class="w-12 h-12 rounded-full ml-1"
                     src="https://randomuser.me/api/portraits/men/18.jpg"
-                    width="50"
                   />
                 </div>
-              </div>
+              </header>
             </div>
           </div>
           <div
-            class="row g-0"
+            class="flex"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="row g-0"
+                class="flex"
               >
                 <div
-                  class="col-md-2"
+                  class="w-[210px]"
                 >
+                   
                   <aside
                     class="ps-sidebar-root css-1p7obn9"
                     data-testid="ps-sidebar-root-test-id"
@@ -93,7 +99,7 @@ exports[`should render component 1`] = `
                           class="css-ewdv3l"
                         >
                           <a
-                            class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                            class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                             data-discover="true"
                             href="/"
                           >
@@ -102,13 +108,13 @@ exports[`should render component 1`] = `
                             />
                              
                             <span
-                              class="fw-bold"
+                              class="font-bold"
                             >
                               Home
                             </span>
                           </a>
                           <a
-                            class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                            class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                             data-discover="true"
                             href="/transcript-summary"
                           >
@@ -117,13 +123,13 @@ exports[`should render component 1`] = `
                             />
                              
                             <span
-                              class="fw-bold"
+                              class="font-bold"
                             >
                               Transcript Summary
                             </span>
                           </a>
                           <a
-                            class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                            class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                             data-discover="true"
                             href="/seller-details"
                           >
@@ -132,7 +138,7 @@ exports[`should render component 1`] = `
                             />
                              
                             <span
-                              class="fw-bold"
+                              class="font-bold"
                             >
                               Seller Details
                             </span>
@@ -143,60 +149,61 @@ exports[`should render component 1`] = `
                   </aside>
                 </div>
                 <div
-                  class="col-md-10"
+                  class="flex-1"
                 >
+                   
                   <div
-                    class="row g-0 justify-content-center text-center"
+                    class="flex justify-center text-center"
                   >
                     <div
-                      class="col-md-11"
+                      class="md:w-11/12"
                     >
                       <div
-                        class="row g-0 p-3 align-items-center"
+                        class="flex p-3 items-center"
                       >
                         <div
-                          class="col-md-6"
+                          class="md:w-6/12"
                         >
                           <h3
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Good morning, 
                             James Smith
                           </h3>
                         </div>
                         <div
-                          class="col-md-6"
+                          class="md:w-6/12"
                         >
                           <div
-                            class="btn-group"
+                            class="inline-flex rounded-md shadow-sm"
                             role="group"
                           >
                             <button
-                              class="btn btn-outline-primary"
+                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                               type="button"
                             >
                               Last 24h
                             </button>
                             <button
-                              class="btn btn-outline-primary"
+                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                               type="button"
                             >
                               Last 7 days
                             </button>
                             <button
-                              class="btn btn-outline-primary"
+                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                               type="button"
                             >
                               Last 30 days
                             </button>
                             <button
-                              class="btn btn-outline-primary"
+                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                               type="button"
                             >
                               This Month
                             </button>
                             <button
-                              class="btn btn-outline-primary"
+                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                               type="button"
                             >
                               Custom
@@ -205,31 +212,31 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="row border border-2 rounded"
+                        class="flex border-2 rounded"
                       >
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Tuesday 18
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Q2, 48 days left
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Actual Rev.
                             : 
@@ -237,10 +244,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Open Rev.
                             : 
@@ -248,10 +255,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Deals-Won
                             : 
@@ -259,10 +266,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Win-Rate
                             : 
@@ -270,10 +277,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="col"
+                          class="flex-1"
                         >
                           <div
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Avg. Deal Size
                             : 
@@ -282,13 +289,13 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="row mt-3 p-3"
+                        class="flex mt-3 p-3"
                       >
                         <div
-                          class="col-md-12"
+                          class="w-full"
                         >
                           <h3
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             What are your customers talking about?
                           </h3>
@@ -296,10 +303,10 @@ exports[`should render component 1`] = `
                             Understand what's happening on sales calls, so you can coach your sellers better.
                           </p>
                           <div
-                            class="row align-items-center mt-3 border border-2 rounded shadow"
+                            class="flex items-center mt-3 border-2 rounded shadow"
                           >
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <canvas
                                 height="0"
@@ -309,26 +316,26 @@ exports[`should render component 1`] = `
                               />
                             </div>
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <div>
                                 <h4>
                                   Tracked keywords 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     3D Printing
                                   </span>
                                    and 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     Manufacturing
                                   </span>
                                    are trending upward across sales calls
                                 </h4>
                                 <p
-                                  class="text-muted"
+                                  class="text-gray-500"
                                 >
                                   Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
                                 </p>
@@ -336,10 +343,10 @@ exports[`should render component 1`] = `
                             </div>
                           </div>
                           <div
-                            class="row align-items-center mt-3 border border-2 rounded shadow"
+                            class="flex items-center mt-3 border-2 rounded shadow"
                           >
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <canvas
                                 height="0"
@@ -349,14 +356,14 @@ exports[`should render component 1`] = `
                               />
                             </div>
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <div>
                                 <h4>
                                   35 sales calls have noticeably higher positive sentiment than average
                                 </h4>
                                 <p
-                                  class="text-muted"
+                                  class="text-gray-500"
                                 >
                                   Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
                                 </p>
@@ -364,10 +371,10 @@ exports[`should render component 1`] = `
                             </div>
                           </div>
                           <div
-                            class="row align-items-center mt-3 border border-2 rounded shadow"
+                            class="flex items-center mt-3 border-2 rounded shadow"
                           >
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <canvas
                                 height="0"
@@ -377,26 +384,26 @@ exports[`should render component 1`] = `
                               />
                             </div>
                             <div
-                              class="col-md-6"
+                              class="md:w-1/2"
                             >
                               <div>
                                 <h4>
                                   Customer mentions of the brands 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     Brand 1
                                   </span>
                                    and 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     Brand 2
                                   </span>
                                    have been detected across sales calls
                                 </h4>
                                 <p
-                                  class="text-muted"
+                                  class="text-gray-500"
                                 >
                                   When customers mention brands, it can surface new competitors and opportunities to update sales strategies
                                 </p>
@@ -406,43 +413,43 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="row mt-3"
+                        class="flex mt-3"
                       >
                         <div
-                          class="col-md-12"
+                          class="w-full"
                         >
                           <h3
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Team Insights
                           </h3>
                           <div
-                            class="row mt-3 mb-3 p-3 bg-light border rounded"
+                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                           >
                             <div
-                              class="col-md-12"
+                              class="w-full"
                             >
                               <div
-                                class="row"
+                                class="flex"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     <span
-                                      class="text-info"
+                                      class="text-blue-400"
                                     >
                                       John Smith
                                     </span>
                                      and 
                                     <span
-                                      class="text-info"
+                                      class="text-blue-400"
                                     >
                                       Peter Potter
                                     </span>
                                      appear to talk the most, averaging 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       68%
                                     </span>
@@ -451,21 +458,21 @@ exports[`should render component 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="row mt-3 text-muted"
+                                class="flex mt-3 text-gray-500"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     This is 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       21%
                                     </span>
                                      higher than your top performers who average 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       56%
                                     </span>
@@ -476,26 +483,26 @@ exports[`should render component 1`] = `
                             </div>
                           </div>
                           <div
-                            class="row mt-3 mb-3 p-3 bg-light border rounded"
+                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                           >
                             <div
-                              class="col-md-12"
+                              class="w-full"
                             >
                               <div
-                                class="row"
+                                class="flex"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     <span
-                                      class="text-info"
+                                      class="text-blue-400"
                                     >
                                       Jane Smith
                                     </span>
                                      appears to talk the least, averaging 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       51%
                                     </span>
@@ -504,21 +511,21 @@ exports[`should render component 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="row mt-3 text-muted"
+                                class="flex mt-3 text-gray-500"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     This is 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       9%
                                     </span>
                                      lower than your top performers who average 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       56%
                                     </span>
@@ -529,32 +536,32 @@ exports[`should render component 1`] = `
                             </div>
                           </div>
                           <div
-                            class="row mt-3 mb-3 p-3 bg-light border rounded"
+                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                           >
                             <div
-                              class="col-md-12"
+                              class="w-full"
                             >
                               <div
-                                class="row"
+                                class="flex"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     <span
-                                      class="text-info"
+                                      class="text-blue-400"
                                     >
                                       Simon Doe
                                     </span>
                                      and 
                                     <span
-                                      class="text-info"
+                                      class="text-blue-400"
                                     >
                                       William Blake
                                     </span>
                                      have the lowest talking speed, averaging 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       118
                                     </span>
@@ -563,21 +570,21 @@ exports[`should render component 1`] = `
                                 </div>
                               </div>
                               <div
-                                class="row mt-3 text-muted"
+                                class="flex mt-3 text-gray-500"
                               >
                                 <div
-                                  class="col-md-12"
+                                  class="w-full"
                                 >
                                   <div>
                                     This is 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       21%
                                     </span>
                                      lower than your top performers who average 
                                     <span
-                                      class="fw-bold"
+                                      class="font-bold"
                                     >
                                       146
                                     </span>
@@ -601,77 +608,83 @@ exports[`should render component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div
-          class="row g-0"
+          class="flex"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
-            <div
-              class="row g-0 bg-primary p-2 justify-content-between align-items-center"
+            <header
+              class="flex bg-blue-500 p-2 justify-between items-center"
             >
               <div
-                class="col-1 col-md-1"
+                class="w-1/12 md:w-1/12"
               >
-                <i
-                  class="bi bi-grid-3x3-gap text-white"
-                  style="font-size: 30px;"
-                />
+                <button
+                  aria-label="Menu"
+                >
+                  <i
+                    class="bi bi-grid-3x3-gap text-white text-3xl"
+                  />
+                </button>
               </div>
               <div
-                class="col-5 col-md-4"
+                class="w-5/12 md:w-4/12"
               >
                 <div
-                  class="input-group"
+                  class="relative flex items-center"
                 >
                   <input
-                    class="form-control"
+                    class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
                     placeholder="Search for keywords, brands, tags and more"
+                    type="text"
                   />
-                  <span
-                    class="input-group-text"
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center pr-3"
                   >
                     <i
                       class="bi bi-search"
                     />
-                  </span>
+                  </div>
                 </div>
               </div>
               <div
-                class="col-3 col-md-1 d-flex"
+                class="w-3/12 md:w-1/12 flex items-center"
               >
-                <i
-                  class="bi bi-gear text-white"
-                  style="font-size: 30px;"
-                />
+                <button
+                  aria-label="Settings"
+                >
+                  <i
+                    class="bi bi-gear text-white text-3xl"
+                  />
+                </button>
                 <img
                   alt="user"
-                  class="rounded-circle ms-1"
-                  height="50"
+                  class="w-12 h-12 rounded-full ml-1"
                   src="https://randomuser.me/api/portraits/men/18.jpg"
-                  width="50"
                 />
               </div>
-            </div>
+            </header>
           </div>
         </div>
         <div
-          class="row g-0"
+          class="flex"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="row g-0"
+              class="flex"
             >
               <div
-                class="col-md-2"
+                class="w-[210px]"
               >
+                 
                 <aside
                   class="ps-sidebar-root css-1p7obn9"
                   data-testid="ps-sidebar-root-test-id"
@@ -688,7 +701,7 @@ exports[`should render component 1`] = `
                         class="css-ewdv3l"
                       >
                         <a
-                          class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                          class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                           data-discover="true"
                           href="/"
                         >
@@ -697,13 +710,13 @@ exports[`should render component 1`] = `
                           />
                            
                           <span
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Home
                           </span>
                         </a>
                         <a
-                          class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                          class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                           data-discover="true"
                           href="/transcript-summary"
                         >
@@ -712,13 +725,13 @@ exports[`should render component 1`] = `
                           />
                            
                           <span
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Transcript Summary
                           </span>
                         </a>
                         <a
-                          class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                          class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                           data-discover="true"
                           href="/seller-details"
                         >
@@ -727,7 +740,7 @@ exports[`should render component 1`] = `
                           />
                            
                           <span
-                            class="fw-bold"
+                            class="font-bold"
                           >
                             Seller Details
                           </span>
@@ -738,60 +751,61 @@ exports[`should render component 1`] = `
                 </aside>
               </div>
               <div
-                class="col-md-10"
+                class="flex-1"
               >
+                 
                 <div
-                  class="row g-0 justify-content-center text-center"
+                  class="flex justify-center text-center"
                 >
                   <div
-                    class="col-md-11"
+                    class="md:w-11/12"
                   >
                     <div
-                      class="row g-0 p-3 align-items-center"
+                      class="flex p-3 items-center"
                     >
                       <div
-                        class="col-md-6"
+                        class="md:w-6/12"
                       >
                         <h3
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Good morning, 
                           James Smith
                         </h3>
                       </div>
                       <div
-                        class="col-md-6"
+                        class="md:w-6/12"
                       >
                         <div
-                          class="btn-group"
+                          class="inline-flex rounded-md shadow-sm"
                           role="group"
                         >
                           <button
-                            class="btn btn-outline-primary"
+                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                             type="button"
                           >
                             Last 24h
                           </button>
                           <button
-                            class="btn btn-outline-primary"
+                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                             type="button"
                           >
                             Last 7 days
                           </button>
                           <button
-                            class="btn btn-outline-primary"
+                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                             type="button"
                           >
                             Last 30 days
                           </button>
                           <button
-                            class="btn btn-outline-primary"
+                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                             type="button"
                           >
                             This Month
                           </button>
                           <button
-                            class="btn btn-outline-primary"
+                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
                             type="button"
                           >
                             Custom
@@ -800,31 +814,31 @@ exports[`should render component 1`] = `
                       </div>
                     </div>
                     <div
-                      class="row border border-2 rounded"
+                      class="flex border-2 rounded"
                     >
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Tuesday 18
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Q2, 48 days left
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Actual Rev.
                           : 
@@ -832,10 +846,10 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Open Rev.
                           : 
@@ -843,10 +857,10 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Deals-Won
                           : 
@@ -854,10 +868,10 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Win-Rate
                           : 
@@ -865,10 +879,10 @@ exports[`should render component 1`] = `
                         </div>
                       </div>
                       <div
-                        class="col"
+                        class="flex-1"
                       >
                         <div
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Avg. Deal Size
                           : 
@@ -877,13 +891,13 @@ exports[`should render component 1`] = `
                       </div>
                     </div>
                     <div
-                      class="row mt-3 p-3"
+                      class="flex mt-3 p-3"
                     >
                       <div
-                        class="col-md-12"
+                        class="w-full"
                       >
                         <h3
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           What are your customers talking about?
                         </h3>
@@ -891,10 +905,10 @@ exports[`should render component 1`] = `
                           Understand what's happening on sales calls, so you can coach your sellers better.
                         </p>
                         <div
-                          class="row align-items-center mt-3 border border-2 rounded shadow"
+                          class="flex items-center mt-3 border-2 rounded shadow"
                         >
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <canvas
                               height="0"
@@ -904,26 +918,26 @@ exports[`should render component 1`] = `
                             />
                           </div>
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <div>
                               <h4>
                                 Tracked keywords 
                                 <span
-                                  class="fw-bold"
+                                  class="font-bold"
                                 >
                                   3D Printing
                                 </span>
                                  and 
                                 <span
-                                  class="fw-bold"
+                                  class="font-bold"
                                 >
                                   Manufacturing
                                 </span>
                                  are trending upward across sales calls
                               </h4>
                               <p
-                                class="text-muted"
+                                class="text-gray-500"
                               >
                                 Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
                               </p>
@@ -931,10 +945,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="row align-items-center mt-3 border border-2 rounded shadow"
+                          class="flex items-center mt-3 border-2 rounded shadow"
                         >
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <canvas
                               height="0"
@@ -944,14 +958,14 @@ exports[`should render component 1`] = `
                             />
                           </div>
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <div>
                               <h4>
                                 35 sales calls have noticeably higher positive sentiment than average
                               </h4>
                               <p
-                                class="text-muted"
+                                class="text-gray-500"
                               >
                                 Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
                               </p>
@@ -959,10 +973,10 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="row align-items-center mt-3 border border-2 rounded shadow"
+                          class="flex items-center mt-3 border-2 rounded shadow"
                         >
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <canvas
                               height="0"
@@ -972,26 +986,26 @@ exports[`should render component 1`] = `
                             />
                           </div>
                           <div
-                            class="col-md-6"
+                            class="md:w-1/2"
                           >
                             <div>
                               <h4>
                                 Customer mentions of the brands 
                                 <span
-                                  class="fw-bold"
+                                  class="font-bold"
                                 >
                                   Brand 1
                                 </span>
                                  and 
                                 <span
-                                  class="fw-bold"
+                                  class="font-bold"
                                 >
                                   Brand 2
                                 </span>
                                  have been detected across sales calls
                               </h4>
                               <p
-                                class="text-muted"
+                                class="text-gray-500"
                               >
                                 When customers mention brands, it can surface new competitors and opportunities to update sales strategies
                               </p>
@@ -1001,43 +1015,43 @@ exports[`should render component 1`] = `
                       </div>
                     </div>
                     <div
-                      class="row mt-3"
+                      class="flex mt-3"
                     >
                       <div
-                        class="col-md-12"
+                        class="w-full"
                       >
                         <h3
-                          class="fw-bold"
+                          class="font-bold"
                         >
                           Team Insights
                         </h3>
                         <div
-                          class="row mt-3 mb-3 p-3 bg-light border rounded"
+                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                         >
                           <div
-                            class="col-md-12"
+                            class="w-full"
                           >
                             <div
-                              class="row"
+                              class="flex"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   <span
-                                    class="text-info"
+                                    class="text-blue-400"
                                   >
                                     John Smith
                                   </span>
                                    and 
                                   <span
-                                    class="text-info"
+                                    class="text-blue-400"
                                   >
                                     Peter Potter
                                   </span>
                                    appear to talk the most, averaging 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     68%
                                   </span>
@@ -1046,21 +1060,21 @@ exports[`should render component 1`] = `
                               </div>
                             </div>
                             <div
-                              class="row mt-3 text-muted"
+                              class="flex mt-3 text-gray-500"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   This is 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     21%
                                   </span>
                                    higher than your top performers who average 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     56%
                                   </span>
@@ -1071,26 +1085,26 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="row mt-3 mb-3 p-3 bg-light border rounded"
+                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                         >
                           <div
-                            class="col-md-12"
+                            class="w-full"
                           >
                             <div
-                              class="row"
+                              class="flex"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   <span
-                                    class="text-info"
+                                    class="text-blue-400"
                                   >
                                     Jane Smith
                                   </span>
                                    appears to talk the least, averaging 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     51%
                                   </span>
@@ -1099,21 +1113,21 @@ exports[`should render component 1`] = `
                               </div>
                             </div>
                             <div
-                              class="row mt-3 text-muted"
+                              class="flex mt-3 text-gray-500"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   This is 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     9%
                                   </span>
                                    lower than your top performers who average 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     56%
                                   </span>
@@ -1124,32 +1138,32 @@ exports[`should render component 1`] = `
                           </div>
                         </div>
                         <div
-                          class="row mt-3 mb-3 p-3 bg-light border rounded"
+                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                         >
                           <div
-                            class="col-md-12"
+                            class="w-full"
                           >
                             <div
-                              class="row"
+                              class="flex"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   <span
-                                    class="text-info"
+                                    class="text-blue-400"
                                   >
                                     Simon Doe
                                   </span>
                                    and 
                                   <span
-                                    class="text-info"
+                                    class="text-blue-400"
                                   >
                                     William Blake
                                   </span>
                                    have the lowest talking speed, averaging 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     118
                                   </span>
@@ -1158,21 +1172,21 @@ exports[`should render component 1`] = `
                               </div>
                             </div>
                             <div
-                              class="row mt-3 text-muted"
+                              class="flex mt-3 text-gray-500"
                             >
                               <div
-                                class="col-md-12"
+                                class="w-full"
                               >
                                 <div>
                                   This is 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     21%
                                   </span>
                                    lower than your top performers who average 
                                   <span
-                                    class="fw-bold"
+                                    class="font-bold"
                                   >
                                     146
                                   </span>

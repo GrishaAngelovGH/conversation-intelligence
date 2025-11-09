@@ -6,7 +6,7 @@ exports[`should render UserGreet component 1`] = `
   "baseElement": <body>
     <div>
       <h3
-        class="fw-bold"
+        class="font-bold"
       >
         Good morning, 
         James Smith
@@ -15,7 +15,7 @@ exports[`should render UserGreet component 1`] = `
   </body>,
   "container": <div>
     <h3
-      class="fw-bold"
+      class="font-bold"
     >
       Good morning, 
       James Smith

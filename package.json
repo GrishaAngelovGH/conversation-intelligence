@@ -11,22 +11,22 @@
     "test": "vitest"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "canvas": "^3.2.0",
     "jsdom": "^27.3.0",
     "react": "^19.2.3",
-    "react-bootstrap": "^2.10.10",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "^19.2.3",
     "react-pro-sidebar": "^1.1.0",
     "react-router-dom": "^7.10.1",
     "resize-observer-polyfill": "^1.5.1",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "devDependencies": {
     "@babel/plugin-transform-private-methods": "^7.27.1",
     "@eslint/js": "^9.39.2",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/vite": "^4.1.18",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^14.6.1",
@@ -35,11 +35,14 @@
     "@typescript-eslint/utils": "^8.50.0",
     "@vitejs/plugin-react": "^5.1.2",
     "@vitest/eslint-plugin": "^1.5.2",
+    "autoprefixer": "^10.4.23",
     "eslint": "^9.39.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.25",
+    "eslint-plugin-react-refresh": "^0.4.26",
     "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
     "vite": "^7.3.0"
   },
   "overrides": {

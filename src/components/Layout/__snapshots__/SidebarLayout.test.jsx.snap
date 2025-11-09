@@ -6,11 +6,12 @@ exports[`should render SidebarLayout component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0"
+        class="flex"
       >
         <div
-          class="col-md-2"
+          class="w-[210px]"
         >
+           
           <aside
             class="ps-sidebar-root css-1p7obn9"
             data-testid="ps-sidebar-root-test-id"
@@ -27,7 +28,7 @@ exports[`should render SidebarLayout component 1`] = `
                   class="css-ewdv3l"
                 >
                   <a
-                    class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                     data-discover="true"
                     href="/"
                   >
@@ -36,13 +37,13 @@ exports[`should render SidebarLayout component 1`] = `
                     />
                      
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       Home
                     </span>
                   </a>
                   <a
-                    class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                     data-discover="true"
                     href="/transcript-summary"
                   >
@@ -51,13 +52,13 @@ exports[`should render SidebarLayout component 1`] = `
                     />
                      
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       Transcript Summary
                     </span>
                   </a>
                   <a
-                    class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                    class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                     data-discover="true"
                     href="/seller-details"
                   >
@@ -66,7 +67,7 @@ exports[`should render SidebarLayout component 1`] = `
                     />
                      
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       Seller Details
                     </span>
@@ -77,8 +78,9 @@ exports[`should render SidebarLayout component 1`] = `
           </aside>
         </div>
         <div
-          class="col-md-10"
+          class="flex-1"
         >
+           
           <div>
             content
           </div>
@@ -88,11 +90,12 @@ exports[`should render SidebarLayout component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0"
+      class="flex"
     >
       <div
-        class="col-md-2"
+        class="w-[210px]"
       >
+         
         <aside
           class="ps-sidebar-root css-1p7obn9"
           data-testid="ps-sidebar-root-test-id"
@@ -109,7 +112,7 @@ exports[`should render SidebarLayout component 1`] = `
                 class="css-ewdv3l"
               >
                 <a
-                  class="d-block border mt-1 ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                   data-discover="true"
                   href="/"
                 >
@@ -118,13 +121,13 @@ exports[`should render SidebarLayout component 1`] = `
                   />
                    
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     Home
                   </span>
                 </a>
                 <a
-                  class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                   data-discover="true"
                   href="/transcript-summary"
                 >
@@ -133,13 +136,13 @@ exports[`should render SidebarLayout component 1`] = `
                   />
                    
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     Transcript Summary
                   </span>
                 </a>
                 <a
-                  class="d-block border ms-1 p-2 text-decoration-none bg-transparent text-primary rounded"
+                  class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
                   data-discover="true"
                   href="/seller-details"
                 >
@@ -148,7 +151,7 @@ exports[`should render SidebarLayout component 1`] = `
                   />
                    
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     Seller Details
                   </span>
@@ -159,8 +162,9 @@ exports[`should render SidebarLayout component 1`] = `
         </aside>
       </div>
       <div
-        class="col-md-10"
+        class="flex-1"
       >
+         
         <div>
           content
         </div>

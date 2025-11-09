@@ -7,20 +7,16 @@ exports[`should render Avatar component 1`] = `
     <div>
       <img
         alt="user"
-        class="rounded-circle ms-1"
-        height="50"
+        class="w-12 h-12 rounded-full ml-1"
         src="https://randomuser.me/api/portraits/men/18.jpg"
-        width="50"
       />
     </div>
   </body>,
   "container": <div>
     <img
       alt="user"
-      class="rounded-circle ms-1"
-      height="50"
+      class="w-12 h-12 rounded-full ml-1"
       src="https://randomuser.me/api/portraits/men/18.jpg"
-      width="50"
     />
   </div>,
   "debug": [Function],

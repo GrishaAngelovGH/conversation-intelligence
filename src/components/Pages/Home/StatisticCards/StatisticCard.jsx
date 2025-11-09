@@ -1,9 +1,9 @@
 const StatisticCard = ({ chart, description }) => (
-  <div className='row align-items-center mt-3 border border-2 rounded shadow'>
-    <div className='col-md-6'>
+  <div className='flex items-center mt-3 border-2 rounded shadow'>
+    <div className='md:w-1/2'>
       {chart}
     </div>
-    <div className='col-md-6'>
+    <div className='md:w-1/2'>
       {description}
     </div>
   </div>

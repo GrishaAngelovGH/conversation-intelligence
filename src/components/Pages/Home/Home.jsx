@@ -15,14 +15,14 @@ const Home = () => {
   ]
 
   return (
-    <div className='row g-0 justify-content-center text-center'>
-      <div className='col-md-11'>
+    <div className='flex justify-center text-center'>
+      <div className='md:w-11/12'>
 
-        <div className='row g-0 p-3 align-items-center'>
-          <div className='col-md-6'>
+        <div className='flex p-3 items-center'>
+          <div className='md:w-6/12'>
             <UserGreet username='James Smith' />
           </div>
-          <div className='col-md-6'>
+          <div className='md:w-6/12'>
             <HistoryRange />
           </div>
         </div>

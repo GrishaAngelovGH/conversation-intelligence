@@ -40,7 +40,7 @@ const SentimentCard = () => {
   const description = (
     <div>
       <h4>35 sales calls have noticeably higher positive sentiment than average</h4>
-      <p className='text-muted'>Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.</p>
+      <p className='text-gray-500'>Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.</p>
     </div>
   )
 

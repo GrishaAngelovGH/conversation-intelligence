@@ -6,10 +6,10 @@ exports[`should render BrandsCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row align-items-center mt-3 border border-2 rounded shadow"
+        class="flex items-center mt-3 border-2 rounded shadow"
       >
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <canvas
             height="0"
@@ -19,26 +19,26 @@ exports[`should render BrandsCard component 1`] = `
           />
         </div>
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <div>
             <h4>
               Customer mentions of the brands 
               <span
-                class="fw-bold"
+                class="font-bold"
               >
                 Brand 1
               </span>
                and 
               <span
-                class="fw-bold"
+                class="font-bold"
               >
                 Brand 2
               </span>
                have been detected across sales calls
             </h4>
             <p
-              class="text-muted"
+              class="text-gray-500"
             >
               When customers mention brands, it can surface new competitors and opportunities to update sales strategies
             </p>
@@ -49,10 +49,10 @@ exports[`should render BrandsCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row align-items-center mt-3 border border-2 rounded shadow"
+      class="flex items-center mt-3 border-2 rounded shadow"
     >
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <canvas
           height="0"
@@ -62,26 +62,26 @@ exports[`should render BrandsCard component 1`] = `
         />
       </div>
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <div>
           <h4>
             Customer mentions of the brands 
             <span
-              class="fw-bold"
+              class="font-bold"
             >
               Brand 1
             </span>
              and 
             <span
-              class="fw-bold"
+              class="font-bold"
             >
               Brand 2
             </span>
              have been detected across sales calls
           </h4>
           <p
-            class="text-muted"
+            class="text-gray-500"
           >
             When customers mention brands, it can surface new competitors and opportunities to update sales strategies
           </p>

@@ -1,5 +1,5 @@
 const Avatar = ({ content }) => (
-  <div className='rounded-circle bg-primary d-flex justify-content-center align-items-center text-white fw-bold' style={{ width: 40, height: 40 }}>
+  <div className='rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10'>
     {content}
   </div>
 )

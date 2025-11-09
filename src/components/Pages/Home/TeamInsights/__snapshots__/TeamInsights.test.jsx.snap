@@ -6,43 +6,43 @@ exports[`should render TeamInsights component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row mt-3"
+        class="flex mt-3"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <h3
-            class="fw-bold"
+            class="font-bold"
           >
             Team Insights
           </h3>
           <div
-            class="row mt-3 mb-3 p-3 bg-light border rounded"
+            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="row"
+                class="flex"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     <span
-                      class="text-info"
+                      class="text-blue-400"
                     >
                       John Smith
                     </span>
                      and 
                     <span
-                      class="text-info"
+                      class="text-blue-400"
                     >
                       Peter Potter
                     </span>
                      appear to talk the most, averaging 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       68%
                     </span>
@@ -51,21 +51,21 @@ exports[`should render TeamInsights component 1`] = `
                 </div>
               </div>
               <div
-                class="row mt-3 text-muted"
+                class="flex mt-3 text-gray-500"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     This is 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       21%
                     </span>
                      higher than your top performers who average 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       56%
                     </span>
@@ -76,26 +76,26 @@ exports[`should render TeamInsights component 1`] = `
             </div>
           </div>
           <div
-            class="row mt-3 mb-3 p-3 bg-light border rounded"
+            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="row"
+                class="flex"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     <span
-                      class="text-info"
+                      class="text-blue-400"
                     >
                       Jane Smith
                     </span>
                      appears to talk the least, averaging 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       51%
                     </span>
@@ -104,21 +104,21 @@ exports[`should render TeamInsights component 1`] = `
                 </div>
               </div>
               <div
-                class="row mt-3 text-muted"
+                class="flex mt-3 text-gray-500"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     This is 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       9%
                     </span>
                      lower than your top performers who average 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       56%
                     </span>
@@ -129,32 +129,32 @@ exports[`should render TeamInsights component 1`] = `
             </div>
           </div>
           <div
-            class="row mt-3 mb-3 p-3 bg-light border rounded"
+            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div
-                class="row"
+                class="flex"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     <span
-                      class="text-info"
+                      class="text-blue-400"
                     >
                       Simon Doe
                     </span>
                      and 
                     <span
-                      class="text-info"
+                      class="text-blue-400"
                     >
                       William Blake
                     </span>
                      have the lowest talking speed, averaging 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       118
                     </span>
@@ -163,21 +163,21 @@ exports[`should render TeamInsights component 1`] = `
                 </div>
               </div>
               <div
-                class="row mt-3 text-muted"
+                class="flex mt-3 text-gray-500"
               >
                 <div
-                  class="col-md-12"
+                  class="w-full"
                 >
                   <div>
                     This is 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       21%
                     </span>
                      lower than your top performers who average 
                     <span
-                      class="fw-bold"
+                      class="font-bold"
                     >
                       146
                     </span>
@@ -193,43 +193,43 @@ exports[`should render TeamInsights component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row mt-3"
+      class="flex mt-3"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <h3
-          class="fw-bold"
+          class="font-bold"
         >
           Team Insights
         </h3>
         <div
-          class="row mt-3 mb-3 p-3 bg-light border rounded"
+          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="row"
+              class="flex"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   <span
-                    class="text-info"
+                    class="text-blue-400"
                   >
                     John Smith
                   </span>
                    and 
                   <span
-                    class="text-info"
+                    class="text-blue-400"
                   >
                     Peter Potter
                   </span>
                    appear to talk the most, averaging 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     68%
                   </span>
@@ -238,21 +238,21 @@ exports[`should render TeamInsights component 1`] = `
               </div>
             </div>
             <div
-              class="row mt-3 text-muted"
+              class="flex mt-3 text-gray-500"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   This is 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     21%
                   </span>
                    higher than your top performers who average 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     56%
                   </span>
@@ -263,26 +263,26 @@ exports[`should render TeamInsights component 1`] = `
           </div>
         </div>
         <div
-          class="row mt-3 mb-3 p-3 bg-light border rounded"
+          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="row"
+              class="flex"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   <span
-                    class="text-info"
+                    class="text-blue-400"
                   >
                     Jane Smith
                   </span>
                    appears to talk the least, averaging 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     51%
                   </span>
@@ -291,21 +291,21 @@ exports[`should render TeamInsights component 1`] = `
               </div>
             </div>
             <div
-              class="row mt-3 text-muted"
+              class="flex mt-3 text-gray-500"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   This is 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     9%
                   </span>
                    lower than your top performers who average 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     56%
                   </span>
@@ -316,32 +316,32 @@ exports[`should render TeamInsights component 1`] = `
           </div>
         </div>
         <div
-          class="row mt-3 mb-3 p-3 bg-light border rounded"
+          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div
-              class="row"
+              class="flex"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   <span
-                    class="text-info"
+                    class="text-blue-400"
                   >
                     Simon Doe
                   </span>
                    and 
                   <span
-                    class="text-info"
+                    class="text-blue-400"
                   >
                     William Blake
                   </span>
                    have the lowest talking speed, averaging 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     118
                   </span>
@@ -350,21 +350,21 @@ exports[`should render TeamInsights component 1`] = `
               </div>
             </div>
             <div
-              class="row mt-3 text-muted"
+              class="flex mt-3 text-gray-500"
             >
               <div
-                class="col-md-12"
+                class="w-full"
               >
                 <div>
                   This is 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     21%
                   </span>
                    lower than your top performers who average 
                   <span
-                    class="fw-bold"
+                    class="font-bold"
                   >
                     146
                   </span>

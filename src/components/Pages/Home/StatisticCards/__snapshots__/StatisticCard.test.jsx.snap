@@ -6,17 +6,17 @@ exports[`should render StatisticCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row align-items-center mt-3 border border-2 rounded shadow"
+        class="flex items-center mt-3 border-2 rounded shadow"
       >
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <div>
             chart
           </div>
         </div>
         <div
-          class="col-md-6"
+          class="md:w-1/2"
         >
           <div>
             description
@@ -27,17 +27,17 @@ exports[`should render StatisticCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row align-items-center mt-3 border border-2 rounded shadow"
+      class="flex items-center mt-3 border-2 rounded shadow"
     >
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <div>
           chart
         </div>
       </div>
       <div
-        class="col-md-6"
+        class="md:w-1/2"
       >
         <div>
           description

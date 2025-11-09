@@ -6,16 +6,16 @@ exports[`should render TeamInsight component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row mt-3 mb-3 p-3 bg-light border rounded"
+        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div
-            class="row"
+            class="flex"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div>
                 content
@@ -23,10 +23,10 @@ exports[`should render TeamInsight component 1`] = `
             </div>
           </div>
           <div
-            class="row mt-3 text-muted"
+            class="flex mt-3 text-gray-500"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div>
                 statistic
@@ -39,16 +39,16 @@ exports[`should render TeamInsight component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row mt-3 mb-3 p-3 bg-light border rounded"
+      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div
-          class="row"
+          class="flex"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div>
               content
@@ -56,10 +56,10 @@ exports[`should render TeamInsight component 1`] = `
           </div>
         </div>
         <div
-          class="row mt-3 text-muted"
+          class="flex mt-3 text-gray-500"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div>
               statistic

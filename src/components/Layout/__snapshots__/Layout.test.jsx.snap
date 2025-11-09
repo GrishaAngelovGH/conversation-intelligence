@@ -6,16 +6,16 @@ exports[`should render Layout component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div
-            class="row g-0"
+            class="flex"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div>
                 Header
@@ -23,10 +23,10 @@ exports[`should render Layout component 1`] = `
             </div>
           </div>
           <div
-            class="row g-0"
+            class="flex"
           >
             <div
-              class="col-md-12"
+              class="w-full"
             >
               <div>
                 Body
@@ -39,16 +39,16 @@ exports[`should render Layout component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div
-          class="row g-0"
+          class="flex"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div>
               Header
@@ -56,10 +56,10 @@ exports[`should render Layout component 1`] = `
           </div>
         </div>
         <div
-          class="row g-0"
+          class="flex"
         >
           <div
-            class="col-md-12"
+            class="w-full"
           >
             <div>
               Body
@@ -129,10 +129,10 @@ exports[`should render Layout.Body component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div>
             Body
@@ -143,10 +143,10 @@ exports[`should render Layout.Body component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div>
           Body
@@ -214,10 +214,10 @@ exports[`should render Layout.Header component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row g-0"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <div>
             Header
@@ -228,10 +228,10 @@ exports[`should render Layout.Header component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row g-0"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <div>
           Header

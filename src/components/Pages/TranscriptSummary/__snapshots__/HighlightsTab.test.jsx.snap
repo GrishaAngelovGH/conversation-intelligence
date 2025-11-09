@@ -6,16 +6,16 @@ exports[`should render HighlightsTab component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row"
+        class="flex"
       >
         <div
-          class="col-md-12"
+          class="w-full"
         >
           <h4>
             Keywords Mentioned
           </h4>
           <div
-            class="badge bg-primary p-2"
+            class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
           >
             quote (2)
           </div>
@@ -25,12 +25,12 @@ exports[`should render HighlightsTab component 1`] = `
             People
           </h4>
           <div
-            class="badge bg-primary p-2"
+            class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
           >
             John (1)
           </div>
           <div
-            class="badge bg-primary p-2 ms-3"
+            class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full ml-3"
           >
             Peter (1)
           </div>
@@ -40,12 +40,12 @@ exports[`should render HighlightsTab component 1`] = `
             Times
           </h4>
           <div
-            class="badge bg-primary p-2"
+            class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
           >
             yesterday (1)
           </div>
           <div
-            class="badge bg-primary p-2 ms-3"
+            class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full ml-3"
           >
             today (2)
           </div>
@@ -55,16 +55,16 @@ exports[`should render HighlightsTab component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row"
+      class="flex"
     >
       <div
-        class="col-md-12"
+        class="w-full"
       >
         <h4>
           Keywords Mentioned
         </h4>
         <div
-          class="badge bg-primary p-2"
+          class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
         >
           quote (2)
         </div>
@@ -74,12 +74,12 @@ exports[`should render HighlightsTab component 1`] = `
           People
         </h4>
         <div
-          class="badge bg-primary p-2"
+          class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
         >
           John (1)
         </div>
         <div
-          class="badge bg-primary p-2 ms-3"
+          class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full ml-3"
         >
           Peter (1)
         </div>
@@ -89,12 +89,12 @@ exports[`should render HighlightsTab component 1`] = `
           Times
         </h4>
         <div
-          class="badge bg-primary p-2"
+          class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full"
         >
           yesterday (1)
         </div>
         <div
-          class="badge bg-primary p-2 ms-3"
+          class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-500 rounded-full ml-3"
         >
           today (2)
         </div>
