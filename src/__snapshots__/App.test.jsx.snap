@@ -52,13 +52,13 @@ exports[`should render component 1`] = `
                   </div>
                 </div>
                 <div
-                  class="w-3/12 md:w-1/12 flex items-center"
+                  class="w-3/12 md:w-1/12 flex items-center gap-4"
                 >
                   <button
-                    aria-label="Settings"
+                    aria-label="Information"
                   >
                     <i
-                      class="bi bi-gear text-white text-3xl"
+                      class="bi bi-info-circle text-white text-3xl"
                     />
                   </button>
                   <img
@@ -654,13 +654,13 @@ exports[`should render component 1`] = `
                 </div>
               </div>
               <div
-                class="w-3/12 md:w-1/12 flex items-center"
+                class="w-3/12 md:w-1/12 flex items-center gap-4"
               >
                 <button
-                  aria-label="Settings"
+                  aria-label="Information"
                 >
                   <i
-                    class="bi bi-gear text-white text-3xl"
+                    class="bi bi-info-circle text-white text-3xl"
                   />
                 </button>
                 <img

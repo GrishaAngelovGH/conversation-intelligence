@@ -1,166 +1,57 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Header component 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <header
-        class="flex bg-blue-500 p-2 justify-between items-center"
+exports[`Header > should render the Header component and match snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="flex bg-blue-500 p-2 justify-between items-center"
+  >
+    <div
+      class="w-1/12 md:w-1/12"
+    >
+      <button
+        aria-label="Menu"
       >
-        <div
-          class="w-1/12 md:w-1/12"
-        >
-          <button
-            aria-label="Menu"
-          >
-            <i
-              class="bi bi-grid-3x3-gap text-white text-3xl"
-            />
-          </button>
-        </div>
-        <div
-          class="w-5/12 md:w-4/12"
-        >
-          <div
-            class="relative flex items-center"
-          >
-            <input
-              class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
-              placeholder="Search for keywords, brands, tags and more"
-              type="text"
-            />
-            <div
-              class="absolute inset-y-0 right-0 flex items-center pr-3"
-            >
-              <i
-                class="bi bi-search"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-3/12 md:w-1/12 flex items-center"
-        >
-          <button
-            aria-label="Settings"
-          >
-            <i
-              class="bi bi-gear text-white text-3xl"
-            />
-          </button>
-          <img
-            alt="user"
-            class="w-12 h-12 rounded-full ml-1"
-            src="https://randomuser.me/api/portraits/men/18.jpg"
-          />
-        </div>
-      </header>
+        <i
+          class="bi bi-grid-3x3-gap text-white text-3xl"
+        />
+      </button>
     </div>
-  </body>,
-  "container": <div>
-    <header
-      class="flex bg-blue-500 p-2 justify-between items-center"
+    <div
+      class="w-5/12 md:w-4/12"
     >
       <div
-        class="w-1/12 md:w-1/12"
+        class="relative flex items-center"
       >
-        <button
-          aria-label="Menu"
+        <input
+          class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
+          placeholder="Search for keywords, brands, tags and more"
+          type="text"
+        />
+        <div
+          class="absolute inset-y-0 right-0 flex items-center pr-3"
         >
           <i
-            class="bi bi-grid-3x3-gap text-white text-3xl"
+            class="bi bi-search"
           />
-        </button>
-      </div>
-      <div
-        class="w-5/12 md:w-4/12"
-      >
-        <div
-          class="relative flex items-center"
-        >
-          <input
-            class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
-            placeholder="Search for keywords, brands, tags and more"
-            type="text"
-          />
-          <div
-            class="absolute inset-y-0 right-0 flex items-center pr-3"
-          >
-            <i
-              class="bi bi-search"
-            />
-          </div>
         </div>
       </div>
-      <div
-        class="w-3/12 md:w-1/12 flex items-center"
+    </div>
+    <div
+      class="w-3/12 md:w-1/12 flex items-center gap-4"
+    >
+      <button
+        aria-label="Information"
       >
-        <button
-          aria-label="Settings"
-        >
-          <i
-            class="bi bi-gear text-white text-3xl"
-          />
-        </button>
-        <img
-          alt="user"
-          class="w-12 h-12 rounded-full ml-1"
-          src="https://randomuser.me/api/portraits/men/18.jpg"
+        <i
+          class="bi bi-info-circle text-white text-3xl"
         />
-      </div>
-    </header>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+      </button>
+      <img
+        alt="user"
+        class="w-12 h-12 rounded-full ml-1"
+        src="https://randomuser.me/api/portraits/men/18.jpg"
+      />
+    </div>
+  </header>
+</DocumentFragment>
 `;
