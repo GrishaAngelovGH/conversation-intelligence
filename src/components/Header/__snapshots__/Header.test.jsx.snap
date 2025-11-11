@@ -10,6 +10,7 @@ exports[`Header > should render the Header component and match snapshot 1`] = `
     >
       <button
         aria-label="Menu"
+        class="block md:hidden"
       >
         <i
           class="bi bi-grid-3x3-gap text-white text-3xl"
@@ -41,6 +42,7 @@ exports[`Header > should render the Header component and match snapshot 1`] = `
     >
       <button
         aria-label="Information"
+        class="cursor-pointer"
       >
         <i
           class="bi bi-info-circle text-white text-3xl"

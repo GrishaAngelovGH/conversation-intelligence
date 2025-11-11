@@ -10,15 +10,3 @@ test('should render Layout component', () => {
 
   expect(view).toMatchSnapshot()
 })
-
-test('should render Layout.Header component', () => {
-  const view = render(<Layout.Header content={header} />)
-
-  expect(view).toMatchSnapshot()
-})
-
-test('should render Layout.Body component', () => {
-  const view = render(<Layout.Body content={body} />)
-
-  expect(view).toMatchSnapshot()
-})

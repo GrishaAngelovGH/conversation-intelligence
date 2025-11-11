@@ -4,13 +4,13 @@ import Avatar from './Avatar'
 import InputGroup from './InputGroup'
 import Modal from 'components/Modal/Modal'
 
-const Header = () => {
+const Header = ({ onToggle }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <header className='flex bg-blue-500 p-2 justify-between items-center'>
       <div className='w-1/12 md:w-1/12'>
-        <button aria-label="Menu">
+        <button aria-label="Menu" className="block md:hidden" onClick={onToggle}>
           <i className='bi bi-grid-3x3-gap text-white text-3xl'></i>
         </button>
       </div>
@@ -20,7 +20,7 @@ const Header = () => {
       </div>
 
       <div className='w-3/12 md:w-1/12 flex items-center gap-4'>
-        <button aria-label="Information" onClick={() => setIsModalOpen(true)}>
+        <button aria-label="Information" className='cursor-pointer' onClick={() => setIsModalOpen(true)}>
           <i className='bi bi-info-circle text-white text-3xl'></i>
         </button>
         <Avatar />

@@ -6,591 +6,566 @@ exports[`should render component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex"
+        class="flex flex-col h-screen"
       >
-        <div
-          class="w-full"
+        <header
+          class="flex bg-blue-500 p-2 justify-between items-center"
         >
           <div
-            class="flex"
+            class="w-1/12 md:w-1/12"
+          >
+            <button
+              aria-label="Menu"
+              class="block md:hidden"
+            >
+              <i
+                class="bi bi-grid-3x3-gap text-white text-3xl"
+              />
+            </button>
+          </div>
+          <div
+            class="w-5/12 md:w-4/12"
           >
             <div
-              class="w-full"
+              class="relative flex items-center"
             >
-              <header
-                class="flex bg-blue-500 p-2 justify-between items-center"
+              <input
+                class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
+                placeholder="Search for keywords, brands, tags and more"
+                type="text"
+              />
+              <div
+                class="absolute inset-y-0 right-0 flex items-center pr-3"
               >
-                <div
-                  class="w-1/12 md:w-1/12"
-                >
-                  <button
-                    aria-label="Menu"
-                  >
-                    <i
-                      class="bi bi-grid-3x3-gap text-white text-3xl"
-                    />
-                  </button>
-                </div>
-                <div
-                  class="w-5/12 md:w-4/12"
-                >
-                  <div
-                    class="relative flex items-center"
-                  >
-                    <input
-                      class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
-                      placeholder="Search for keywords, brands, tags and more"
-                      type="text"
-                    />
-                    <div
-                      class="absolute inset-y-0 right-0 flex items-center pr-3"
-                    >
-                      <i
-                        class="bi bi-search"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="w-3/12 md:w-1/12 flex items-center gap-4"
-                >
-                  <button
-                    aria-label="Information"
-                  >
-                    <i
-                      class="bi bi-info-circle text-white text-3xl"
-                    />
-                  </button>
-                  <img
-                    alt="user"
-                    class="w-12 h-12 rounded-full ml-1"
-                    src="https://randomuser.me/api/portraits/men/18.jpg"
-                  />
-                </div>
-              </header>
+                <i
+                  class="bi bi-search"
+                />
+              </div>
             </div>
           </div>
           <div
-            class="flex"
+            class="w-3/12 md:w-1/12 flex items-center gap-4"
+          >
+            <button
+              aria-label="Information"
+              class="cursor-pointer"
+            >
+              <i
+                class="bi bi-info-circle text-white text-3xl"
+              />
+            </button>
+            <img
+              alt="user"
+              class="w-12 h-12 rounded-full ml-1"
+              src="https://randomuser.me/api/portraits/men/18.jpg"
+            />
+          </div>
+        </header>
+        <div
+          class="flex-1 overflow-hidden"
+        >
+          <div
+            class="h-full flex flex-1 overflow-hidden"
           >
             <div
-              class="w-full"
+              class="fixed inset-0 backdrop-blur-3xl bg-opacity-50 z-5 md:hidden hidden"
+            />
+            <div
+              class="fixed inset-y-0 left-0 z-5 bg-gray-200 text-gray-800 duration-300 ease-in-out
+                    -translate-x-full md:translate-x-0
+                    md:w-64 md:static md:block"
+            >
+              <nav
+                class="flex flex-col p-2"
+              >
+                <a
+                  aria-current="page"
+                  class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-blue-800 text-white"
+                  data-discover="true"
+                  href="/"
+                >
+                  <i
+                    class="bi bi-house-door"
+                  />
+                   
+                  <span
+                    class="font-bold"
+                  >
+                    Home
+                  </span>
+                </a>
+                <a
+                  class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                  data-discover="true"
+                  href="/transcript-summary"
+                >
+                  <i
+                    class="bi bi-card-list"
+                  />
+                   
+                  <span
+                    class="font-bold"
+                  >
+                    Transcript Summary
+                  </span>
+                </a>
+                <a
+                  class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                  data-discover="true"
+                  href="/seller-details"
+                >
+                  <i
+                    class="bi bi-person"
+                  />
+                   
+                  <span
+                    class="font-bold"
+                  >
+                    Seller Details
+                  </span>
+                </a>
+              </nav>
+            </div>
+            <main
+              class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200"
             >
               <div
-                class="flex"
+                class="flex justify-center text-center"
               >
                 <div
-                  class="w-[210px]"
+                  class="md:w-11/12"
                 >
-                   
-                  <aside
-                    class="ps-sidebar-root css-1p7obn9"
-                    data-testid="ps-sidebar-root-test-id"
-                    width="210px"
-                  >
-                    <div
-                      class="ps-sidebar-container css-dip3t8"
-                      data-testid="ps-sidebar-container-test-id"
-                    >
-                      <nav
-                        class="ps-menu-root css-vj11vy"
-                      >
-                        <ul
-                          class="css-ewdv3l"
-                        >
-                          <a
-                            class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                            data-discover="true"
-                            href="/"
-                          >
-                            <i
-                              class="bi bi-house-door"
-                            />
-                             
-                            <span
-                              class="font-bold"
-                            >
-                              Home
-                            </span>
-                          </a>
-                          <a
-                            class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                            data-discover="true"
-                            href="/transcript-summary"
-                          >
-                            <i
-                              class="bi bi-card-list"
-                            />
-                             
-                            <span
-                              class="font-bold"
-                            >
-                              Transcript Summary
-                            </span>
-                          </a>
-                          <a
-                            class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                            data-discover="true"
-                            href="/seller-details"
-                          >
-                            <i
-                              class="bi bi-person"
-                            />
-                             
-                            <span
-                              class="font-bold"
-                            >
-                              Seller Details
-                            </span>
-                          </a>
-                        </ul>
-                      </nav>
-                    </div>
-                  </aside>
-                </div>
-                <div
-                  class="flex-1"
-                >
-                   
                   <div
-                    class="flex justify-center text-center"
+                    class="flex p-3 items-center"
                   >
                     <div
-                      class="md:w-11/12"
+                      class="md:w-6/12"
+                    >
+                      <h3
+                        class="font-bold"
+                      >
+                        Good morning, 
+                        James Smith
+                      </h3>
+                    </div>
+                    <div
+                      class="md:w-6/12"
                     >
                       <div
-                        class="flex p-3 items-center"
+                        class="inline-flex rounded-md shadow-sm"
+                        role="group"
+                      >
+                        <button
+                          class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                          type="button"
+                        >
+                          Last 24h
+                        </button>
+                        <button
+                          class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                          type="button"
+                        >
+                          Last 7 days
+                        </button>
+                        <button
+                          class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                          type="button"
+                        >
+                          Last 30 days
+                        </button>
+                        <button
+                          class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                          type="button"
+                        >
+                          This Month
+                        </button>
+                        <button
+                          class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                          type="button"
+                        >
+                          Custom
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex border-2 rounded"
+                  >
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Tuesday 18
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Q2, 48 days left
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Actual Rev.
+                        : 
+                        $300k
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Open Rev.
+                        : 
+                        $150k
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Deals-Won
+                        : 
+                        $280k
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Win-Rate
+                        : 
+                        63%
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1"
+                    >
+                      <div
+                        class="font-bold"
+                      >
+                        Avg. Deal Size
+                        : 
+                        58%
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex mt-3 p-3"
+                  >
+                    <div
+                      class="w-full"
+                    >
+                      <h3
+                        class="font-bold"
+                      >
+                        What are your customers talking about?
+                      </h3>
+                      <p>
+                        Understand what's happening on sales calls, so you can coach your sellers better.
+                      </p>
+                      <div
+                        class="flex items-center mt-3 border-2 rounded shadow"
                       >
                         <div
-                          class="md:w-6/12"
+                          class="md:w-1/2"
                         >
-                          <h3
-                            class="font-bold"
-                          >
-                            Good morning, 
-                            James Smith
-                          </h3>
+                          <canvas
+                            height="0"
+                            role="img"
+                            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                            width="0"
+                          />
                         </div>
                         <div
-                          class="md:w-6/12"
+                          class="md:w-1/2"
                         >
-                          <div
-                            class="inline-flex rounded-md shadow-sm"
-                            role="group"
-                          >
-                            <button
-                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                              type="button"
+                          <div>
+                            <h4>
+                              Tracked keywords 
+                              <span
+                                class="font-bold"
+                              >
+                                3D Printing
+                              </span>
+                               and 
+                              <span
+                                class="font-bold"
+                              >
+                                Manufacturing
+                              </span>
+                               are trending upward across sales calls
+                            </h4>
+                            <p
+                              class="text-gray-500"
                             >
-                              Last 24h
-                            </button>
-                            <button
-                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                              type="button"
-                            >
-                              Last 7 days
-                            </button>
-                            <button
-                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                              type="button"
-                            >
-                              Last 30 days
-                            </button>
-                            <button
-                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                              type="button"
-                            >
-                              This Month
-                            </button>
-                            <button
-                              class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                              type="button"
-                            >
-                              Custom
-                            </button>
+                              Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                            </p>
                           </div>
                         </div>
                       </div>
                       <div
-                        class="flex border-2 rounded"
+                        class="flex items-center mt-3 border-2 rounded shadow"
                       >
                         <div
-                          class="flex-1"
+                          class="md:w-1/2"
                         >
-                          <div
-                            class="font-bold"
-                          >
-                            Tuesday 18
-                          </div>
+                          <canvas
+                            height="0"
+                            role="img"
+                            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                            width="0"
+                          />
                         </div>
                         <div
-                          class="flex-1"
+                          class="md:w-1/2"
                         >
-                          <div
-                            class="font-bold"
-                          >
-                            Q2, 48 days left
-                          </div>
-                        </div>
-                        <div
-                          class="flex-1"
-                        >
-                          <div
-                            class="font-bold"
-                          >
-                            Actual Rev.
-                            : 
-                            $300k
-                          </div>
-                        </div>
-                        <div
-                          class="flex-1"
-                        >
-                          <div
-                            class="font-bold"
-                          >
-                            Open Rev.
-                            : 
-                            $150k
-                          </div>
-                        </div>
-                        <div
-                          class="flex-1"
-                        >
-                          <div
-                            class="font-bold"
-                          >
-                            Deals-Won
-                            : 
-                            $280k
-                          </div>
-                        </div>
-                        <div
-                          class="flex-1"
-                        >
-                          <div
-                            class="font-bold"
-                          >
-                            Win-Rate
-                            : 
-                            63%
-                          </div>
-                        </div>
-                        <div
-                          class="flex-1"
-                        >
-                          <div
-                            class="font-bold"
-                          >
-                            Avg. Deal Size
-                            : 
-                            58%
+                          <div>
+                            <h4>
+                              35 sales calls have noticeably higher positive sentiment than average
+                            </h4>
+                            <p
+                              class="text-gray-500"
+                            >
+                              Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+                            </p>
                           </div>
                         </div>
                       </div>
                       <div
-                        class="flex mt-3 p-3"
+                        class="flex items-center mt-3 border-2 rounded shadow"
+                      >
+                        <div
+                          class="md:w-1/2"
+                        >
+                          <canvas
+                            height="0"
+                            role="img"
+                            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                            width="0"
+                          />
+                        </div>
+                        <div
+                          class="md:w-1/2"
+                        >
+                          <div>
+                            <h4>
+                              Customer mentions of the brands 
+                              <span
+                                class="font-bold"
+                              >
+                                Brand 1
+                              </span>
+                               and 
+                              <span
+                                class="font-bold"
+                              >
+                                Brand 2
+                              </span>
+                               have been detected across sales calls
+                            </h4>
+                            <p
+                              class="text-gray-500"
+                            >
+                              When customers mention brands, it can surface new competitors and opportunities to update sales strategies
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex mt-3"
+                  >
+                    <div
+                      class="w-full"
+                    >
+                      <h3
+                        class="font-bold"
+                      >
+                        Team Insights
+                      </h3>
+                      <div
+                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                       >
                         <div
                           class="w-full"
                         >
-                          <h3
-                            class="font-bold"
-                          >
-                            What are your customers talking about?
-                          </h3>
-                          <p>
-                            Understand what's happening on sales calls, so you can coach your sellers better.
-                          </p>
                           <div
-                            class="flex items-center mt-3 border-2 rounded shadow"
+                            class="flex"
                           >
                             <div
-                              class="md:w-1/2"
-                            >
-                              <canvas
-                                height="0"
-                                role="img"
-                                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                                width="0"
-                              />
-                            </div>
-                            <div
-                              class="md:w-1/2"
+                              class="w-full"
                             >
                               <div>
-                                <h4>
-                                  Tracked keywords 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    3D Printing
-                                  </span>
-                                   and 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    Manufacturing
-                                  </span>
-                                   are trending upward across sales calls
-                                </h4>
-                                <p
-                                  class="text-gray-500"
+                                <span
+                                  class="text-blue-400"
                                 >
-                                  Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
-                                </p>
+                                  John Smith
+                                </span>
+                                 and 
+                                <span
+                                  class="text-blue-400"
+                                >
+                                  Peter Potter
+                                </span>
+                                 appear to talk the most, averaging 
+                                <span
+                                  class="font-bold"
+                                >
+                                  68%
+                                </span>
+                                 during calls.
                               </div>
                             </div>
                           </div>
                           <div
-                            class="flex items-center mt-3 border-2 rounded shadow"
+                            class="flex mt-3 text-gray-500"
                           >
                             <div
-                              class="md:w-1/2"
-                            >
-                              <canvas
-                                height="0"
-                                role="img"
-                                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                                width="0"
-                              />
-                            </div>
-                            <div
-                              class="md:w-1/2"
+                              class="w-full"
                             >
                               <div>
-                                <h4>
-                                  35 sales calls have noticeably higher positive sentiment than average
-                                </h4>
-                                <p
-                                  class="text-gray-500"
+                                This is 
+                                <span
+                                  class="font-bold"
                                 >
-                                  Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="flex items-center mt-3 border-2 rounded shadow"
-                          >
-                            <div
-                              class="md:w-1/2"
-                            >
-                              <canvas
-                                height="0"
-                                role="img"
-                                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                                width="0"
-                              />
-                            </div>
-                            <div
-                              class="md:w-1/2"
-                            >
-                              <div>
-                                <h4>
-                                  Customer mentions of the brands 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    Brand 1
-                                  </span>
-                                   and 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    Brand 2
-                                  </span>
-                                   have been detected across sales calls
-                                </h4>
-                                <p
-                                  class="text-gray-500"
+                                  21%
+                                </span>
+                                 higher than your top performers who average 
+                                <span
+                                  class="font-bold"
                                 >
-                                  When customers mention brands, it can surface new competitors and opportunities to update sales strategies
-                                </p>
+                                  56%
+                                </span>
+                                 during calls.
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                       <div
-                        class="flex mt-3"
+                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                       >
                         <div
                           class="w-full"
                         >
-                          <h3
-                            class="font-bold"
-                          >
-                            Team Insights
-                          </h3>
                           <div
-                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                            class="flex"
                           >
                             <div
                               class="w-full"
                             >
-                              <div
-                                class="flex"
-                              >
-                                <div
-                                  class="w-full"
+                              <div>
+                                <span
+                                  class="text-blue-400"
                                 >
-                                  <div>
-                                    <span
-                                      class="text-blue-400"
-                                    >
-                                      John Smith
-                                    </span>
-                                     and 
-                                    <span
-                                      class="text-blue-400"
-                                    >
-                                      Peter Potter
-                                    </span>
-                                     appear to talk the most, averaging 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      68%
-                                    </span>
-                                     during calls.
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="flex mt-3 text-gray-500"
-                              >
-                                <div
-                                  class="w-full"
+                                  Jane Smith
+                                </span>
+                                 appears to talk the least, averaging 
+                                <span
+                                  class="font-bold"
                                 >
-                                  <div>
-                                    This is 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      21%
-                                    </span>
-                                     higher than your top performers who average 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      56%
-                                    </span>
-                                     during calls.
-                                  </div>
-                                </div>
+                                  51%
+                                </span>
+                                 during calls.
                               </div>
                             </div>
                           </div>
                           <div
-                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                            class="flex mt-3 text-gray-500"
                           >
                             <div
                               class="w-full"
                             >
-                              <div
-                                class="flex"
-                              >
-                                <div
-                                  class="w-full"
+                              <div>
+                                This is 
+                                <span
+                                  class="font-bold"
                                 >
-                                  <div>
-                                    <span
-                                      class="text-blue-400"
-                                    >
-                                      Jane Smith
-                                    </span>
-                                     appears to talk the least, averaging 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      51%
-                                    </span>
-                                     during calls.
-                                  </div>
-                                </div>
+                                  9%
+                                </span>
+                                 lower than your top performers who average 
+                                <span
+                                  class="font-bold"
+                                >
+                                  56%
+                                </span>
+                                 during calls.
                               </div>
-                              <div
-                                class="flex mt-3 text-gray-500"
-                              >
-                                <div
-                                  class="w-full"
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                      >
+                        <div
+                          class="w-full"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="w-full"
+                            >
+                              <div>
+                                <span
+                                  class="text-blue-400"
                                 >
-                                  <div>
-                                    This is 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      9%
-                                    </span>
-                                     lower than your top performers who average 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      56%
-                                    </span>
-                                     during calls.
-                                  </div>
-                                </div>
+                                  Simon Doe
+                                </span>
+                                 and 
+                                <span
+                                  class="text-blue-400"
+                                >
+                                  William Blake
+                                </span>
+                                 have the lowest talking speed, averaging 
+                                <span
+                                  class="font-bold"
+                                >
+                                  118
+                                </span>
+                                 words per minute.
                               </div>
                             </div>
                           </div>
                           <div
-                            class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                            class="flex mt-3 text-gray-500"
                           >
                             <div
                               class="w-full"
                             >
-                              <div
-                                class="flex"
-                              >
-                                <div
-                                  class="w-full"
+                              <div>
+                                This is 
+                                <span
+                                  class="font-bold"
                                 >
-                                  <div>
-                                    <span
-                                      class="text-blue-400"
-                                    >
-                                      Simon Doe
-                                    </span>
-                                     and 
-                                    <span
-                                      class="text-blue-400"
-                                    >
-                                      William Blake
-                                    </span>
-                                     have the lowest talking speed, averaging 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      118
-                                    </span>
-                                     words per minute.
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                class="flex mt-3 text-gray-500"
-                              >
-                                <div
-                                  class="w-full"
+                                  21%
+                                </span>
+                                 lower than your top performers who average 
+                                <span
+                                  class="font-bold"
                                 >
-                                  <div>
-                                    This is 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      21%
-                                    </span>
-                                     lower than your top performers who average 
-                                    <span
-                                      class="font-bold"
-                                    >
-                                      146
-                                    </span>
-                                     words per minute.
-                                  </div>
-                                </div>
+                                  146
+                                </span>
+                                 words per minute.
                               </div>
                             </div>
                           </div>
@@ -600,7 +575,7 @@ exports[`should render component 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
+            </main>
           </div>
         </div>
       </div>
@@ -608,591 +583,566 @@ exports[`should render component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex"
+      class="flex flex-col h-screen"
     >
-      <div
-        class="w-full"
+      <header
+        class="flex bg-blue-500 p-2 justify-between items-center"
       >
         <div
-          class="flex"
+          class="w-1/12 md:w-1/12"
+        >
+          <button
+            aria-label="Menu"
+            class="block md:hidden"
+          >
+            <i
+              class="bi bi-grid-3x3-gap text-white text-3xl"
+            />
+          </button>
+        </div>
+        <div
+          class="w-5/12 md:w-4/12"
         >
           <div
-            class="w-full"
+            class="relative flex items-center"
           >
-            <header
-              class="flex bg-blue-500 p-2 justify-between items-center"
+            <input
+              class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
+              placeholder="Search for keywords, brands, tags and more"
+              type="text"
+            />
+            <div
+              class="absolute inset-y-0 right-0 flex items-center pr-3"
             >
-              <div
-                class="w-1/12 md:w-1/12"
-              >
-                <button
-                  aria-label="Menu"
-                >
-                  <i
-                    class="bi bi-grid-3x3-gap text-white text-3xl"
-                  />
-                </button>
-              </div>
-              <div
-                class="w-5/12 md:w-4/12"
-              >
-                <div
-                  class="relative flex items-center"
-                >
-                  <input
-                    class="bg-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md py-2 px-4 block w-full appearance-none leading-normal"
-                    placeholder="Search for keywords, brands, tags and more"
-                    type="text"
-                  />
-                  <div
-                    class="absolute inset-y-0 right-0 flex items-center pr-3"
-                  >
-                    <i
-                      class="bi bi-search"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
-                class="w-3/12 md:w-1/12 flex items-center gap-4"
-              >
-                <button
-                  aria-label="Information"
-                >
-                  <i
-                    class="bi bi-info-circle text-white text-3xl"
-                  />
-                </button>
-                <img
-                  alt="user"
-                  class="w-12 h-12 rounded-full ml-1"
-                  src="https://randomuser.me/api/portraits/men/18.jpg"
-                />
-              </div>
-            </header>
+              <i
+                class="bi bi-search"
+              />
+            </div>
           </div>
         </div>
         <div
-          class="flex"
+          class="w-3/12 md:w-1/12 flex items-center gap-4"
+        >
+          <button
+            aria-label="Information"
+            class="cursor-pointer"
+          >
+            <i
+              class="bi bi-info-circle text-white text-3xl"
+            />
+          </button>
+          <img
+            alt="user"
+            class="w-12 h-12 rounded-full ml-1"
+            src="https://randomuser.me/api/portraits/men/18.jpg"
+          />
+        </div>
+      </header>
+      <div
+        class="flex-1 overflow-hidden"
+      >
+        <div
+          class="h-full flex flex-1 overflow-hidden"
         >
           <div
-            class="w-full"
+            class="fixed inset-0 backdrop-blur-3xl bg-opacity-50 z-5 md:hidden hidden"
+          />
+          <div
+            class="fixed inset-y-0 left-0 z-5 bg-gray-200 text-gray-800 duration-300 ease-in-out
+                    -translate-x-full md:translate-x-0
+                    md:w-64 md:static md:block"
+          >
+            <nav
+              class="flex flex-col p-2"
+            >
+              <a
+                aria-current="page"
+                class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-blue-800 text-white"
+                data-discover="true"
+                href="/"
+              >
+                <i
+                  class="bi bi-house-door"
+                />
+                 
+                <span
+                  class="font-bold"
+                >
+                  Home
+                </span>
+              </a>
+              <a
+                class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                data-discover="true"
+                href="/transcript-summary"
+              >
+                <i
+                  class="bi bi-card-list"
+                />
+                 
+                <span
+                  class="font-bold"
+                >
+                  Transcript Summary
+                </span>
+              </a>
+              <a
+                class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                data-discover="true"
+                href="/seller-details"
+              >
+                <i
+                  class="bi bi-person"
+                />
+                 
+                <span
+                  class="font-bold"
+                >
+                  Seller Details
+                </span>
+              </a>
+            </nav>
+          </div>
+          <main
+            class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200"
           >
             <div
-              class="flex"
+              class="flex justify-center text-center"
             >
               <div
-                class="w-[210px]"
+                class="md:w-11/12"
               >
-                 
-                <aside
-                  class="ps-sidebar-root css-1p7obn9"
-                  data-testid="ps-sidebar-root-test-id"
-                  width="210px"
-                >
-                  <div
-                    class="ps-sidebar-container css-dip3t8"
-                    data-testid="ps-sidebar-container-test-id"
-                  >
-                    <nav
-                      class="ps-menu-root css-vj11vy"
-                    >
-                      <ul
-                        class="css-ewdv3l"
-                      >
-                        <a
-                          class="block border mt-1 ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                          data-discover="true"
-                          href="/"
-                        >
-                          <i
-                            class="bi bi-house-door"
-                          />
-                           
-                          <span
-                            class="font-bold"
-                          >
-                            Home
-                          </span>
-                        </a>
-                        <a
-                          class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                          data-discover="true"
-                          href="/transcript-summary"
-                        >
-                          <i
-                            class="bi bi-card-list"
-                          />
-                           
-                          <span
-                            class="font-bold"
-                          >
-                            Transcript Summary
-                          </span>
-                        </a>
-                        <a
-                          class="block border ml-1 p-2 no-underline bg-transparent text-blue-600 rounded"
-                          data-discover="true"
-                          href="/seller-details"
-                        >
-                          <i
-                            class="bi bi-person"
-                          />
-                           
-                          <span
-                            class="font-bold"
-                          >
-                            Seller Details
-                          </span>
-                        </a>
-                      </ul>
-                    </nav>
-                  </div>
-                </aside>
-              </div>
-              <div
-                class="flex-1"
-              >
-                 
                 <div
-                  class="flex justify-center text-center"
+                  class="flex p-3 items-center"
                 >
                   <div
-                    class="md:w-11/12"
+                    class="md:w-6/12"
+                  >
+                    <h3
+                      class="font-bold"
+                    >
+                      Good morning, 
+                      James Smith
+                    </h3>
+                  </div>
+                  <div
+                    class="md:w-6/12"
                   >
                     <div
-                      class="flex p-3 items-center"
+                      class="inline-flex rounded-md shadow-sm"
+                      role="group"
+                    >
+                      <button
+                        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                        type="button"
+                      >
+                        Last 24h
+                      </button>
+                      <button
+                        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                        type="button"
+                      >
+                        Last 7 days
+                      </button>
+                      <button
+                        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                        type="button"
+                      >
+                        Last 30 days
+                      </button>
+                      <button
+                        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                        type="button"
+                      >
+                        This Month
+                      </button>
+                      <button
+                        class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
+                        type="button"
+                      >
+                        Custom
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex border-2 rounded"
+                >
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Tuesday 18
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Q2, 48 days left
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Actual Rev.
+                      : 
+                      $300k
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Open Rev.
+                      : 
+                      $150k
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Deals-Won
+                      : 
+                      $280k
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Win-Rate
+                      : 
+                      63%
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Avg. Deal Size
+                      : 
+                      58%
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex mt-3 p-3"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <h3
+                      class="font-bold"
+                    >
+                      What are your customers talking about?
+                    </h3>
+                    <p>
+                      Understand what's happening on sales calls, so you can coach your sellers better.
+                    </p>
+                    <div
+                      class="flex items-center mt-3 border-2 rounded shadow"
                     >
                       <div
-                        class="md:w-6/12"
+                        class="md:w-1/2"
                       >
-                        <h3
-                          class="font-bold"
-                        >
-                          Good morning, 
-                          James Smith
-                        </h3>
+                        <canvas
+                          height="0"
+                          role="img"
+                          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                          width="0"
+                        />
                       </div>
                       <div
-                        class="md:w-6/12"
+                        class="md:w-1/2"
                       >
-                        <div
-                          class="inline-flex rounded-md shadow-sm"
-                          role="group"
-                        >
-                          <button
-                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                            type="button"
+                        <div>
+                          <h4>
+                            Tracked keywords 
+                            <span
+                              class="font-bold"
+                            >
+                              3D Printing
+                            </span>
+                             and 
+                            <span
+                              class="font-bold"
+                            >
+                              Manufacturing
+                            </span>
+                             are trending upward across sales calls
+                          </h4>
+                          <p
+                            class="text-gray-500"
                           >
-                            Last 24h
-                          </button>
-                          <button
-                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                            type="button"
-                          >
-                            Last 7 days
-                          </button>
-                          <button
-                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                            type="button"
-                          >
-                            Last 30 days
-                          </button>
-                          <button
-                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                            type="button"
-                          >
-                            This Month
-                          </button>
-                          <button
-                            class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"
-                            type="button"
-                          >
-                            Custom
-                          </button>
+                            Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="flex border-2 rounded"
+                      class="flex items-center mt-3 border-2 rounded shadow"
                     >
                       <div
-                        class="flex-1"
+                        class="md:w-1/2"
                       >
-                        <div
-                          class="font-bold"
-                        >
-                          Tuesday 18
-                        </div>
+                        <canvas
+                          height="0"
+                          role="img"
+                          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                          width="0"
+                        />
                       </div>
                       <div
-                        class="flex-1"
+                        class="md:w-1/2"
                       >
-                        <div
-                          class="font-bold"
-                        >
-                          Q2, 48 days left
-                        </div>
-                      </div>
-                      <div
-                        class="flex-1"
-                      >
-                        <div
-                          class="font-bold"
-                        >
-                          Actual Rev.
-                          : 
-                          $300k
-                        </div>
-                      </div>
-                      <div
-                        class="flex-1"
-                      >
-                        <div
-                          class="font-bold"
-                        >
-                          Open Rev.
-                          : 
-                          $150k
-                        </div>
-                      </div>
-                      <div
-                        class="flex-1"
-                      >
-                        <div
-                          class="font-bold"
-                        >
-                          Deals-Won
-                          : 
-                          $280k
-                        </div>
-                      </div>
-                      <div
-                        class="flex-1"
-                      >
-                        <div
-                          class="font-bold"
-                        >
-                          Win-Rate
-                          : 
-                          63%
-                        </div>
-                      </div>
-                      <div
-                        class="flex-1"
-                      >
-                        <div
-                          class="font-bold"
-                        >
-                          Avg. Deal Size
-                          : 
-                          58%
+                        <div>
+                          <h4>
+                            35 sales calls have noticeably higher positive sentiment than average
+                          </h4>
+                          <p
+                            class="text-gray-500"
+                          >
+                            Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="flex mt-3 p-3"
+                      class="flex items-center mt-3 border-2 rounded shadow"
+                    >
+                      <div
+                        class="md:w-1/2"
+                      >
+                        <canvas
+                          height="0"
+                          role="img"
+                          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                          width="0"
+                        />
+                      </div>
+                      <div
+                        class="md:w-1/2"
+                      >
+                        <div>
+                          <h4>
+                            Customer mentions of the brands 
+                            <span
+                              class="font-bold"
+                            >
+                              Brand 1
+                            </span>
+                             and 
+                            <span
+                              class="font-bold"
+                            >
+                              Brand 2
+                            </span>
+                             have been detected across sales calls
+                          </h4>
+                          <p
+                            class="text-gray-500"
+                          >
+                            When customers mention brands, it can surface new competitors and opportunities to update sales strategies
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex mt-3"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <h3
+                      class="font-bold"
+                    >
+                      Team Insights
+                    </h3>
+                    <div
+                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                     >
                       <div
                         class="w-full"
                       >
-                        <h3
-                          class="font-bold"
-                        >
-                          What are your customers talking about?
-                        </h3>
-                        <p>
-                          Understand what's happening on sales calls, so you can coach your sellers better.
-                        </p>
                         <div
-                          class="flex items-center mt-3 border-2 rounded shadow"
+                          class="flex"
                         >
                           <div
-                            class="md:w-1/2"
-                          >
-                            <canvas
-                              height="0"
-                              role="img"
-                              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                              width="0"
-                            />
-                          </div>
-                          <div
-                            class="md:w-1/2"
+                            class="w-full"
                           >
                             <div>
-                              <h4>
-                                Tracked keywords 
-                                <span
-                                  class="font-bold"
-                                >
-                                  3D Printing
-                                </span>
-                                 and 
-                                <span
-                                  class="font-bold"
-                                >
-                                  Manufacturing
-                                </span>
-                                 are trending upward across sales calls
-                              </h4>
-                              <p
-                                class="text-gray-500"
+                              <span
+                                class="text-blue-400"
                               >
-                                Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
-                              </p>
+                                John Smith
+                              </span>
+                               and 
+                              <span
+                                class="text-blue-400"
+                              >
+                                Peter Potter
+                              </span>
+                               appear to talk the most, averaging 
+                              <span
+                                class="font-bold"
+                              >
+                                68%
+                              </span>
+                               during calls.
                             </div>
                           </div>
                         </div>
                         <div
-                          class="flex items-center mt-3 border-2 rounded shadow"
+                          class="flex mt-3 text-gray-500"
                         >
                           <div
-                            class="md:w-1/2"
-                          >
-                            <canvas
-                              height="0"
-                              role="img"
-                              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                              width="0"
-                            />
-                          </div>
-                          <div
-                            class="md:w-1/2"
+                            class="w-full"
                           >
                             <div>
-                              <h4>
-                                35 sales calls have noticeably higher positive sentiment than average
-                              </h4>
-                              <p
-                                class="text-gray-500"
+                              This is 
+                              <span
+                                class="font-bold"
                               >
-                                Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="flex items-center mt-3 border-2 rounded shadow"
-                        >
-                          <div
-                            class="md:w-1/2"
-                          >
-                            <canvas
-                              height="0"
-                              role="img"
-                              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                              width="0"
-                            />
-                          </div>
-                          <div
-                            class="md:w-1/2"
-                          >
-                            <div>
-                              <h4>
-                                Customer mentions of the brands 
-                                <span
-                                  class="font-bold"
-                                >
-                                  Brand 1
-                                </span>
-                                 and 
-                                <span
-                                  class="font-bold"
-                                >
-                                  Brand 2
-                                </span>
-                                 have been detected across sales calls
-                              </h4>
-                              <p
-                                class="text-gray-500"
+                                21%
+                              </span>
+                               higher than your top performers who average 
+                              <span
+                                class="font-bold"
                               >
-                                When customers mention brands, it can surface new competitors and opportunities to update sales strategies
-                              </p>
+                                56%
+                              </span>
+                               during calls.
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="flex mt-3"
+                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
                     >
                       <div
                         class="w-full"
                       >
-                        <h3
-                          class="font-bold"
-                        >
-                          Team Insights
-                        </h3>
                         <div
-                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                          class="flex"
                         >
                           <div
                             class="w-full"
                           >
-                            <div
-                              class="flex"
-                            >
-                              <div
-                                class="w-full"
+                            <div>
+                              <span
+                                class="text-blue-400"
                               >
-                                <div>
-                                  <span
-                                    class="text-blue-400"
-                                  >
-                                    John Smith
-                                  </span>
-                                   and 
-                                  <span
-                                    class="text-blue-400"
-                                  >
-                                    Peter Potter
-                                  </span>
-                                   appear to talk the most, averaging 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    68%
-                                  </span>
-                                   during calls.
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              class="flex mt-3 text-gray-500"
-                            >
-                              <div
-                                class="w-full"
+                                Jane Smith
+                              </span>
+                               appears to talk the least, averaging 
+                              <span
+                                class="font-bold"
                               >
-                                <div>
-                                  This is 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    21%
-                                  </span>
-                                   higher than your top performers who average 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    56%
-                                  </span>
-                                   during calls.
-                                </div>
-                              </div>
+                                51%
+                              </span>
+                               during calls.
                             </div>
                           </div>
                         </div>
                         <div
-                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                          class="flex mt-3 text-gray-500"
                         >
                           <div
                             class="w-full"
                           >
-                            <div
-                              class="flex"
-                            >
-                              <div
-                                class="w-full"
+                            <div>
+                              This is 
+                              <span
+                                class="font-bold"
                               >
-                                <div>
-                                  <span
-                                    class="text-blue-400"
-                                  >
-                                    Jane Smith
-                                  </span>
-                                   appears to talk the least, averaging 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    51%
-                                  </span>
-                                   during calls.
-                                </div>
-                              </div>
+                                9%
+                              </span>
+                               lower than your top performers who average 
+                              <span
+                                class="font-bold"
+                              >
+                                56%
+                              </span>
+                               during calls.
                             </div>
-                            <div
-                              class="flex mt-3 text-gray-500"
-                            >
-                              <div
-                                class="w-full"
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                    >
+                      <div
+                        class="w-full"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="w-full"
+                          >
+                            <div>
+                              <span
+                                class="text-blue-400"
                               >
-                                <div>
-                                  This is 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    9%
-                                  </span>
-                                   lower than your top performers who average 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    56%
-                                  </span>
-                                   during calls.
-                                </div>
-                              </div>
+                                Simon Doe
+                              </span>
+                               and 
+                              <span
+                                class="text-blue-400"
+                              >
+                                William Blake
+                              </span>
+                               have the lowest talking speed, averaging 
+                              <span
+                                class="font-bold"
+                              >
+                                118
+                              </span>
+                               words per minute.
                             </div>
                           </div>
                         </div>
                         <div
-                          class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                          class="flex mt-3 text-gray-500"
                         >
                           <div
                             class="w-full"
                           >
-                            <div
-                              class="flex"
-                            >
-                              <div
-                                class="w-full"
+                            <div>
+                              This is 
+                              <span
+                                class="font-bold"
                               >
-                                <div>
-                                  <span
-                                    class="text-blue-400"
-                                  >
-                                    Simon Doe
-                                  </span>
-                                   and 
-                                  <span
-                                    class="text-blue-400"
-                                  >
-                                    William Blake
-                                  </span>
-                                   have the lowest talking speed, averaging 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    118
-                                  </span>
-                                   words per minute.
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              class="flex mt-3 text-gray-500"
-                            >
-                              <div
-                                class="w-full"
+                                21%
+                              </span>
+                               lower than your top performers who average 
+                              <span
+                                class="font-bold"
                               >
-                                <div>
-                                  This is 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    21%
-                                  </span>
-                                   lower than your top performers who average 
-                                  <span
-                                    class="font-bold"
-                                  >
-                                    146
-                                  </span>
-                                   words per minute.
-                                </div>
-                              </div>
+                                146
+                              </span>
+                               words per minute.
                             </div>
                           </div>
                         </div>
@@ -1202,7 +1152,7 @@ exports[`should render component 1`] = `
                 </div>
               </div>
             </div>
-          </div>
+          </main>
         </div>
       </div>
     </div>

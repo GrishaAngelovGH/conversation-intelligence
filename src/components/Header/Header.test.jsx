@@ -1,38 +1,41 @@
-import { render, screen, fireEvent } from '@testing-library/react';
-import Header from './Header';
-import { describe, it, expect } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react'
+import { describe, it, expect, vi } from 'vitest'
+
+import Header from './Header'
+
+const onToggle = vi.fn()
 
 describe('Header', () => {
   it('should render the Header component and match snapshot', () => {
-    const { asFragment } = render(<Header />);
-    expect(asFragment()).toMatchSnapshot();
-  });
+    const { asFragment } = render(<Header onToggle={onToggle} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
 
   it('should show the information modal when the info button is clicked', () => {
-    render(<Header />);
-    
-    // Modal should be hidden initially
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    render(<Header onToggle={onToggle} />)
 
-    // Click the info button
-    fireEvent.click(screen.getByLabelText('Information'));
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
 
-    // Modal should be visible
-    expect(screen.getByRole('dialog')).toBeInTheDocument();
-    expect(screen.getByText('What is Conversation Intelligence?')).toBeInTheDocument();
-  });
+    fireEvent.click(screen.getByLabelText('Information'))
+
+    expect(screen.getByRole('dialog')).toBeInTheDocument()
+    expect(screen.getByText('What is Conversation Intelligence?')).toBeInTheDocument()
+  })
 
   it('should close the modal when the close button is clicked', () => {
-    render(<Header />);
-    
-    // Open the modal first
-    fireEvent.click(screen.getByLabelText('Information'));
-    expect(screen.getByRole('dialog')).toBeInTheDocument();
+    render(<Header onToggle={onToggle} />)
 
-    // Click the close button
-    fireEvent.click(screen.getByText('Close'));
+    fireEvent.click(screen.getByLabelText('Information'))
+    expect(screen.getByRole('dialog')).toBeInTheDocument()
 
-    // Modal should be hidden
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
-  });
-});
+    fireEvent.click(screen.getByText('Close'))
+
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+  })
+
+  it('should call onToggle when the menu button is clicked', () => {
+    render(<Header onToggle={onToggle} />)
+    fireEvent.click(screen.getByLabelText('Menu'))
+    expect(onToggle).toHaveBeenCalledTimes(1)
+  })
+})
