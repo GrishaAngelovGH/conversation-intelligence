@@ -18,7 +18,7 @@ exports[`should render Home component 1`] = `
               class="md:w-6/12"
             >
               <h3
-                class="font-bold"
+                class="text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
               >
                 Good morning, 
                 James Smith
@@ -467,7 +467,7 @@ exports[`should render Home component 1`] = `
             class="md:w-6/12"
           >
             <h3
-              class="font-bold"
+              class="text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
             >
               Good morning, 
               James Smith
