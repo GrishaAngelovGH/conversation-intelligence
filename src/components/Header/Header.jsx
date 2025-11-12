@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import Avatar from './Avatar'
-import InputGroup from './InputGroup'
 import Modal from 'components/Modal/Modal'
 
 const Header = ({ onToggle }) => {
@@ -15,11 +14,7 @@ const Header = ({ onToggle }) => {
         </button>
       </div>
 
-      <div className='w-5/12 md:w-4/12'>
-        <InputGroup />
-      </div>
-
-      <div className='w-3/12 md:w-1/12 flex items-center gap-4'>
+      <div className='w-3/12 md:w-1/12 flex items-center gap-4 m-2'>
         <button aria-label="Information" className='cursor-pointer' onClick={() => setIsModalOpen(true)}>
           <i className='bi bi-info-circle text-white text-3xl'></i>
         </button>
