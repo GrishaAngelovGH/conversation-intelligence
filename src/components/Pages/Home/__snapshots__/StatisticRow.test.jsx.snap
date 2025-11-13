@@ -6,79 +6,91 @@ exports[`should render StatisticRow component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex border-2 rounded"
+        class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
       >
         <div
-          class="flex-1"
+          class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
         >
+          <i
+            class="bi bi-cash-coin text-3xl text-blue-500 mb-2"
+          />
           <div
-            class="font-bold"
+            class="text-2xl font-bold"
           >
-            Tuesday 18
-          </div>
-        </div>
-        <div
-          class="flex-1"
-        >
-          <div
-            class="font-bold"
-          >
-            Q2, 48 days left
-          </div>
-        </div>
-        <div
-          class="flex-1"
-        >
-          <div
-            class="font-bold"
-          >
-            Actual Rev.
-            : 
             $300k
           </div>
+          <div
+            class="text-sm text-gray-500"
+          >
+            Actual Rev.
+          </div>
         </div>
         <div
-          class="flex-1"
+          class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
         >
+          <i
+            class="bi bi-wallet2 text-3xl text-blue-500 mb-2"
+          />
           <div
-            class="font-bold"
+            class="text-2xl font-bold"
           >
-            Open Rev.
-            : 
             $150k
           </div>
+          <div
+            class="text-sm text-gray-500"
+          >
+            Open Rev.
+          </div>
         </div>
         <div
-          class="flex-1"
+          class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
         >
+          <i
+            class="bi bi-trophy text-3xl text-blue-500 mb-2"
+          />
           <div
-            class="font-bold"
+            class="text-2xl font-bold"
           >
-            Deals-Won
-            : 
             $280k
           </div>
-        </div>
-        <div
-          class="flex-1"
-        >
           <div
-            class="font-bold"
+            class="text-sm text-gray-500"
           >
-            Win-Rate
-            : 
-            63%
+            Deals-Won
           </div>
         </div>
         <div
-          class="flex-1"
+          class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
         >
+          <i
+            class="bi bi-graph-up-arrow text-3xl text-blue-500 mb-2"
+          />
           <div
-            class="font-bold"
+            class="text-2xl font-bold"
+          >
+            63%
+          </div>
+          <div
+            class="text-sm text-gray-500"
+          >
+            Win-Rate
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
+        >
+          <i
+            class="bi bi-pie-chart text-3xl text-blue-500 mb-2"
+          />
+          <div
+            class="text-2xl font-bold"
+          >
+            58%
+          </div>
+          <div
+            class="text-sm text-gray-500"
           >
             Avg. Deal Size
-            : 
-            58%
           </div>
         </div>
       </div>
@@ -86,79 +98,91 @@ exports[`should render StatisticRow component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex border-2 rounded"
+      class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
     >
       <div
-        class="flex-1"
+        class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
       >
+        <i
+          class="bi bi-cash-coin text-3xl text-blue-500 mb-2"
+        />
         <div
-          class="font-bold"
+          class="text-2xl font-bold"
         >
-          Tuesday 18
-        </div>
-      </div>
-      <div
-        class="flex-1"
-      >
-        <div
-          class="font-bold"
-        >
-          Q2, 48 days left
-        </div>
-      </div>
-      <div
-        class="flex-1"
-      >
-        <div
-          class="font-bold"
-        >
-          Actual Rev.
-          : 
           $300k
         </div>
+        <div
+          class="text-sm text-gray-500"
+        >
+          Actual Rev.
+        </div>
       </div>
       <div
-        class="flex-1"
+        class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
       >
+        <i
+          class="bi bi-wallet2 text-3xl text-blue-500 mb-2"
+        />
         <div
-          class="font-bold"
+          class="text-2xl font-bold"
         >
-          Open Rev.
-          : 
           $150k
         </div>
+        <div
+          class="text-sm text-gray-500"
+        >
+          Open Rev.
+        </div>
       </div>
       <div
-        class="flex-1"
+        class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
       >
+        <i
+          class="bi bi-trophy text-3xl text-blue-500 mb-2"
+        />
         <div
-          class="font-bold"
+          class="text-2xl font-bold"
         >
-          Deals-Won
-          : 
           $280k
         </div>
-      </div>
-      <div
-        class="flex-1"
-      >
         <div
-          class="font-bold"
+          class="text-sm text-gray-500"
         >
-          Win-Rate
-          : 
-          63%
+          Deals-Won
         </div>
       </div>
       <div
-        class="flex-1"
+        class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
       >
+        <i
+          class="bi bi-graph-up-arrow text-3xl text-blue-500 mb-2"
+        />
         <div
-          class="font-bold"
+          class="text-2xl font-bold"
+        >
+          63%
+        </div>
+        <div
+          class="text-sm text-gray-500"
+        >
+          Win-Rate
+        </div>
+      </div>
+      <div
+        class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
+      >
+        <i
+          class="bi bi-pie-chart text-3xl text-blue-500 mb-2"
+        />
+        <div
+          class="text-2xl font-bold"
+        >
+          58%
+        </div>
+        <div
+          class="text-sm text-gray-500"
         >
           Avg. Deal Size
-          : 
-          58%
         </div>
       </div>
     </div>
