@@ -6,24 +6,35 @@ exports[`should render TrackedKeywordsCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center mt-3 border-2 rounded shadow"
+        class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
       >
-        <div
-          class="md:w-1/2"
+        <h4
+          class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
         >
-          <canvas
-            height="0"
-            role="img"
-            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-            width="0"
-          />
-        </div>
+          Tracked Keywords
+        </h4>
         <div
-          class="md:w-1/2"
+          class="flex flex-col md:flex-row items-center"
         >
-          <div>
-            <h4>
-              Tracked keywords 
+          <div
+            class="w-full md:w-1/2"
+          >
+            <div
+              class="h-64"
+            >
+              <canvas
+                height="0"
+                role="img"
+                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                width="0"
+              />
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 text-left p-4"
+          >
+            <p>
+              Keywords 
               <span
                 class="font-bold"
               >
@@ -35,10 +46,10 @@ exports[`should render TrackedKeywordsCard component 1`] = `
               >
                 Manufacturing
               </span>
-               are trending upward across sales calls
-            </h4>
+               are trending upward across sales calls.
+            </p>
             <p
-              class="text-gray-500"
+              class="text-gray-500 mt-2"
             >
               Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
             </p>
@@ -49,24 +60,35 @@ exports[`should render TrackedKeywordsCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex items-center mt-3 border-2 rounded shadow"
+      class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
     >
-      <div
-        class="md:w-1/2"
+      <h4
+        class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
       >
-        <canvas
-          height="0"
-          role="img"
-          style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-          width="0"
-        />
-      </div>
+        Tracked Keywords
+      </h4>
       <div
-        class="md:w-1/2"
+        class="flex flex-col md:flex-row items-center"
       >
-        <div>
-          <h4>
-            Tracked keywords 
+        <div
+          class="w-full md:w-1/2"
+        >
+          <div
+            class="h-64"
+          >
+            <canvas
+              height="0"
+              role="img"
+              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+              width="0"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full md:w-1/2 text-left p-4"
+        >
+          <p>
+            Keywords 
             <span
               class="font-bold"
             >
@@ -78,10 +100,10 @@ exports[`should render TrackedKeywordsCard component 1`] = `
             >
               Manufacturing
             </span>
-             are trending upward across sales calls
-          </h4>
+             are trending upward across sales calls.
+          </p>
           <p
-            class="text-gray-500"
+            class="text-gray-500 mt-2"
           >
             Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
           </p>

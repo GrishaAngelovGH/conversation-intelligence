@@ -6,43 +6,27 @@ exports[`should render StatisticCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center mt-3 border-2 rounded shadow"
+        class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
       >
+        <h4
+          class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+        />
         <div
-          class="md:w-1/2"
-        >
-          <div>
-            chart
-          </div>
-        </div>
-        <div
-          class="md:w-1/2"
-        >
-          <div>
-            description
-          </div>
-        </div>
+          class="flex flex-col md:flex-row items-center"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex items-center mt-3 border-2 rounded shadow"
+      class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
     >
+      <h4
+        class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+      />
       <div
-        class="md:w-1/2"
-      >
-        <div>
-          chart
-        </div>
-      </div>
-      <div
-        class="md:w-1/2"
-      >
-        <div>
-          description
-        </div>
-      </div>
+        class="flex flex-col md:flex-row items-center"
+      />
     </div>
   </div>,
   "debug": [Function],

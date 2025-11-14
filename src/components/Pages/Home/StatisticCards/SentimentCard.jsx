@@ -1,9 +1,6 @@
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Doughnut } from 'react-chartjs-2'
 
 import StatisticCard from './StatisticCard'
-
-ChartJS.register(ArcElement, Tooltip, Legend)
 
 const data = {
   labels: ['Positive', 'Neutral', 'Negative'],
@@ -26,25 +23,28 @@ const data = {
   ]
 }
 
-const SentimentCard = () => {
-  const chart = (
-    <Doughnut
-      data={data}
-      options={{
-        responsive: true,
-        maintainAspectRatio: false
-      }}
-    />
-  )
-
-  const description = (
-    <div>
-      <h4>35 sales calls have noticeably higher positive sentiment than average</h4>
-      <p className='text-gray-500'>Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.</p>
+const SentimentCard = () => (
+  <StatisticCard title='Sentiment'>
+    <div className='w-full md:w-1/2'>
+      <div className='h-64'>
+        <Doughnut
+          data={data}
+          options={{
+            responsive: true,
+            maintainAspectRatio: false
+          }}
+        />
+      </div>
     </div>
-  )
-
-  return (<StatisticCard chart={chart} description={description} />)
-}
+    <div className='w-full md:w-1/2 text-left p-4'>
+      <p>
+        <span className='font-bold'>35 sales calls</span> have noticeably higher positive sentiment than average.
+      </p>
+      <p className='text-gray-500 mt-2'>
+        Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
+      </p>
+    </div>
+  </StatisticCard>
+)
 
 export default SentimentCard

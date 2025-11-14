@@ -1,15 +1,6 @@
-import {
-  Chart as ChartJS,
-  LinearScale,
-  PointElement,
-  Tooltip,
-  Legend,
-} from 'chart.js'
-
 import { Bubble } from 'react-chartjs-2'
 
 import StatisticCard from './StatisticCard'
-ChartJS.register(LinearScale, PointElement, Tooltip, Legend)
 
 const options = {
   scales: {
@@ -40,17 +31,29 @@ const data = {
   }]
 }
 
-const TrackedKeywordsCard = () => {
-  const chart = (<Bubble options={options} data={data} />)
-
-  const description = (
-    <div>
-      <h4>Tracked keywords <span className='font-bold'>3D Printing</span> and <span className='font-bold'>Manufacturing</span> are trending upward across sales calls</h4>
-      <p className='text-gray-500'>Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.</p>
+const TrackedKeywordsCard = () => (
+  <StatisticCard title='Tracked Keywords'>
+    <div className='w-full md:w-1/2'>
+      <div className='h-64'>
+        <Bubble
+          options={{
+            responsive: true,
+            maintainAspectRatio: false,
+            ...options
+          }}
+          data={data}
+        />
+      </div>
     </div>
-  )
-
-  return (<StatisticCard chart={chart} description={description} />)
-}
+    <div className='w-full md:w-1/2 text-left p-4'>
+      <p>
+        Keywords <span className='font-bold'>3D Printing</span> and <span className='font-bold'>Manufacturing</span> are trending upward across sales calls.
+      </p>
+      <p className='text-gray-500 mt-2'>
+        Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
+      </p>
+    </div>
+  </StatisticCard>
+)
 
 export default TrackedKeywordsCard

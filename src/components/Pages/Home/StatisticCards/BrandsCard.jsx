@@ -1,15 +1,6 @@
-import {
-  Chart as ChartJS,
-  LinearScale,
-  PointElement,
-  Tooltip,
-  Legend,
-} from 'chart.js'
-
 import { Bubble } from 'react-chartjs-2'
 
 import StatisticCard from './StatisticCard'
-ChartJS.register(LinearScale, PointElement, Tooltip, Legend)
 
 const options = {
   scales: {
@@ -40,17 +31,29 @@ const data = {
   }]
 }
 
-const BrandsCard = () => {
-  const chart = (<Bubble options={options} data={data} />)
-
-  const description = (
-    <div>
-      <h4>Customer mentions of the brands <span className='font-bold'>Brand 1</span> and <span className='font-bold'>Brand 2</span> have been detected across sales calls</h4>
-      <p className='text-gray-500'>When customers mention brands, it can surface new competitors and opportunities to update sales strategies</p>
+const BrandsCard = () => (
+  <StatisticCard title='Brands'>
+    <div className='w-full md:w-1/2'>
+      <div className='h-64'>
+        <Bubble
+          options={{
+            responsive: true,
+            maintainAspectRatio: false,
+            ...options
+          }}
+          data={data}
+        />
+      </div>
     </div>
-  )
-
-  return (<StatisticCard chart={chart} description={description} />)
-}
+    <div className='w-full md:w-1/2 text-left p-4'>
+      <p>
+        Customer mentions of the brands <span className='font-bold'>Brand 1</span> and <span className='font-bold'>Brand 2</span> have been detected across sales calls.
+      </p>
+      <p className='text-gray-500 mt-2'>
+        When customers mention brands, it can surface new competitors and opportunities to update sales strategies.
+      </p>
+    </div>
+  </StatisticCard>
+)
 
 export default BrandsCard

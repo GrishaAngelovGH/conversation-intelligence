@@ -20,24 +20,35 @@ exports[`should render StatisticCards component 1`] = `
             Understand what's happening on sales calls, so you can coach your sellers better.
           </p>
           <div
-            class="flex items-center mt-3 border-2 rounded shadow"
+            class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
           >
-            <div
-              class="md:w-1/2"
+            <h4
+              class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
             >
-              <canvas
-                height="0"
-                role="img"
-                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                width="0"
-              />
-            </div>
+              Tracked Keywords
+            </h4>
             <div
-              class="md:w-1/2"
+              class="flex flex-col md:flex-row items-center"
             >
-              <div>
-                <h4>
-                  Tracked keywords 
+              <div
+                class="w-full md:w-1/2"
+              >
+                <div
+                  class="h-64"
+                >
+                  <canvas
+                    height="0"
+                    role="img"
+                    style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                    width="0"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full md:w-1/2 text-left p-4"
+              >
+                <p>
+                  Keywords 
                   <span
                     class="font-bold"
                   >
@@ -49,10 +60,10 @@ exports[`should render StatisticCards component 1`] = `
                   >
                     Manufacturing
                   </span>
-                   are trending upward across sales calls
-                </h4>
+                   are trending upward across sales calls.
+                </p>
                 <p
-                  class="text-gray-500"
+                  class="text-gray-500 mt-2"
                 >
                   Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
                 </p>
@@ -60,27 +71,43 @@ exports[`should render StatisticCards component 1`] = `
             </div>
           </div>
           <div
-            class="flex items-center mt-3 border-2 rounded shadow"
+            class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
           >
-            <div
-              class="md:w-1/2"
+            <h4
+              class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
             >
-              <canvas
-                height="0"
-                role="img"
-                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                width="0"
-              />
-            </div>
+              Sentiment
+            </h4>
             <div
-              class="md:w-1/2"
+              class="flex flex-col md:flex-row items-center"
             >
-              <div>
-                <h4>
-                  35 sales calls have noticeably higher positive sentiment than average
-                </h4>
+              <div
+                class="w-full md:w-1/2"
+              >
+                <div
+                  class="h-64"
+                >
+                  <canvas
+                    height="0"
+                    role="img"
+                    style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                    width="0"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full md:w-1/2 text-left p-4"
+              >
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    35 sales calls
+                  </span>
+                   have noticeably higher positive sentiment than average.
+                </p>
                 <p
-                  class="text-gray-500"
+                  class="text-gray-500 mt-2"
                 >
                   Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
                 </p>
@@ -88,23 +115,34 @@ exports[`should render StatisticCards component 1`] = `
             </div>
           </div>
           <div
-            class="flex items-center mt-3 border-2 rounded shadow"
+            class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
           >
-            <div
-              class="md:w-1/2"
+            <h4
+              class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
             >
-              <canvas
-                height="0"
-                role="img"
-                style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-                width="0"
-              />
-            </div>
+              Brands
+            </h4>
             <div
-              class="md:w-1/2"
+              class="flex flex-col md:flex-row items-center"
             >
-              <div>
-                <h4>
+              <div
+                class="w-full md:w-1/2"
+              >
+                <div
+                  class="h-64"
+                >
+                  <canvas
+                    height="0"
+                    role="img"
+                    style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                    width="0"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full md:w-1/2 text-left p-4"
+              >
+                <p>
                   Customer mentions of the brands 
                   <span
                     class="font-bold"
@@ -117,12 +155,12 @@ exports[`should render StatisticCards component 1`] = `
                   >
                     Brand 2
                   </span>
-                   have been detected across sales calls
-                </h4>
+                   have been detected across sales calls.
+                </p>
                 <p
-                  class="text-gray-500"
+                  class="text-gray-500 mt-2"
                 >
-                  When customers mention brands, it can surface new competitors and opportunities to update sales strategies
+                  When customers mention brands, it can surface new competitors and opportunities to update sales strategies.
                 </p>
               </div>
             </div>
@@ -147,24 +185,35 @@ exports[`should render StatisticCards component 1`] = `
           Understand what's happening on sales calls, so you can coach your sellers better.
         </p>
         <div
-          class="flex items-center mt-3 border-2 rounded shadow"
+          class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
         >
-          <div
-            class="md:w-1/2"
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
           >
-            <canvas
-              height="0"
-              role="img"
-              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-              width="0"
-            />
-          </div>
+            Tracked Keywords
+          </h4>
           <div
-            class="md:w-1/2"
+            class="flex flex-col md:flex-row items-center"
           >
-            <div>
-              <h4>
-                Tracked keywords 
+            <div
+              class="w-full md:w-1/2"
+            >
+              <div
+                class="h-64"
+              >
+                <canvas
+                  height="0"
+                  role="img"
+                  style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                  width="0"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full md:w-1/2 text-left p-4"
+            >
+              <p>
+                Keywords 
                 <span
                   class="font-bold"
                 >
@@ -176,10 +225,10 @@ exports[`should render StatisticCards component 1`] = `
                 >
                   Manufacturing
                 </span>
-                 are trending upward across sales calls
-              </h4>
+                 are trending upward across sales calls.
+              </p>
               <p
-                class="text-gray-500"
+                class="text-gray-500 mt-2"
               >
                 Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
               </p>
@@ -187,27 +236,43 @@ exports[`should render StatisticCards component 1`] = `
           </div>
         </div>
         <div
-          class="flex items-center mt-3 border-2 rounded shadow"
+          class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
         >
-          <div
-            class="md:w-1/2"
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
           >
-            <canvas
-              height="0"
-              role="img"
-              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-              width="0"
-            />
-          </div>
+            Sentiment
+          </h4>
           <div
-            class="md:w-1/2"
+            class="flex flex-col md:flex-row items-center"
           >
-            <div>
-              <h4>
-                35 sales calls have noticeably higher positive sentiment than average
-              </h4>
+            <div
+              class="w-full md:w-1/2"
+            >
+              <div
+                class="h-64"
+              >
+                <canvas
+                  height="0"
+                  role="img"
+                  style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                  width="0"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full md:w-1/2 text-left p-4"
+            >
+              <p>
+                <span
+                  class="font-bold"
+                >
+                  35 sales calls
+                </span>
+                 have noticeably higher positive sentiment than average.
+              </p>
               <p
-                class="text-gray-500"
+                class="text-gray-500 mt-2"
               >
                 Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
               </p>
@@ -215,23 +280,34 @@ exports[`should render StatisticCards component 1`] = `
           </div>
         </div>
         <div
-          class="flex items-center mt-3 border-2 rounded shadow"
+          class="bg-white rounded-lg shadow-md p-6 mt-4 hover:shadow-lg transition-shadow duration-300"
         >
-          <div
-            class="md:w-1/2"
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
           >
-            <canvas
-              height="0"
-              role="img"
-              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
-              width="0"
-            />
-          </div>
+            Brands
+          </h4>
           <div
-            class="md:w-1/2"
+            class="flex flex-col md:flex-row items-center"
           >
-            <div>
-              <h4>
+            <div
+              class="w-full md:w-1/2"
+            >
+              <div
+                class="h-64"
+              >
+                <canvas
+                  height="0"
+                  role="img"
+                  style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+                  width="0"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full md:w-1/2 text-left p-4"
+            >
+              <p>
                 Customer mentions of the brands 
                 <span
                   class="font-bold"
@@ -244,12 +320,12 @@ exports[`should render StatisticCards component 1`] = `
                 >
                   Brand 2
                 </span>
-                 have been detected across sales calls
-              </h4>
+                 have been detected across sales calls.
+              </p>
               <p
-                class="text-gray-500"
+                class="text-gray-500 mt-2"
               >
-                When customers mention brands, it can surface new competitors and opportunities to update sales strategies
+                When customers mention brands, it can surface new competitors and opportunities to update sales strategies.
               </p>
             </div>
           </div>
