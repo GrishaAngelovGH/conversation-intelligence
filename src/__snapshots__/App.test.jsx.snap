@@ -410,184 +410,173 @@ exports[`should render component 1`] = `
                     </div>
                   </div>
                   <div
-                    class="flex mt-3"
+                    class="flex p-3 pb-10"
                   >
                     <div
-                      class="w-full"
+                      class="w-full bg-white rounded-lg shadow-md p-6 mt-6"
                     >
-                      <h3
-                        class="font-bold"
+                      <h4
+                        class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
                       >
                         Team Insights
-                      </h3>
+                      </h4>
                       <div
-                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                        class="hidden md:flex text-sm text-gray-500 font-semibold mb-2"
                       >
                         <div
-                          class="w-full"
+                          class="w-3/12"
                         >
-                          <div
-                            class="flex"
-                          >
-                            <div
-                              class="w-full"
-                            >
-                              <div>
-                                <span
-                                  class="text-blue-400"
-                                >
-                                  John Smith
-                                </span>
-                                 and 
-                                <span
-                                  class="text-blue-400"
-                                >
-                                  Peter Potter
-                                </span>
-                                 appear to talk the most, averaging 
-                                <span
-                                  class="font-bold"
-                                >
-                                  68%
-                                </span>
-                                 during calls.
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="flex mt-3 text-gray-500"
-                          >
-                            <div
-                              class="w-full"
-                            >
-                              <div>
-                                This is 
-                                <span
-                                  class="font-bold"
-                                >
-                                  21%
-                                </span>
-                                 higher than your top performers who average 
-                                <span
-                                  class="font-bold"
-                                >
-                                  56%
-                                </span>
-                                 during calls.
-                              </div>
-                            </div>
-                          </div>
+                          SELLER
+                        </div>
+                        <div
+                          class="w-3/12"
+                        >
+                          METRIC
+                        </div>
+                        <div
+                          class="w-3/12"
+                        >
+                          VALUE
+                        </div>
+                        <div
+                          class="w-3/12"
+                        >
+                          COMPARISON
                         </div>
                       </div>
                       <div
-                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                        class="flex flex-col"
                       >
                         <div
-                          class="w-full"
+                          class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
                         >
                           <div
-                            class="flex"
+                            class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                           >
-                            <div
-                              class="w-full"
+                            <img
+                              alt="John Smith"
+                              class="w-10 h-10 rounded-full mr-3"
+                              src="https://i.pravatar.cc/150?u=johnsmith"
+                            />
+                            <span
+                              class="font-semibold text-gray-800"
                             >
-                              <div>
-                                <span
-                                  class="text-blue-400"
-                                >
-                                  Jane Smith
-                                </span>
-                                 appears to talk the least, averaging 
-                                <span
-                                  class="font-bold"
-                                >
-                                  51%
-                                </span>
-                                 during calls.
-                              </div>
-                            </div>
+                              John Smith
+                            </span>
                           </div>
                           <div
-                            class="flex mt-3 text-gray-500"
+                            class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                           >
-                            <div
-                              class="w-full"
-                            >
-                              <div>
-                                This is 
-                                <span
-                                  class="font-bold"
-                                >
-                                  9%
-                                </span>
-                                 lower than your top performers who average 
-                                <span
-                                  class="font-bold"
-                                >
-                                  56%
-                                </span>
-                                 during calls.
-                              </div>
-                            </div>
+                            Talk Ratio
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                          >
+                            68%
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-500 text-sm"
+                          >
+                            +21% vs. Top Performers
                           </div>
                         </div>
-                      </div>
-                      <div
-                        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
-                      >
                         <div
-                          class="w-full"
+                          class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
                         >
                           <div
-                            class="flex"
+                            class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                           >
-                            <div
-                              class="w-full"
+                            <img
+                              alt="Jane Smith"
+                              class="w-10 h-10 rounded-full mr-3"
+                              src="https://i.pravatar.cc/150?u=janesmith"
+                            />
+                            <span
+                              class="font-semibold text-gray-800"
                             >
-                              <div>
-                                <span
-                                  class="text-blue-400"
-                                >
-                                  Simon Doe
-                                </span>
-                                 and 
-                                <span
-                                  class="text-blue-400"
-                                >
-                                  William Blake
-                                </span>
-                                 have the lowest talking speed, averaging 
-                                <span
-                                  class="font-bold"
-                                >
-                                  118
-                                </span>
-                                 words per minute.
-                              </div>
-                            </div>
+                              Jane Smith
+                            </span>
                           </div>
                           <div
-                            class="flex mt-3 text-gray-500"
+                            class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                           >
-                            <div
-                              class="w-full"
+                            Talk Ratio
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                          >
+                            51%
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-500 text-sm"
+                          >
+                            -9% vs. Top Performers
+                          </div>
+                        </div>
+                        <div
+                          class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+                        >
+                          <div
+                            class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                          >
+                            <img
+                              alt="Simon Doe"
+                              class="w-10 h-10 rounded-full mr-3"
+                              src="https://i.pravatar.cc/150?u=simondoe"
+                            />
+                            <span
+                              class="font-semibold text-gray-800"
                             >
-                              <div>
-                                This is 
-                                <span
-                                  class="font-bold"
-                                >
-                                  21%
-                                </span>
-                                 lower than your top performers who average 
-                                <span
-                                  class="font-bold"
-                                >
-                                  146
-                                </span>
-                                 words per minute.
-                              </div>
-                            </div>
+                              Simon Doe
+                            </span>
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                          >
+                            Words Per Minute
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                          >
+                            118
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-500 text-sm"
+                          >
+                            -21% vs. Top Performers
+                          </div>
+                        </div>
+                        <div
+                          class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+                        >
+                          <div
+                            class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                          >
+                            <img
+                              alt="William Blake"
+                              class="w-10 h-10 rounded-full mr-3"
+                              src="https://i.pravatar.cc/150?u=williamblake"
+                            />
+                            <span
+                              class="font-semibold text-gray-800"
+                            >
+                              William Blake
+                            </span>
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                          >
+                            Words Per Minute
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                          >
+                            118
+                          </div>
+                          <div
+                            class="w-full md:w-3/12 text-gray-500 text-sm"
+                          >
+                            -21% vs. Top Performers
                           </div>
                         </div>
                       </div>
@@ -1007,184 +996,173 @@ exports[`should render component 1`] = `
                   </div>
                 </div>
                 <div
-                  class="flex mt-3"
+                  class="flex p-3 pb-10"
                 >
                   <div
-                    class="w-full"
+                    class="w-full bg-white rounded-lg shadow-md p-6 mt-6"
                   >
-                    <h3
-                      class="font-bold"
+                    <h4
+                      class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
                     >
                       Team Insights
-                    </h3>
+                    </h4>
                     <div
-                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                      class="hidden md:flex text-sm text-gray-500 font-semibold mb-2"
                     >
                       <div
-                        class="w-full"
+                        class="w-3/12"
                       >
-                        <div
-                          class="flex"
-                        >
-                          <div
-                            class="w-full"
-                          >
-                            <div>
-                              <span
-                                class="text-blue-400"
-                              >
-                                John Smith
-                              </span>
-                               and 
-                              <span
-                                class="text-blue-400"
-                              >
-                                Peter Potter
-                              </span>
-                               appear to talk the most, averaging 
-                              <span
-                                class="font-bold"
-                              >
-                                68%
-                              </span>
-                               during calls.
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="flex mt-3 text-gray-500"
-                        >
-                          <div
-                            class="w-full"
-                          >
-                            <div>
-                              This is 
-                              <span
-                                class="font-bold"
-                              >
-                                21%
-                              </span>
-                               higher than your top performers who average 
-                              <span
-                                class="font-bold"
-                              >
-                                56%
-                              </span>
-                               during calls.
-                            </div>
-                          </div>
-                        </div>
+                        SELLER
+                      </div>
+                      <div
+                        class="w-3/12"
+                      >
+                        METRIC
+                      </div>
+                      <div
+                        class="w-3/12"
+                      >
+                        VALUE
+                      </div>
+                      <div
+                        class="w-3/12"
+                      >
+                        COMPARISON
                       </div>
                     </div>
                     <div
-                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+                      class="flex flex-col"
                     >
                       <div
-                        class="w-full"
+                        class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
                       >
                         <div
-                          class="flex"
+                          class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                         >
-                          <div
-                            class="w-full"
+                          <img
+                            alt="John Smith"
+                            class="w-10 h-10 rounded-full mr-3"
+                            src="https://i.pravatar.cc/150?u=johnsmith"
+                          />
+                          <span
+                            class="font-semibold text-gray-800"
                           >
-                            <div>
-                              <span
-                                class="text-blue-400"
-                              >
-                                Jane Smith
-                              </span>
-                               appears to talk the least, averaging 
-                              <span
-                                class="font-bold"
-                              >
-                                51%
-                              </span>
-                               during calls.
-                            </div>
-                          </div>
+                            John Smith
+                          </span>
                         </div>
                         <div
-                          class="flex mt-3 text-gray-500"
+                          class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                         >
-                          <div
-                            class="w-full"
-                          >
-                            <div>
-                              This is 
-                              <span
-                                class="font-bold"
-                              >
-                                9%
-                              </span>
-                               lower than your top performers who average 
-                              <span
-                                class="font-bold"
-                              >
-                                56%
-                              </span>
-                               during calls.
-                            </div>
-                          </div>
+                          Talk Ratio
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                        >
+                          68%
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-500 text-sm"
+                        >
+                          +21% vs. Top Performers
                         </div>
                       </div>
-                    </div>
-                    <div
-                      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
-                    >
                       <div
-                        class="w-full"
+                        class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
                       >
                         <div
-                          class="flex"
+                          class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                         >
-                          <div
-                            class="w-full"
+                          <img
+                            alt="Jane Smith"
+                            class="w-10 h-10 rounded-full mr-3"
+                            src="https://i.pravatar.cc/150?u=janesmith"
+                          />
+                          <span
+                            class="font-semibold text-gray-800"
                           >
-                            <div>
-                              <span
-                                class="text-blue-400"
-                              >
-                                Simon Doe
-                              </span>
-                               and 
-                              <span
-                                class="text-blue-400"
-                              >
-                                William Blake
-                              </span>
-                               have the lowest talking speed, averaging 
-                              <span
-                                class="font-bold"
-                              >
-                                118
-                              </span>
-                               words per minute.
-                            </div>
-                          </div>
+                            Jane Smith
+                          </span>
                         </div>
                         <div
-                          class="flex mt-3 text-gray-500"
+                          class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                         >
-                          <div
-                            class="w-full"
+                          Talk Ratio
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                        >
+                          51%
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-500 text-sm"
+                        >
+                          -9% vs. Top Performers
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+                      >
+                        <div
+                          class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                        >
+                          <img
+                            alt="Simon Doe"
+                            class="w-10 h-10 rounded-full mr-3"
+                            src="https://i.pravatar.cc/150?u=simondoe"
+                          />
+                          <span
+                            class="font-semibold text-gray-800"
                           >
-                            <div>
-                              This is 
-                              <span
-                                class="font-bold"
-                              >
-                                21%
-                              </span>
-                               lower than your top performers who average 
-                              <span
-                                class="font-bold"
-                              >
-                                146
-                              </span>
-                               words per minute.
-                            </div>
-                          </div>
+                            Simon Doe
+                          </span>
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                        >
+                          Words Per Minute
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                        >
+                          118
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-500 text-sm"
+                        >
+                          -21% vs. Top Performers
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+                      >
+                        <div
+                          class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                        >
+                          <img
+                            alt="William Blake"
+                            class="w-10 h-10 rounded-full mr-3"
+                            src="https://i.pravatar.cc/150?u=williamblake"
+                          />
+                          <span
+                            class="font-semibold text-gray-800"
+                          >
+                            William Blake
+                          </span>
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                        >
+                          Words Per Minute
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+                        >
+                          118
+                        </div>
+                        <div
+                          class="w-full md:w-3/12 text-gray-500 text-sm"
+                        >
+                          -21% vs. Top Performers
                         </div>
                       </div>
                     </div>

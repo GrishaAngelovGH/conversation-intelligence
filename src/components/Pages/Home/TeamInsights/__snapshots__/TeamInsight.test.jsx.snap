@@ -6,66 +6,72 @@ exports[`should render TeamInsight component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+        class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
       >
         <div
-          class="w-full"
+          class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
         >
-          <div
-            class="flex"
+          <img
+            alt="John Doe"
+            class="w-10 h-10 rounded-full mr-3"
+            src="https://i.pravatar.cc/150?u=johndoe"
+          />
+          <span
+            class="font-semibold text-gray-800"
           >
-            <div
-              class="w-full"
-            >
-              <div>
-                content
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex mt-3 text-gray-500"
-          >
-            <div
-              class="w-full"
-            >
-              <div>
-                statistic
-              </div>
-            </div>
-          </div>
+            John Doe
+          </span>
+        </div>
+        <div
+          class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+        >
+          Talk Ratio
+        </div>
+        <div
+          class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+        >
+          65%
+        </div>
+        <div
+          class="w-full md:w-3/12 text-gray-500 text-sm"
+        >
+          +10% vs. Top Performers
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex mt-3 mb-3 p-3 bg-gray-100 border rounded"
+      class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
     >
       <div
-        class="w-full"
+        class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
       >
-        <div
-          class="flex"
+        <img
+          alt="John Doe"
+          class="w-10 h-10 rounded-full mr-3"
+          src="https://i.pravatar.cc/150?u=johndoe"
+        />
+        <span
+          class="font-semibold text-gray-800"
         >
-          <div
-            class="w-full"
-          >
-            <div>
-              content
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex mt-3 text-gray-500"
-        >
-          <div
-            class="w-full"
-          >
-            <div>
-              statistic
-            </div>
-          </div>
-        </div>
+          John Doe
+        </span>
+      </div>
+      <div
+        class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+      >
+        Talk Ratio
+      </div>
+      <div
+        class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
+      >
+        65%
+      </div>
+      <div
+        class="w-full md:w-3/12 text-gray-500 text-sm"
+      >
+        +10% vs. Top Performers
       </div>
     </div>
   </div>,

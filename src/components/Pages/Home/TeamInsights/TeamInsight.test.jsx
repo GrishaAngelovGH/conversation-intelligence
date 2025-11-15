@@ -3,14 +3,18 @@ import { render } from '@testing-library/react'
 import TeamInsight from './TeamInsight'
 
 test('should render TeamInsight component', () => {
-  const content = (<div>content</div>)
-  const statistic = (<div>statistic</div>)
+  const mockInsight = {
+    id: 1,
+    name: 'John Doe',
+    avatar: 'https://i.pravatar.cc/150?u=johndoe',
+    metric: 'Talk Ratio',
+        value: '65%',
+    comparison: '+10% vs. Top Performers',
+    details: 'Some detailed insights here.'
+  }
 
   const view = render(
-    <TeamInsight
-      content={content}
-      statistic={statistic}
-    />
+    <TeamInsight insight={mockInsight} />
   )
 
   expect(view).toMatchSnapshot()

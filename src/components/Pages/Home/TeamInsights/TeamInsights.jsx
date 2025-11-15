@@ -4,34 +4,58 @@ const TeamInsights = () => {
   const insights = [
     {
       id: 1,
-      content: (<div><span className='text-blue-400'>John Smith</span> and <span className='text-blue-400'>Peter Potter</span> appear to talk the most, averaging <span className='font-bold'>68%</span> during calls.</div>),
-      statistic: (<div>This is <span className='font-bold'>21%</span> higher than your top performers who average <span className='font-bold'>56%</span> during calls.</div>)
+      name: 'John Smith',
+      avatar: 'https://i.pravatar.cc/150?u=johnsmith',
+      metric: 'Talk Ratio',
+      value: '68%',
+      comparison: '+21% vs. Top Performers'
     },
     {
       id: 2,
-      content: (<div><span className='text-blue-400'>Jane Smith</span> appears to talk the least, averaging <span className='font-bold'>51%</span> during calls.</div>),
-      statistic: (<div>This is <span className='font-bold'>9%</span> lower than your top performers who average <span className='font-bold'>56%</span> during calls.</div>)
+      name: 'Jane Smith',
+      avatar: 'https://i.pravatar.cc/150?u=janesmith',
+      metric: 'Talk Ratio',
+      value: '51%',
+      comparison: '-9% vs. Top Performers'
     },
     {
       id: 3,
-      content: (<div><span className='text-blue-400'>Simon Doe</span> and <span className='text-blue-400'>William Blake</span> have the lowest talking speed, averaging <span className='font-bold'>118</span> words per minute.</div>),
-      statistic: (<div>This is <span className='font-bold'>21%</span> lower than your top performers who average <span className='font-bold'>146</span> words per minute.</div>)
+      name: 'Simon Doe',
+      avatar: 'https://i.pravatar.cc/150?u=simondoe',
+      metric: 'Words Per Minute',
+      value: '118',
+      comparison: '-21% vs. Top Performers'
+    },
+    {
+      id: 4,
+      name: 'William Blake',
+      avatar: 'https://i.pravatar.cc/150?u=williamblake',
+      metric: 'Words Per Minute',
+      value: '118',
+      comparison: '-21% vs. Top Performers'
     }
   ]
 
   return (
-    <div className='flex mt-3'>
-      <div className='w-full'>
-        <h3 className='font-bold'>Team Insights</h3>
-
-        {
-          insights.map(v => (
-            <TeamInsight key={v.id} content={v.content} statistic={v.statistic} />
-          ))
-        }
-
+    <div className='flex p-3 pb-10'>
+      <div className='w-full bg-white rounded-lg shadow-md p-6 mt-6'>
+        <h4 className='text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4'>
+          Team Insights
+        </h4>
+        <div className='hidden md:flex text-sm text-gray-500 font-semibold mb-2'>
+          <div className='w-3/12'>SELLER</div>
+          <div className='w-3/12'>METRIC</div>
+          <div className='w-3/12'>VALUE</div>
+          <div className='w-3/12'>COMPARISON</div>
+        </div>
+        <div className='flex flex-col'>
+          {insights.map((insight) => (
+            <TeamInsight key={insight.id} insight={insight} />
+          ))}
+        </div>
       </div>
     </div>
   )
-  }
+}
+
 export default TeamInsights
