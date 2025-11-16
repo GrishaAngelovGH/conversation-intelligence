@@ -34,13 +34,13 @@ const Home = () => {
   }
 
   return (
-    <div className='flex justify-center text-center'>
-      <div className='md:w-11/12'>
-        <div className='flex p-3 items-center'>
-          <div className='md:w-6/12'>
-            <UserGreet username='James Smith' />
+    <div className="flex justify-center text-center">
+      <div className="md:w-11/12">
+        <div className="flex p-3 items-center">
+          <div className="md:w-6/12">
+            <UserGreet username="James Smith" />
           </div>
-          <div className='md:w-6/12'>
+          <div className="md:w-6/12">
             <HistoryRange range={range} onRangeChange={setRange} />
           </div>
         </div>

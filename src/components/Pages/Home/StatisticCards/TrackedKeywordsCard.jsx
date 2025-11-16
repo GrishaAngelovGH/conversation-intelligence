@@ -32,9 +32,9 @@ const data = {
 }
 
 const TrackedKeywordsCard = () => (
-  <StatisticCard title='Tracked Keywords'>
-    <div className='w-full md:w-1/2'>
-      <div className='h-64'>
+  <StatisticCard title="Tracked Keywords">
+    <div className="w-full md:w-1/2">
+      <div className="h-64">
         <Bubble
           options={{
             responsive: true,
@@ -45,11 +45,11 @@ const TrackedKeywordsCard = () => (
         />
       </div>
     </div>
-    <div className='w-full md:w-1/2 text-left p-4'>
+    <div className="w-full md:w-1/2 text-left p-4">
       <p>
-        Keywords <span className='font-bold'>3D Printing</span> and <span className='font-bold'>Manufacturing</span> are trending upward across sales calls.
+        Keywords <span className="font-bold">3D Printing</span> and <span className="font-bold">Manufacturing</span> are trending upward across sales calls.
       </p>
-      <p className='text-gray-500 mt-2'>
+      <p className="text-gray-500 mt-2">
         Tracked keywords can provide insights into what your customers are talking about, which could surface sales opportunities.
       </p>
     </div>

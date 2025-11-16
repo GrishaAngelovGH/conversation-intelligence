@@ -41,18 +41,18 @@ const TeamInsights = () => {
   ]
 
   return (
-    <div className='flex p-3 pb-10 cursor-default'>
-      <div className='w-full bg-white rounded-lg shadow-md p-6 mt-6'>
-        <h4 className='text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4'>
+    <div className="flex p-3 pb-10 cursor-default">
+      <div className="w-full bg-white rounded-lg shadow-md p-6 mt-6">
+        <h4 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4">
           Team Insights
         </h4>
-        <div className='hidden md:flex text-sm text-gray-500 font-semibold mb-2'>
-          <div className='w-3/12'>SELLER</div>
-          <div className='w-3/12'>METRIC</div>
-          <div className='w-3/12'>VALUE</div>
-          <div className='w-3/12'>COMPARISON</div>
+        <div className="hidden md:flex text-sm text-gray-500 font-semibold mb-2">
+          <div className="w-3/12">SELLER</div>
+          <div className="w-3/12">METRIC</div>
+          <div className="w-3/12">VALUE</div>
+          <div className="w-3/12">COMPARISON</div>
         </div>
-        <div className='flex flex-col'>
+        <div className="flex flex-col">
           {insights.map((insight) => (
             <TeamInsight key={insight.id} insight={insight} />
           ))}

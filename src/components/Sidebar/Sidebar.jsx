@@ -18,14 +18,14 @@ const Sidebar = ({ isToggled, onToggle }) => {
                     md:w-64 md:static md:block`}
       >
         <nav className="flex flex-col p-2">
-          <NavLink to='/' onClick={onToggle} className={linkClassName}>
-            <i className='bi bi-house-door'></i> <span className='font-bold'>Home</span>
+          <NavLink to="/" onClick={onToggle} className={linkClassName}>
+            <i className="bi bi-house-door"></i> <span className="font-bold">Home</span>
           </NavLink>
-          <NavLink to='/transcript-summary' onClick={onToggle} className={linkClassName}>
-            <i className='bi bi-card-list'></i> <span className='font-bold'>Transcript Summary</span>
+          <NavLink to="/transcript-summary" onClick={onToggle} className={linkClassName}>
+            <i className="bi bi-card-list"></i> <span className="font-bold">Transcript Summary</span>
           </NavLink>
-          <NavLink to='/seller-details' onClick={onToggle} className={linkClassName}>
-            <i className='bi bi-person'></i> <span className='font-bold'>Seller Details</span>
+          <NavLink to="/seller-details" onClick={onToggle} className={linkClassName}>
+            <i className="bi bi-person"></i> <span className="font-bold">Seller Details</span>
           </NavLink>
         </nav>
       </div>

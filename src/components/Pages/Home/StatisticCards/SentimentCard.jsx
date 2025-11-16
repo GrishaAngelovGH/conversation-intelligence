@@ -24,9 +24,9 @@ const data = {
 }
 
 const SentimentCard = () => (
-  <StatisticCard title='Sentiment'>
-    <div className='w-full md:w-1/2'>
-      <div className='h-64'>
+  <StatisticCard title="Sentiment">
+    <div className="w-full md:w-1/2">
+      <div className="h-64">
         <Doughnut
           data={data}
           options={{
@@ -36,11 +36,11 @@ const SentimentCard = () => (
         />
       </div>
     </div>
-    <div className='w-full md:w-1/2 text-left p-4'>
+    <div className="w-full md:w-1/2 text-left p-4">
       <p>
-        <span className='font-bold'>35 sales calls</span> have noticeably higher positive sentiment than average.
+        <span className="font-bold">35 sales calls</span> have noticeably higher positive sentiment than average.
       </p>
-      <p className='text-gray-500 mt-2'>
+      <p className="text-gray-500 mt-2">
         Negative sentiment might indicate that customers are expressing pain points, which could present coaching opportunities.
       </p>
     </div>

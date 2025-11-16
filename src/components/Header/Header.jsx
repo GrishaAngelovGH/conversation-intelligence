@@ -7,16 +7,16 @@ const Header = ({ onToggle }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <header className='flex bg-blue-500 p-2 justify-between items-center'>
-      <div className='w-1/12 md:w-1/12'>
+    <header className="flex bg-blue-500 p-2 justify-between items-center">
+      <div className="w-1/12 md:w-1/12">
         <button aria-label="Menu" className="block md:hidden" onClick={onToggle}>
-          <i className='bi bi-grid-3x3-gap text-white text-3xl'></i>
+          <i className="bi bi-grid-3x3-gap text-white text-3xl"></i>
         </button>
       </div>
 
-      <div className='w-3/12 md:w-1/12 flex items-center gap-4 m-2'>
-        <button aria-label="Information" className='cursor-pointer' onClick={() => setIsModalOpen(true)}>
-          <i className='bi bi-info-circle text-white text-3xl'></i>
+      <div className="w-3/12 md:w-1/12 flex items-center gap-4 m-2">
+        <button aria-label="Information" className="cursor-pointer" onClick={() => setIsModalOpen(true)}>
+          <i className="bi bi-info-circle text-white text-3xl"></i>
         </button>
         <Avatar />
       </div>

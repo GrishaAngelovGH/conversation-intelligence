@@ -25,9 +25,9 @@ function App() {
             <Sidebar isToggled={isToggled} onToggle={handleToggle} />
             <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
               <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/transcript-summary' element={<TranscriptSummary />} />
-                <Route path='/seller-details' element={<SellerDetails />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/transcript-summary" element={<TranscriptSummary />} />
+                <Route path="/seller-details" element={<SellerDetails />} />
               </Routes>
             </main>
           </div>

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from 'react'
 
 const TeamInsight = ({ insight }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,7 +28,7 @@ const TeamInsight = ({ insight }) => {
             aria-label="Toggle details"
             onClick={handleToggle}
             className="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
-            style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
+            style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
           >
             <i className="bi bi-chevron-down"></i>
           </button>

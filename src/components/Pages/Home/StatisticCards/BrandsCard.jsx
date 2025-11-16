@@ -32,9 +32,9 @@ const data = {
 }
 
 const BrandsCard = () => (
-  <StatisticCard title='Brands'>
-    <div className='w-full md:w-1/2'>
-      <div className='h-64'>
+  <StatisticCard title="Brands">
+    <div className="w-full md:w-1/2">
+      <div className="h-64">
         <Bubble
           options={{
             responsive: true,
@@ -45,11 +45,11 @@ const BrandsCard = () => (
         />
       </div>
     </div>
-    <div className='w-full md:w-1/2 text-left p-4'>
+    <div className="w-full md:w-1/2 text-left p-4">
       <p>
-        Customer mentions of the brands <span className='font-bold'>Brand 1</span> and <span className='font-bold'>Brand 2</span> have been detected across sales calls.
+        Customer mentions of the brands <span className="font-bold">Brand 1</span> and <span className="font-bold">Brand 2</span> have been detected across sales calls.
       </p>
-      <p className='text-gray-500 mt-2'>
+      <p className="text-gray-500 mt-2">
         When customers mention brands, it can surface new competitors and opportunities to update sales strategies.
       </p>
     </div>

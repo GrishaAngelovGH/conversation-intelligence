@@ -9,7 +9,7 @@ test('should render ActionItemsTab component', () => {
 })
 
 test('should render EmailSuggestion component', () => {
-  const view = render(<EmailSuggestion content='content' />)
+  const view = render(<EmailSuggestion content="content" />)
 
   expect(view).toMatchSnapshot()
 })

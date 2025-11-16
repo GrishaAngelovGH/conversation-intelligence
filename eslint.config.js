@@ -36,7 +36,9 @@ export default [
         { allowConstantExport: true },
       ],
       'react/prop-types': 'off',
-      'react/display-name': 'off'
+      'react/display-name': 'off',
+      'quotes': ['error', 'single'],
+      'jsx-quotes': ['error', 'prefer-double']
     },
   },
   {
@@ -48,6 +50,8 @@ export default [
         it: 'readonly',
         test: 'readonly',
         expect: 'readonly',
+        vi: 'readonly',
+        afterEach: 'readonly',
       }
     }
   }

@@ -6,11 +6,11 @@ const HistoryRange = ({ range, onRangeChange }) => {
   ]
 
   return (
-    <div className='inline-flex rounded-md shadow-sm' role='group'>
+    <div className="inline-flex rounded-md shadow-sm" role="group">
       {ranges.map((r, i) => (
         <button
           key={r.key}
-          type='button'
+          type="button"
           onClick={() => onRangeChange(r.key)}
           className={`px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 ${
             range === r.key
