@@ -6,7 +6,7 @@ exports[`should render TeamInsights component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex p-3 pb-10"
+        class="flex p-3 pb-10 cursor-default"
       >
         <div
           class="w-full bg-white rounded-lg shadow-md p-6 mt-6"
@@ -44,135 +44,251 @@ exports[`should render TeamInsights component 1`] = `
             class="flex flex-col"
           >
             <div
-              class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+              class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
-                <img
-                  alt="John Smith"
-                  class="w-10 h-10 rounded-full mr-3"
-                  src="https://i.pravatar.cc/150?u=johnsmith"
-                />
-                <span
-                  class="font-semibold text-gray-800"
+                <div
+                  class="w-full md:w-3/12 flex items-center"
                 >
-                  John Smith
-                </span>
+                  <img
+                    alt="John Smith"
+                    class="w-10 h-10 rounded-full mr-3"
+                    src="https://i.pravatar.cc/150?u=johnsmith"
+                  />
+                  <span
+                    class="font-semibold text-gray-800"
+                  >
+                    John Smith
+                  </span>
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-600"
+                >
+                  Talk Ratio
+                </div>
+                <div
+                  class="w-full md:w-3/12 font-bold text-gray-800"
+                >
+                  68%
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                >
+                  +21% vs. Top Performers
+                </div>
+                <div
+                  class="w-full md:w-1/12 flex justify-end"
+                >
+                  <button
+                    aria-label="Toggle details"
+                    class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                    style="transform: rotate(0deg);"
+                  >
+                    <i
+                      class="bi bi-chevron-down"
+                    />
+                  </button>
+                </div>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+                data-testid="details-panel"
               >
-                Talk Ratio
-              </div>
-              <div
-                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-              >
-                68%
-              </div>
-              <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
-              >
-                +21% vs. Top Performers
+                <div
+                  class="bg-gray-50 p-4 text-left text-gray-600"
+                >
+                  <p>
+                    John spoke for 41 minutes out of a 60-minute call, significantly higher than the team average. Coaching opportunity: practice active listening.
+                  </p>
+                </div>
               </div>
             </div>
             <div
-              class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+              class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
-                <img
-                  alt="Jane Smith"
-                  class="w-10 h-10 rounded-full mr-3"
-                  src="https://i.pravatar.cc/150?u=janesmith"
-                />
-                <span
-                  class="font-semibold text-gray-800"
+                <div
+                  class="w-full md:w-3/12 flex items-center"
                 >
-                  Jane Smith
-                </span>
+                  <img
+                    alt="Jane Smith"
+                    class="w-10 h-10 rounded-full mr-3"
+                    src="https://i.pravatar.cc/150?u=janesmith"
+                  />
+                  <span
+                    class="font-semibold text-gray-800"
+                  >
+                    Jane Smith
+                  </span>
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-600"
+                >
+                  Talk Ratio
+                </div>
+                <div
+                  class="w-full md:w-3/12 font-bold text-gray-800"
+                >
+                  51%
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                >
+                  -9% vs. Top Performers
+                </div>
+                <div
+                  class="w-full md:w-1/12 flex justify-end"
+                >
+                  <button
+                    aria-label="Toggle details"
+                    class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                    style="transform: rotate(0deg);"
+                  >
+                    <i
+                      class="bi bi-chevron-down"
+                    />
+                  </button>
+                </div>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+                data-testid="details-panel"
               >
-                Talk Ratio
-              </div>
-              <div
-                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-              >
-                51%
-              </div>
-              <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
-              >
-                -9% vs. Top Performers
+                <div
+                  class="bg-gray-50 p-4 text-left text-gray-600"
+                >
+                  <p>
+                    Jane maintains a healthy talk-listen balance, closely aligning with top performers. A good example for team training.
+                  </p>
+                </div>
               </div>
             </div>
             <div
-              class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+              class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
-                <img
-                  alt="Simon Doe"
-                  class="w-10 h-10 rounded-full mr-3"
-                  src="https://i.pravatar.cc/150?u=simondoe"
-                />
-                <span
-                  class="font-semibold text-gray-800"
+                <div
+                  class="w-full md:w-3/12 flex items-center"
                 >
-                  Simon Doe
-                </span>
+                  <img
+                    alt="Simon Doe"
+                    class="w-10 h-10 rounded-full mr-3"
+                    src="https://i.pravatar.cc/150?u=simondoe"
+                  />
+                  <span
+                    class="font-semibold text-gray-800"
+                  >
+                    Simon Doe
+                  </span>
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-600"
+                >
+                  Words Per Minute
+                </div>
+                <div
+                  class="w-full md:w-3/12 font-bold text-gray-800"
+                >
+                  118
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                >
+                  -21% vs. Top Performers
+                </div>
+                <div
+                  class="w-full md:w-1/12 flex justify-end"
+                >
+                  <button
+                    aria-label="Toggle details"
+                    class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                    style="transform: rotate(0deg);"
+                  >
+                    <i
+                      class="bi bi-chevron-down"
+                    />
+                  </button>
+                </div>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+                data-testid="details-panel"
               >
-                Words Per Minute
-              </div>
-              <div
-                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-              >
-                118
-              </div>
-              <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
-              >
-                -21% vs. Top Performers
+                <div
+                  class="bg-gray-50 p-4 text-left text-gray-600"
+                >
+                  <p>
+                    Simon speaks at a slower pace, which can be good for clarity but may affect engagement on shorter calls. Consider context.
+                  </p>
+                </div>
               </div>
             </div>
             <div
-              class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+              class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
-                <img
-                  alt="William Blake"
-                  class="w-10 h-10 rounded-full mr-3"
-                  src="https://i.pravatar.cc/150?u=williamblake"
-                />
-                <span
-                  class="font-semibold text-gray-800"
+                <div
+                  class="w-full md:w-3/12 flex items-center"
                 >
-                  William Blake
-                </span>
+                  <img
+                    alt="William Blake"
+                    class="w-10 h-10 rounded-full mr-3"
+                    src="https://i.pravatar.cc/150?u=williamblake"
+                  />
+                  <span
+                    class="font-semibold text-gray-800"
+                  >
+                    William Blake
+                  </span>
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-600"
+                >
+                  Words Per Minute
+                </div>
+                <div
+                  class="w-full md:w-3/12 font-bold text-gray-800"
+                >
+                  118
+                </div>
+                <div
+                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                >
+                  -21% vs. Top Performers
+                </div>
+                <div
+                  class="w-full md:w-1/12 flex justify-end"
+                >
+                  <button
+                    aria-label="Toggle details"
+                    class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                    style="transform: rotate(0deg);"
+                  >
+                    <i
+                      class="bi bi-chevron-down"
+                    />
+                  </button>
+                </div>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+                class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+                data-testid="details-panel"
               >
-                Words Per Minute
-              </div>
-              <div
-                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-              >
-                118
-              </div>
-              <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
-              >
-                -21% vs. Top Performers
+                <div
+                  class="bg-gray-50 p-4 text-left text-gray-600"
+                >
+                  <p>
+                    Similar to Simon, William speaks at a slower pace. This might be a team-wide trend for this particular metric.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -182,7 +298,7 @@ exports[`should render TeamInsights component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex p-3 pb-10"
+      class="flex p-3 pb-10 cursor-default"
     >
       <div
         class="w-full bg-white rounded-lg shadow-md p-6 mt-6"
@@ -220,135 +336,251 @@ exports[`should render TeamInsights component 1`] = `
           class="flex flex-col"
         >
           <div
-            class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+            class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
-              <img
-                alt="John Smith"
-                class="w-10 h-10 rounded-full mr-3"
-                src="https://i.pravatar.cc/150?u=johnsmith"
-              />
-              <span
-                class="font-semibold text-gray-800"
+              <div
+                class="w-full md:w-3/12 flex items-center"
               >
-                John Smith
-              </span>
+                <img
+                  alt="John Smith"
+                  class="w-10 h-10 rounded-full mr-3"
+                  src="https://i.pravatar.cc/150?u=johnsmith"
+                />
+                <span
+                  class="font-semibold text-gray-800"
+                >
+                  John Smith
+                </span>
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-600"
+              >
+                Talk Ratio
+              </div>
+              <div
+                class="w-full md:w-3/12 font-bold text-gray-800"
+              >
+                68%
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-500 text-sm"
+              >
+                +21% vs. Top Performers
+              </div>
+              <div
+                class="w-full md:w-1/12 flex justify-end"
+              >
+                <button
+                  aria-label="Toggle details"
+                  class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                  style="transform: rotate(0deg);"
+                >
+                  <i
+                    class="bi bi-chevron-down"
+                  />
+                </button>
+              </div>
             </div>
             <div
-              class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+              class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+              data-testid="details-panel"
             >
-              Talk Ratio
-            </div>
-            <div
-              class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-            >
-              68%
-            </div>
-            <div
-              class="w-full md:w-3/12 text-gray-500 text-sm"
-            >
-              +21% vs. Top Performers
+              <div
+                class="bg-gray-50 p-4 text-left text-gray-600"
+              >
+                <p>
+                  John spoke for 41 minutes out of a 60-minute call, significantly higher than the team average. Coaching opportunity: practice active listening.
+                </p>
+              </div>
             </div>
           </div>
           <div
-            class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+            class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
-              <img
-                alt="Jane Smith"
-                class="w-10 h-10 rounded-full mr-3"
-                src="https://i.pravatar.cc/150?u=janesmith"
-              />
-              <span
-                class="font-semibold text-gray-800"
+              <div
+                class="w-full md:w-3/12 flex items-center"
               >
-                Jane Smith
-              </span>
+                <img
+                  alt="Jane Smith"
+                  class="w-10 h-10 rounded-full mr-3"
+                  src="https://i.pravatar.cc/150?u=janesmith"
+                />
+                <span
+                  class="font-semibold text-gray-800"
+                >
+                  Jane Smith
+                </span>
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-600"
+              >
+                Talk Ratio
+              </div>
+              <div
+                class="w-full md:w-3/12 font-bold text-gray-800"
+              >
+                51%
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-500 text-sm"
+              >
+                -9% vs. Top Performers
+              </div>
+              <div
+                class="w-full md:w-1/12 flex justify-end"
+              >
+                <button
+                  aria-label="Toggle details"
+                  class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                  style="transform: rotate(0deg);"
+                >
+                  <i
+                    class="bi bi-chevron-down"
+                  />
+                </button>
+              </div>
             </div>
             <div
-              class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+              class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+              data-testid="details-panel"
             >
-              Talk Ratio
-            </div>
-            <div
-              class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-            >
-              51%
-            </div>
-            <div
-              class="w-full md:w-3/12 text-gray-500 text-sm"
-            >
-              -9% vs. Top Performers
+              <div
+                class="bg-gray-50 p-4 text-left text-gray-600"
+              >
+                <p>
+                  Jane maintains a healthy talk-listen balance, closely aligning with top performers. A good example for team training.
+                </p>
+              </div>
             </div>
           </div>
           <div
-            class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+            class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
-              <img
-                alt="Simon Doe"
-                class="w-10 h-10 rounded-full mr-3"
-                src="https://i.pravatar.cc/150?u=simondoe"
-              />
-              <span
-                class="font-semibold text-gray-800"
+              <div
+                class="w-full md:w-3/12 flex items-center"
               >
-                Simon Doe
-              </span>
+                <img
+                  alt="Simon Doe"
+                  class="w-10 h-10 rounded-full mr-3"
+                  src="https://i.pravatar.cc/150?u=simondoe"
+                />
+                <span
+                  class="font-semibold text-gray-800"
+                >
+                  Simon Doe
+                </span>
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-600"
+              >
+                Words Per Minute
+              </div>
+              <div
+                class="w-full md:w-3/12 font-bold text-gray-800"
+              >
+                118
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-500 text-sm"
+              >
+                -21% vs. Top Performers
+              </div>
+              <div
+                class="w-full md:w-1/12 flex justify-end"
+              >
+                <button
+                  aria-label="Toggle details"
+                  class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                  style="transform: rotate(0deg);"
+                >
+                  <i
+                    class="bi bi-chevron-down"
+                  />
+                </button>
+              </div>
             </div>
             <div
-              class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+              class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+              data-testid="details-panel"
             >
-              Words Per Minute
-            </div>
-            <div
-              class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-            >
-              118
-            </div>
-            <div
-              class="w-full md:w-3/12 text-gray-500 text-sm"
-            >
-              -21% vs. Top Performers
+              <div
+                class="bg-gray-50 p-4 text-left text-gray-600"
+              >
+                <p>
+                  Simon speaks at a slower pace, which can be good for clarity but may affect engagement on shorter calls. Consider context.
+                </p>
+              </div>
             </div>
           </div>
           <div
-            class="flex flex-col md:flex-row items-center py-5 border-b border-gray-200 last:border-b-0"
+            class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
+              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
-              <img
-                alt="William Blake"
-                class="w-10 h-10 rounded-full mr-3"
-                src="https://i.pravatar.cc/150?u=williamblake"
-              />
-              <span
-                class="font-semibold text-gray-800"
+              <div
+                class="w-full md:w-3/12 flex items-center"
               >
-                William Blake
-              </span>
+                <img
+                  alt="William Blake"
+                  class="w-10 h-10 rounded-full mr-3"
+                  src="https://i.pravatar.cc/150?u=williamblake"
+                />
+                <span
+                  class="font-semibold text-gray-800"
+                >
+                  William Blake
+                </span>
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-600"
+              >
+                Words Per Minute
+              </div>
+              <div
+                class="w-full md:w-3/12 font-bold text-gray-800"
+              >
+                118
+              </div>
+              <div
+                class="w-full md:w-3/12 text-gray-500 text-sm"
+              >
+                -21% vs. Top Performers
+              </div>
+              <div
+                class="w-full md:w-1/12 flex justify-end"
+              >
+                <button
+                  aria-label="Toggle details"
+                  class="text-gray-400 hover:text-blue-500 p-2 transition-transform duration-300"
+                  style="transform: rotate(0deg);"
+                >
+                  <i
+                    class="bi bi-chevron-down"
+                  />
+                </button>
+              </div>
             </div>
             <div
-              class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
+              class="overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+              data-testid="details-panel"
             >
-              Words Per Minute
-            </div>
-            <div
-              class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
-            >
-              118
-            </div>
-            <div
-              class="w-full md:w-3/12 text-gray-500 text-sm"
-            >
-              -21% vs. Top Performers
+              <div
+                class="bg-gray-50 p-4 text-left text-gray-600"
+              >
+                <p>
+                  Similar to Simon, William speaks at a slower pace. This might be a team-wide trend for this particular metric.
+                </p>
+              </div>
             </div>
           </div>
         </div>
