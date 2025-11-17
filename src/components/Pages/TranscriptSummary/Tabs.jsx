@@ -14,14 +14,15 @@ const TabsWrapper = () => {
   ]
 
   return (
-    <div>
-      <div className="flex border-b border-gray-200 mb-3">
+    <div className="border-b-2 border-gray-200 mb-3">
+      <div className="flex">
         {tabsData.map((tab) => (
           <button
             key={tab.eventKey}
-            className={`py-2 px-4 text-sm font-medium text-center border-b-2 ${activeTab === tab.eventKey
-                ? 'border-blue-500 text-blue-600'
-                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+            className={`py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              ${activeTab === tab.eventKey
+                ? 'font-bold border-b-2 border-blue-700 text-blue-700 bg-white shadow-sm'
+                : 'font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50'
               }`}
             onClick={() => setActiveTab(tab.eventKey)}
           >
@@ -31,7 +32,11 @@ const TabsWrapper = () => {
       </div>
       <div>
         {tabsData.map((tab) =>
-          activeTab === tab.eventKey ? <tab.component key={tab.eventKey} /> : null
+          activeTab === tab.eventKey ? (
+            <div key={tab.eventKey} className="bg-white p-4 rounded-b-lg shadow-md border border-gray-200 border-t-0">
+              <tab.component />
+            </div>
+          ) : null
         )}
       </div>
     </div>

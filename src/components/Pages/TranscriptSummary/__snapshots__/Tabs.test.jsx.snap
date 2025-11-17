@@ -5,27 +5,205 @@ exports[`should render Tabs component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="border-b-2 border-gray-200 mb-3"
+      >
         <div
-          class="flex border-b border-gray-200 mb-3"
+          class="flex"
         >
           <button
-            class="py-2 px-4 text-sm font-medium text-center border-b-2 border-blue-500 text-blue-600"
+            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-bold border-b-2 border-blue-700 text-blue-700 bg-white shadow-sm"
           >
             Overview
           </button>
           <button
-            class="py-2 px-4 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
           >
             Action Items
           </button>
           <button
-            class="py-2 px-4 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
           >
             Highlights
           </button>
         </div>
         <div>
+          <div
+            class="bg-white p-4 rounded-b-lg shadow-md border border-gray-200 border-t-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex justify-between"
+                >
+                  <div
+                    class="md:w-5/12"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      Related Records
+                    </span>
+                    <div>
+                      <i
+                        class="bi bi-journal-check"
+                      />
+                      <i
+                        class="bi bi-bookmark ml-3"
+                      />
+                      <i
+                        class="bi bi-telephone-plus ml-3"
+                      />
+                      <i
+                        class="bi bi-inboxes ml-3"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex mt-3 justify-between"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Tags
+                    </div>
+                    <button
+                      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    >
+                      Add call tags 
+                      <i
+                        class="bi bi-plus-circle"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex mt-3 justify-between"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <div
+                      class="font-bold"
+                    >
+                      Attendees
+                    </div>
+                    <div
+                      class="flex mt-1 items-center"
+                    >
+                      <div
+                        class="md:w-2/12"
+                      >
+                        <div
+                          class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="md:w-6/12"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          James Smith
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="flex mt-1 items-center"
+                    >
+                      <div
+                        class="md:w-2/12"
+                      >
+                        <div
+                          class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        >
+                          IG
+                        </div>
+                      </div>
+                      <div
+                        class="md:w-6/12"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          Isabel Garcia
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="flex mt-1 items-center"
+                    >
+                      <div
+                        class="md:w-2/12"
+                      >
+                        <div
+                          class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        >
+                          MB
+                        </div>
+                      </div>
+                      <div
+                        class="md:w-6/12"
+                      >
+                        <h4
+                          class="m-0"
+                        >
+                          Madison Butler
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="border-b-2 border-gray-200 mb-3"
+    >
+      <div
+        class="flex"
+      >
+        <button
+          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-bold border-b-2 border-blue-700 text-blue-700 bg-white shadow-sm"
+        >
+          Overview
+        </button>
+        <button
+          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
+        >
+          Action Items
+        </button>
+        <button
+          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+              font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
+        >
+          Highlights
+        </button>
+      </div>
+      <div>
+        <div
+          class="bg-white p-4 rounded-b-lg shadow-md border border-gray-200 border-t-0"
+        >
           <div
             class="flex"
           >
@@ -156,166 +334,6 @@ exports[`should render Tabs component 1`] = `
                         Madison Butler
                       </h4>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
-      <div
-        class="flex border-b border-gray-200 mb-3"
-      >
-        <button
-          class="py-2 px-4 text-sm font-medium text-center border-b-2 border-blue-500 text-blue-600"
-        >
-          Overview
-        </button>
-        <button
-          class="py-2 px-4 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-        >
-          Action Items
-        </button>
-        <button
-          class="py-2 px-4 text-sm font-medium text-center border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-        >
-          Highlights
-        </button>
-      </div>
-      <div>
-        <div
-          class="flex"
-        >
-          <div
-            class="w-full"
-          >
-            <div
-              class="flex justify-between"
-            >
-              <div
-                class="md:w-5/12"
-              >
-                <span
-                  class="font-bold"
-                >
-                  Related Records
-                </span>
-                <div>
-                  <i
-                    class="bi bi-journal-check"
-                  />
-                  <i
-                    class="bi bi-bookmark ml-3"
-                  />
-                  <i
-                    class="bi bi-telephone-plus ml-3"
-                  />
-                  <i
-                    class="bi bi-inboxes ml-3"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex mt-3 justify-between"
-            >
-              <div
-                class="w-full"
-              >
-                <div
-                  class="font-bold"
-                >
-                  Tags
-                </div>
-                <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >
-                  Add call tags 
-                  <i
-                    class="bi bi-plus-circle"
-                  />
-                </button>
-              </div>
-            </div>
-            <div
-              class="flex mt-3 justify-between"
-            >
-              <div
-                class="w-full"
-              >
-                <div
-                  class="font-bold"
-                >
-                  Attendees
-                </div>
-                <div
-                  class="flex mt-1 items-center"
-                >
-                  <div
-                    class="md:w-2/12"
-                  >
-                    <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                    >
-                      JS
-                    </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
-                    >
-                      James Smith
-                    </h4>
-                  </div>
-                </div>
-                <div
-                  class="flex mt-1 items-center"
-                >
-                  <div
-                    class="md:w-2/12"
-                  >
-                    <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                    >
-                      IG
-                    </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
-                    >
-                      Isabel Garcia
-                    </h4>
-                  </div>
-                </div>
-                <div
-                  class="flex mt-1 items-center"
-                >
-                  <div
-                    class="md:w-2/12"
-                  >
-                    <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                    >
-                      MB
-                    </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
-                    >
-                      Madison Butler
-                    </h4>
                   </div>
                 </div>
               </div>
