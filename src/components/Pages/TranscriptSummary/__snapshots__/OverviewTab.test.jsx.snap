@@ -6,208 +6,113 @@ exports[`should render OverviewTab component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex"
+        class="flex flex-col gap-6 p-4"
       >
         <div
-          class="w-full"
+          class="bg-white rounded-lg shadow-md p-6"
         >
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+          >
+            Related Records
+          </h4>
           <div
-            class="flex justify-between"
+            class="flex flex-col space-y-3"
           >
             <div
-              class="md:w-5/12"
+              class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
             >
-              <span
-                class="font-bold"
-              >
-                Related Records
+              <i
+                class="bi bi-link-45deg text-xl"
+              />
+              <span>
+                Q4 Sales Review - 2023-12-15
+                 - 
+                <span
+                  class="font-medium text-gray-500"
+                >
+                  Meeting
+                </span>
               </span>
-              <div>
-                <i
-                  class="bi bi-journal-check"
-                />
-                <i
-                  class="bi bi-bookmark ml-3"
-                />
-                <i
-                  class="bi bi-telephone-plus ml-3"
-                />
-                <i
-                  class="bi bi-inboxes ml-3"
-                />
-              </div>
             </div>
-          </div>
-          <div
-            class="flex mt-3 justify-between"
-          >
             <div
-              class="w-full"
+              class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
             >
-              <div
-                class="font-bold"
-              >
-                Tags
-              </div>
-              <button
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >
-                Add call tags 
-                <i
-                  class="bi bi-plus-circle"
-                />
-              </button>
+              <i
+                class="bi bi-link-45deg text-xl"
+              />
+              <span>
+                Customer Onboarding - Project Alpha
+                 - 
+                <span
+                  class="font-medium text-gray-500"
+                >
+                  Project
+                </span>
+              </span>
             </div>
-          </div>
-          <div
-            class="flex mt-3 justify-between"
-          >
             <div
-              class="w-full"
+              class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
             >
-              <div
-                class="font-bold"
-              >
-                Attendees
-              </div>
-              <div
-                class="flex mt-1 items-center"
-              >
-                <div
-                  class="md:w-2/12"
+              <i
+                class="bi bi-link-45deg text-xl"
+              />
+              <span>
+                Support Ticket #12345 - Billing Inquiry
+                 - 
+                <span
+                  class="font-medium text-gray-500"
                 >
-                  <div
-                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                  >
-                    JS
-                  </div>
-                </div>
-                <div
-                  class="md:w-6/12"
-                >
-                  <h4
-                    class="m-0"
-                  >
-                    James Smith
-                  </h4>
-                </div>
-              </div>
-              <div
-                class="flex mt-1 items-center"
-              >
-                <div
-                  class="md:w-2/12"
-                >
-                  <div
-                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                  >
-                    IG
-                  </div>
-                </div>
-                <div
-                  class="md:w-6/12"
-                >
-                  <h4
-                    class="m-0"
-                  >
-                    Isabel Garcia
-                  </h4>
-                </div>
-              </div>
-              <div
-                class="flex mt-1 items-center"
-              >
-                <div
-                  class="md:w-2/12"
-                >
-                  <div
-                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
-                  >
-                    MB
-                  </div>
-                </div>
-                <div
-                  class="md:w-6/12"
-                >
-                  <h4
-                    class="m-0"
-                  >
-                    Madison Butler
-                  </h4>
-                </div>
-              </div>
+                  Ticket
+                </span>
+              </span>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex"
-    >
-      <div
-        class="w-full"
-      >
         <div
-          class="flex justify-between"
+          class="bg-white rounded-lg shadow-md p-6"
         >
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+          >
+            Tags
+          </h4>
           <div
-            class="md:w-5/12"
+            class="flex flex-wrap gap-2 mb-4"
           >
             <span
-              class="font-bold"
+              class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
             >
-              Related Records
+              Sales
             </span>
-            <div>
-              <i
-                class="bi bi-journal-check"
-              />
-              <i
-                class="bi bi-bookmark ml-3"
-              />
-              <i
-                class="bi bi-telephone-plus ml-3"
-              />
-              <i
-                class="bi bi-inboxes ml-3"
-              />
-            </div>
+            <span
+              class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            >
+              Q4
+            </span>
+            <span
+              class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            >
+              Product-X
+            </span>
+            <span
+              class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            >
+              Follow-up
+            </span>
           </div>
         </div>
         <div
-          class="flex mt-3 justify-between"
+          class="bg-white rounded-lg shadow-md p-6"
         >
-          <div
-            class="w-full"
+          <h4
+            class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
           >
-            <div
-              class="font-bold"
-            >
-              Tags
-            </div>
-            <button
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            >
-              Add call tags 
-              <i
-                class="bi bi-plus-circle"
-              />
-            </button>
-          </div>
-        </div>
-        <div
-          class="flex mt-3 justify-between"
-        >
+            Attendees
+          </h4>
           <div
-            class="w-full"
+            class="flex flex-col space-y-3"
           >
-            <div
-              class="font-bold"
-            >
-              Attendees
-            </div>
             <div
               class="flex mt-1 items-center"
             >
@@ -228,6 +133,11 @@ exports[`should render OverviewTab component 1`] = `
                 >
                   James Smith
                 </h4>
+                <p
+                  class="text-sm text-gray-500 m-0"
+                >
+                  Sales Manager
+                </p>
               </div>
             </div>
             <div
@@ -250,6 +160,11 @@ exports[`should render OverviewTab component 1`] = `
                 >
                   Isabel Garcia
                 </h4>
+                <p
+                  class="text-sm text-gray-500 m-0"
+                >
+                  Account Executive
+                </p>
               </div>
             </div>
             <div
@@ -272,7 +187,260 @@ exports[`should render OverviewTab component 1`] = `
                 >
                   Madison Butler
                 </h4>
+                <p
+                  class="text-sm text-gray-500 m-0"
+                >
+                  Product Specialist
+                </p>
               </div>
+            </div>
+            <div
+              class="flex mt-1 items-center"
+            >
+              <div
+                class="md:w-2/12"
+              >
+                <div
+                  class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                >
+                  AM
+                </div>
+              </div>
+              <div
+                class="md:w-6/12"
+              >
+                <h4
+                  class="m-0"
+                >
+                  Alex Miller
+                </h4>
+                <p
+                  class="text-sm text-gray-500 m-0"
+                >
+                  Customer Success
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-6 p-4"
+    >
+      <div
+        class="bg-white rounded-lg shadow-md p-6"
+      >
+        <h4
+          class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+        >
+          Related Records
+        </h4>
+        <div
+          class="flex flex-col space-y-3"
+        >
+          <div
+            class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
+          >
+            <i
+              class="bi bi-link-45deg text-xl"
+            />
+            <span>
+              Q4 Sales Review - 2023-12-15
+               - 
+              <span
+                class="font-medium text-gray-500"
+              >
+                Meeting
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
+          >
+            <i
+              class="bi bi-link-45deg text-xl"
+            />
+            <span>
+              Customer Onboarding - Project Alpha
+               - 
+              <span
+                class="font-medium text-gray-500"
+              >
+                Project
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 cursor-pointer transition-colors duration-200"
+          >
+            <i
+              class="bi bi-link-45deg text-xl"
+            />
+            <span>
+              Support Ticket #12345 - Billing Inquiry
+               - 
+              <span
+                class="font-medium text-gray-500"
+              >
+                Ticket
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-white rounded-lg shadow-md p-6"
+      >
+        <h4
+          class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+        >
+          Tags
+        </h4>
+        <div
+          class="flex flex-wrap gap-2 mb-4"
+        >
+          <span
+            class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+          >
+            Sales
+          </span>
+          <span
+            class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+          >
+            Q4
+          </span>
+          <span
+            class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+          >
+            Product-X
+          </span>
+          <span
+            class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+          >
+            Follow-up
+          </span>
+        </div>
+      </div>
+      <div
+        class="bg-white rounded-lg shadow-md p-6"
+      >
+        <h4
+          class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+        >
+          Attendees
+        </h4>
+        <div
+          class="flex flex-col space-y-3"
+        >
+          <div
+            class="flex mt-1 items-center"
+          >
+            <div
+              class="md:w-2/12"
+            >
+              <div
+                class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+              >
+                JS
+              </div>
+            </div>
+            <div
+              class="md:w-6/12"
+            >
+              <h4
+                class="m-0"
+              >
+                James Smith
+              </h4>
+              <p
+                class="text-sm text-gray-500 m-0"
+              >
+                Sales Manager
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex mt-1 items-center"
+          >
+            <div
+              class="md:w-2/12"
+            >
+              <div
+                class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+              >
+                IG
+              </div>
+            </div>
+            <div
+              class="md:w-6/12"
+            >
+              <h4
+                class="m-0"
+              >
+                Isabel Garcia
+              </h4>
+              <p
+                class="text-sm text-gray-500 m-0"
+              >
+                Account Executive
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex mt-1 items-center"
+          >
+            <div
+              class="md:w-2/12"
+            >
+              <div
+                class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+              >
+                MB
+              </div>
+            </div>
+            <div
+              class="md:w-6/12"
+            >
+              <h4
+                class="m-0"
+              >
+                Madison Butler
+              </h4>
+              <p
+                class="text-sm text-gray-500 m-0"
+              >
+                Product Specialist
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex mt-1 items-center"
+          >
+            <div
+              class="md:w-2/12"
+            >
+              <div
+                class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+              >
+                AM
+              </div>
+            </div>
+            <div
+              class="md:w-6/12"
+            >
+              <h4
+                class="m-0"
+              >
+                Alex Miller
+              </h4>
+              <p
+                class="text-sm text-gray-500 m-0"
+              >
+                Customer Success
+              </p>
             </div>
           </div>
         </div>
