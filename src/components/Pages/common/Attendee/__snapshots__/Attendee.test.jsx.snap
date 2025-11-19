@@ -6,50 +6,60 @@ exports[`should render Attendee component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex mt-1 items-center"
+        class="flex flex-col items-center mt-1"
       >
+         
         <div
-          class="md:w-2/12"
+          class="mb-1"
         >
+           
           <div
-            class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+            class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
           >
             JS
           </div>
         </div>
         <div
-          class="md:w-6/12"
+          class="flex-grow flex flex-col items-center"
         >
+           
           <h4
-            class="m-0"
+            class="m-0 text-center"
           >
             James Smith
           </h4>
+           
+           
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex mt-1 items-center"
+      class="flex flex-col items-center mt-1"
     >
+       
       <div
-        class="md:w-2/12"
+        class="mb-1"
       >
+         
         <div
-          class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+          class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
         >
           JS
         </div>
       </div>
       <div
-        class="md:w-6/12"
+        class="flex-grow flex flex-col items-center"
       >
+         
         <h4
-          class="m-0"
+          class="m-0 text-center"
         >
           James Smith
         </h4>
+         
+         
       </div>
     </div>
   </div>,

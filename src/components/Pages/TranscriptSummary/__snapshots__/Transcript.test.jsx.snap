@@ -12,108 +12,122 @@ exports[`should render Transcript component 1`] = `
           class="w-full"
         >
           <h3
-            class="text-center"
+            class="text-center text-2xl font-bold mb-4 text-gray-800"
           >
             Transcript
           </h3>
           <div
-            class="flex border rounded mt-3 p-1 bg-gray-100"
+            class="space-y-2"
           >
             <div
-              class="w-full"
+              class="flex border rounded mt-3 p-3 bg-white"
             >
               <div
-                class="flex"
+                class="w-full"
               >
                 <div
-                  class="w-full"
+                  class="flex items-start space-x-4"
                 >
                   <div
-                    class="flex mt-1 items-center"
+                    class="shrink-0"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="flex flex-col items-center mt-1"
                     >
+                       
                       <div
-                        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        class="mb-1"
                       >
-                        JS
+                         
+                        <div
+                          class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
                       </div>
-                    </div>
-                    <div
-                      class="md:w-6/12"
-                    >
-                      <h4
-                        class="m-0"
+                      <div
+                        class="flex-grow flex flex-col items-center"
                       >
-                        James Smith
-                      </h4>
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          James Smith
+                        </h4>
+                         
+                         
+                      </div>
                     </div>
                   </div>
                   <div
-                    class="flex mt-1 items-center"
+                    class="grow"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="font-semibold text-gray-700 mb-1"
                     >
-                      00:10
+                      00:05
                     </div>
                     <div
-                      class="md:w-10/12"
+                      class="text-gray-800 leading-relaxed"
                     >
                       <div>
-                        Good morning, everyone.
+                        Good morning, everyone. Thanks for joining today's call. I hope you all had a productive week.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="flex border rounded mt-3 p-1 bg-gray-100"
-          >
             <div
-              class="w-full"
+              class="flex border rounded mt-3 p-3 bg-white"
             >
               <div
-                class="flex"
+                class="w-full"
               >
                 <div
-                  class="w-full"
+                  class="flex items-start space-x-4"
                 >
                   <div
-                    class="flex mt-1 items-center"
+                    class="shrink-0"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="flex flex-col items-center mt-1"
                     >
+                       
                       <div
-                        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        class="mb-1"
                       >
-                        JS
+                         
+                        <div
+                          class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
                       </div>
-                    </div>
-                    <div
-                      class="md:w-6/12"
-                    >
-                      <h4
-                        class="m-0"
+                      <div
+                        class="flex-grow flex flex-col items-center"
                       >
-                        James Smith
-                      </h4>
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          James Smith
+                        </h4>
+                         
+                         
+                      </div>
                     </div>
                   </div>
                   <div
-                    class="flex mt-1 items-center"
+                    class="grow"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="font-semibold text-gray-700 mb-1"
                     >
                       00:15
                     </div>
                     <div
-                      class="md:w-10/12"
+                      class="text-gray-800 leading-relaxed"
                     >
                       <div>
                         Hi, 
@@ -122,112 +136,128 @@ exports[`should render Transcript component 1`] = `
                         >
                           Madison
                         </span>
-                        ! How are you?
+                        ! How are you doing today? I wanted to quickly touch base on the client proposal.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="flex border rounded mt-3 p-1 bg-gray-100"
-          >
             <div
-              class="w-full"
+              class="flex border rounded mt-3 p-3 bg-white"
             >
               <div
-                class="flex"
+                class="w-full"
               >
                 <div
-                  class="w-full"
+                  class="flex items-start space-x-4"
                 >
                   <div
-                    class="flex mt-1 items-center"
+                    class="shrink-0"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="flex flex-col items-center mt-1"
                     >
+                       
                       <div
-                        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        class="mb-1"
                       >
-                        MB
+                         
+                        <div
+                          class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          MB
+                        </div>
                       </div>
-                    </div>
-                    <div
-                      class="md:w-6/12"
-                    >
-                      <h4
-                        class="m-0"
+                      <div
+                        class="flex-grow flex flex-col items-center"
                       >
-                        Madison Butler
-                      </h4>
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          Madison Butler
+                        </h4>
+                         
+                         
+                      </div>
                     </div>
                   </div>
                   <div
-                    class="flex mt-1 items-center"
+                    class="grow"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="font-semibold text-gray-700 mb-1"
                     >
-                      00:05
+                      00:25
                     </div>
                     <div
-                      class="md:w-10/12"
+                      class="text-gray-800 leading-relaxed"
                     >
                       <div>
-                        Very good, thanks !
+                        Very good, thanks, 
+                        <span
+                          class="font-bold"
+                        >
+                          James
+                        </span>
+                        ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="flex border rounded mt-3 p-1 bg-gray-100"
-          >
             <div
-              class="w-full"
+              class="flex border rounded mt-3 p-3 bg-white"
             >
               <div
-                class="flex"
+                class="w-full"
               >
                 <div
-                  class="w-full"
+                  class="flex items-start space-x-4"
                 >
                   <div
-                    class="flex mt-1 items-center"
+                    class="shrink-0"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="flex flex-col items-center mt-1"
                     >
+                       
                       <div
-                        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        class="mb-1"
                       >
-                        MB
+                         
+                        <div
+                          class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          MB
+                        </div>
                       </div>
-                    </div>
-                    <div
-                      class="md:w-6/12"
-                    >
-                      <h4
-                        class="m-0"
+                      <div
+                        class="flex-grow flex flex-col items-center"
                       >
-                        Madison Butler
-                      </h4>
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          Madison Butler
+                        </h4>
+                         
+                         
+                      </div>
                     </div>
                   </div>
                   <div
-                    class="flex mt-1 items-center"
+                    class="grow"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="font-semibold text-gray-700 mb-1"
                     >
-                      00:17
+                      00:40
                     </div>
                     <div
-                      class="md:w-10/12"
+                      class="text-gray-800 leading-relaxed"
                     >
                       <div>
                         Oh, before I forget, can you please send me the 
@@ -242,66 +272,391 @@ exports[`should render Transcript component 1`] = `
                         >
                           yesterday
                         </span>
-                        ?
+                         for Project Alpha? I need it for the final budget review this afternoon.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="flex border rounded mt-3 p-1 bg-gray-100"
-          >
             <div
-              class="w-full"
+              class="flex border rounded mt-3 p-3 bg-white"
             >
               <div
-                class="flex"
+                class="w-full"
               >
                 <div
-                  class="w-full"
+                  class="flex items-start space-x-4"
                 >
                   <div
-                    class="flex mt-1 items-center"
+                    class="shrink-0"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="flex flex-col items-center mt-1"
                     >
+                       
                       <div
-                        class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                        class="mb-1"
                       >
-                        JS
+                         
+                        <div
+                          class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
                       </div>
-                    </div>
-                    <div
-                      class="md:w-6/12"
-                    >
-                      <h4
-                        class="m-0"
+                      <div
+                        class="flex-grow flex flex-col items-center"
                       >
-                        James Smith
-                      </h4>
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          James Smith
+                        </h4>
+                         
+                         
+                      </div>
                     </div>
                   </div>
                   <div
-                    class="flex mt-1 items-center"
+                    class="grow"
                   >
                     <div
-                      class="md:w-2/12"
+                      class="font-semibold text-gray-700 mb-1"
                     >
-                      00:04
+                      00:55
                     </div>
                     <div
-                      class="md:w-10/12"
+                      class="text-gray-800 leading-relaxed"
                     >
                       <div>
-                        Sure, I will send you an email with the 
+                        Sure, 
+                        <span
+                          class="font-bold"
+                        >
+                          Madison
+                        </span>
+                        . I will send you an email with the 
                         <span
                           class="font-bold"
                         >
                           quote
                         </span>
+                         right after this meeting. I'll also attach the revised terms of service for their review.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border rounded mt-3 p-3 bg-white"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex items-start space-x-4"
+                >
+                  <div
+                    class="shrink-0"
+                  >
+                    <div
+                      class="flex flex-col items-center mt-1"
+                    >
+                       
+                      <div
+                        class="mb-1"
+                      >
+                         
+                        <div
+                          class="rounded-full bg-purple-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          IG
+                        </div>
+                      </div>
+                      <div
+                        class="flex-grow flex flex-col items-center"
+                      >
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          Isabel Garcia
+                        </h4>
+                         
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="grow"
+                  >
+                    <div
+                      class="font-semibold text-gray-700 mb-1"
+                    >
+                      01:10
+                    </div>
+                    <div
+                      class="text-gray-800 leading-relaxed"
+                    >
+                      <div>
+                        Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border rounded mt-3 p-3 bg-white"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex items-start space-x-4"
+                >
+                  <div
+                    class="shrink-0"
+                  >
+                    <div
+                      class="flex flex-col items-center mt-1"
+                    >
+                       
+                      <div
+                        class="mb-1"
+                      >
+                         
+                        <div
+                          class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="flex-grow flex flex-col items-center"
+                      >
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          James Smith
+                        </h4>
+                         
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="grow"
+                  >
+                    <div
+                      class="font-semibold text-gray-700 mb-1"
+                    >
+                      01:25
+                    </div>
+                    <div
+                      class="text-gray-800 leading-relaxed"
+                    >
+                      <div>
+                        Thanks for bringing that up, 
+                        <span
+                          class="font-bold"
+                        >
+                          Isabel
+                        </span>
+                        . I'll follow up with the creative team immediately. We should be back on track by end of day 
+                        <span
+                          class="font-bold"
+                        >
+                          today
+                        </span>
+                        .
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border rounded mt-3 p-3 bg-white"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex items-start space-x-4"
+                >
+                  <div
+                    class="shrink-0"
+                  >
+                    <div
+                      class="flex flex-col items-center mt-1"
+                    >
+                       
+                      <div
+                        class="mb-1"
+                      >
+                         
+                        <div
+                          class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          MB
+                        </div>
+                      </div>
+                      <div
+                        class="flex-grow flex flex-col items-center"
+                      >
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          Madison Butler
+                        </h4>
+                         
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="grow"
+                  >
+                    <div
+                      class="font-semibold text-gray-700 mb-1"
+                    >
+                      01:40
+                    </div>
+                    <div
+                      class="text-gray-800 leading-relaxed"
+                    >
+                      <div>
+                        Perfect, that sounds good. 
+                        <span
+                          class="font-bold"
+                        >
+                          James
+                        </span>
+                        , regarding the new marketing campaign, have you had a chance to review the initial drafts?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border rounded mt-3 p-3 bg-white"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex items-start space-x-4"
+                >
+                  <div
+                    class="shrink-0"
+                  >
+                    <div
+                      class="flex flex-col items-center mt-1"
+                    >
+                       
+                      <div
+                        class="mb-1"
+                      >
+                         
+                        <div
+                          class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          JS
+                        </div>
+                      </div>
+                      <div
+                        class="flex-grow flex flex-col items-center"
+                      >
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          James Smith
+                        </h4>
+                         
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="grow"
+                  >
+                    <div
+                      class="font-semibold text-gray-700 mb-1"
+                    >
+                      01:55
+                    </div>
+                    <div
+                      class="text-gray-800 leading-relaxed"
+                    >
+                      <div>
+                        Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border rounded mt-3 p-3 bg-white"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex items-start space-x-4"
+                >
+                  <div
+                    class="shrink-0"
+                  >
+                    <div
+                      class="flex flex-col items-center mt-1"
+                    >
+                       
+                      <div
+                        class="mb-1"
+                      >
+                         
+                        <div
+                          class="rounded-full bg-purple-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                        >
+                          IG
+                        </div>
+                      </div>
+                      <div
+                        class="flex-grow flex flex-col items-center"
+                      >
+                         
+                        <h4
+                          class="m-0 text-center"
+                        >
+                          Isabel Garcia
+                        </h4>
+                         
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="grow"
+                  >
+                    <div
+                      class="font-semibold text-gray-700 mb-1"
+                    >
+                      02:10
+                    </div>
+                    <div
+                      class="text-gray-800 leading-relaxed"
+                    >
+                      <div>
+                        Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
                       </div>
                     </div>
                   </div>
@@ -321,108 +676,122 @@ exports[`should render Transcript component 1`] = `
         class="w-full"
       >
         <h3
-          class="text-center"
+          class="text-center text-2xl font-bold mb-4 text-gray-800"
         >
           Transcript
         </h3>
         <div
-          class="flex border rounded mt-3 p-1 bg-gray-100"
+          class="space-y-2"
         >
           <div
-            class="w-full"
+            class="flex border rounded mt-3 p-3 bg-white"
           >
             <div
-              class="flex"
+              class="w-full"
             >
               <div
-                class="w-full"
+                class="flex items-start space-x-4"
               >
                 <div
-                  class="flex mt-1 items-center"
+                  class="shrink-0"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="flex flex-col items-center mt-1"
                   >
+                     
                     <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                      class="mb-1"
                     >
-                      JS
+                       
+                      <div
+                        class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        JS
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
+                    <div
+                      class="flex-grow flex flex-col items-center"
                     >
-                      James Smith
-                    </h4>
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        James Smith
+                      </h4>
+                       
+                       
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="flex mt-1 items-center"
+                  class="grow"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="font-semibold text-gray-700 mb-1"
                   >
-                    00:10
+                    00:05
                   </div>
                   <div
-                    class="md:w-10/12"
+                    class="text-gray-800 leading-relaxed"
                   >
                     <div>
-                      Good morning, everyone.
+                      Good morning, everyone. Thanks for joining today's call. I hope you all had a productive week.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="flex border rounded mt-3 p-1 bg-gray-100"
-        >
           <div
-            class="w-full"
+            class="flex border rounded mt-3 p-3 bg-white"
           >
             <div
-              class="flex"
+              class="w-full"
             >
               <div
-                class="w-full"
+                class="flex items-start space-x-4"
               >
                 <div
-                  class="flex mt-1 items-center"
+                  class="shrink-0"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="flex flex-col items-center mt-1"
                   >
+                     
                     <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                      class="mb-1"
                     >
-                      JS
+                       
+                      <div
+                        class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        JS
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
+                    <div
+                      class="flex-grow flex flex-col items-center"
                     >
-                      James Smith
-                    </h4>
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        James Smith
+                      </h4>
+                       
+                       
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="flex mt-1 items-center"
+                  class="grow"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="font-semibold text-gray-700 mb-1"
                   >
                     00:15
                   </div>
                   <div
-                    class="md:w-10/12"
+                    class="text-gray-800 leading-relaxed"
                   >
                     <div>
                       Hi, 
@@ -431,112 +800,128 @@ exports[`should render Transcript component 1`] = `
                       >
                         Madison
                       </span>
-                      ! How are you?
+                      ! How are you doing today? I wanted to quickly touch base on the client proposal.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="flex border rounded mt-3 p-1 bg-gray-100"
-        >
           <div
-            class="w-full"
+            class="flex border rounded mt-3 p-3 bg-white"
           >
             <div
-              class="flex"
+              class="w-full"
             >
               <div
-                class="w-full"
+                class="flex items-start space-x-4"
               >
                 <div
-                  class="flex mt-1 items-center"
+                  class="shrink-0"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="flex flex-col items-center mt-1"
                   >
+                     
                     <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                      class="mb-1"
                     >
-                      MB
+                       
+                      <div
+                        class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        MB
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
+                    <div
+                      class="flex-grow flex flex-col items-center"
                     >
-                      Madison Butler
-                    </h4>
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        Madison Butler
+                      </h4>
+                       
+                       
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="flex mt-1 items-center"
+                  class="grow"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="font-semibold text-gray-700 mb-1"
                   >
-                    00:05
+                    00:25
                   </div>
                   <div
-                    class="md:w-10/12"
+                    class="text-gray-800 leading-relaxed"
                   >
                     <div>
-                      Very good, thanks !
+                      Very good, thanks, 
+                      <span
+                        class="font-bold"
+                      >
+                        James
+                      </span>
+                      ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="flex border rounded mt-3 p-1 bg-gray-100"
-        >
           <div
-            class="w-full"
+            class="flex border rounded mt-3 p-3 bg-white"
           >
             <div
-              class="flex"
+              class="w-full"
             >
               <div
-                class="w-full"
+                class="flex items-start space-x-4"
               >
                 <div
-                  class="flex mt-1 items-center"
+                  class="shrink-0"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="flex flex-col items-center mt-1"
                   >
+                     
                     <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                      class="mb-1"
                     >
-                      MB
+                       
+                      <div
+                        class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        MB
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
+                    <div
+                      class="flex-grow flex flex-col items-center"
                     >
-                      Madison Butler
-                    </h4>
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        Madison Butler
+                      </h4>
+                       
+                       
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="flex mt-1 items-center"
+                  class="grow"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="font-semibold text-gray-700 mb-1"
                   >
-                    00:17
+                    00:40
                   </div>
                   <div
-                    class="md:w-10/12"
+                    class="text-gray-800 leading-relaxed"
                   >
                     <div>
                       Oh, before I forget, can you please send me the 
@@ -551,66 +936,391 @@ exports[`should render Transcript component 1`] = `
                       >
                         yesterday
                       </span>
-                      ?
+                       for Project Alpha? I need it for the final budget review this afternoon.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="flex border rounded mt-3 p-1 bg-gray-100"
-        >
           <div
-            class="w-full"
+            class="flex border rounded mt-3 p-3 bg-white"
           >
             <div
-              class="flex"
+              class="w-full"
             >
               <div
-                class="w-full"
+                class="flex items-start space-x-4"
               >
                 <div
-                  class="flex mt-1 items-center"
+                  class="shrink-0"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="flex flex-col items-center mt-1"
                   >
+                     
                     <div
-                      class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                      class="mb-1"
                     >
-                      JS
+                       
+                      <div
+                        class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        JS
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="md:w-6/12"
-                  >
-                    <h4
-                      class="m-0"
+                    <div
+                      class="flex-grow flex flex-col items-center"
                     >
-                      James Smith
-                    </h4>
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        James Smith
+                      </h4>
+                       
+                       
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="flex mt-1 items-center"
+                  class="grow"
                 >
                   <div
-                    class="md:w-2/12"
+                    class="font-semibold text-gray-700 mb-1"
                   >
-                    00:04
+                    00:55
                   </div>
                   <div
-                    class="md:w-10/12"
+                    class="text-gray-800 leading-relaxed"
                   >
                     <div>
-                      Sure, I will send you an email with the 
+                      Sure, 
+                      <span
+                        class="font-bold"
+                      >
+                        Madison
+                      </span>
+                      . I will send you an email with the 
                       <span
                         class="font-bold"
                       >
                         quote
                       </span>
+                       right after this meeting. I'll also attach the revised terms of service for their review.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex border rounded mt-3 p-3 bg-white"
+          >
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="shrink-0"
+                >
+                  <div
+                    class="flex flex-col items-center mt-1"
+                  >
+                     
+                    <div
+                      class="mb-1"
+                    >
+                       
+                      <div
+                        class="rounded-full bg-purple-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        IG
+                      </div>
+                    </div>
+                    <div
+                      class="flex-grow flex flex-col items-center"
+                    >
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        Isabel Garcia
+                      </h4>
+                       
+                       
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="grow"
+                >
+                  <div
+                    class="font-semibold text-gray-700 mb-1"
+                  >
+                    01:10
+                  </div>
+                  <div
+                    class="text-gray-800 leading-relaxed"
+                  >
+                    <div>
+                      Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex border rounded mt-3 p-3 bg-white"
+          >
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="shrink-0"
+                >
+                  <div
+                    class="flex flex-col items-center mt-1"
+                  >
+                     
+                    <div
+                      class="mb-1"
+                    >
+                       
+                      <div
+                        class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        JS
+                      </div>
+                    </div>
+                    <div
+                      class="flex-grow flex flex-col items-center"
+                    >
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        James Smith
+                      </h4>
+                       
+                       
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="grow"
+                >
+                  <div
+                    class="font-semibold text-gray-700 mb-1"
+                  >
+                    01:25
+                  </div>
+                  <div
+                    class="text-gray-800 leading-relaxed"
+                  >
+                    <div>
+                      Thanks for bringing that up, 
+                      <span
+                        class="font-bold"
+                      >
+                        Isabel
+                      </span>
+                      . I'll follow up with the creative team immediately. We should be back on track by end of day 
+                      <span
+                        class="font-bold"
+                      >
+                        today
+                      </span>
+                      .
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex border rounded mt-3 p-3 bg-white"
+          >
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="shrink-0"
+                >
+                  <div
+                    class="flex flex-col items-center mt-1"
+                  >
+                     
+                    <div
+                      class="mb-1"
+                    >
+                       
+                      <div
+                        class="rounded-full bg-green-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        MB
+                      </div>
+                    </div>
+                    <div
+                      class="flex-grow flex flex-col items-center"
+                    >
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        Madison Butler
+                      </h4>
+                       
+                       
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="grow"
+                >
+                  <div
+                    class="font-semibold text-gray-700 mb-1"
+                  >
+                    01:40
+                  </div>
+                  <div
+                    class="text-gray-800 leading-relaxed"
+                  >
+                    <div>
+                      Perfect, that sounds good. 
+                      <span
+                        class="font-bold"
+                      >
+                        James
+                      </span>
+                      , regarding the new marketing campaign, have you had a chance to review the initial drafts?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex border rounded mt-3 p-3 bg-white"
+          >
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="shrink-0"
+                >
+                  <div
+                    class="flex flex-col items-center mt-1"
+                  >
+                     
+                    <div
+                      class="mb-1"
+                    >
+                       
+                      <div
+                        class="rounded-full bg-blue-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        JS
+                      </div>
+                    </div>
+                    <div
+                      class="flex-grow flex flex-col items-center"
+                    >
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        James Smith
+                      </h4>
+                       
+                       
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="grow"
+                >
+                  <div
+                    class="font-semibold text-gray-700 mb-1"
+                  >
+                    01:55
+                  </div>
+                  <div
+                    class="text-gray-800 leading-relaxed"
+                  >
+                    <div>
+                      Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex border rounded mt-3 p-3 bg-white"
+          >
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-start space-x-4"
+              >
+                <div
+                  class="shrink-0"
+                >
+                  <div
+                    class="flex flex-col items-center mt-1"
+                  >
+                     
+                    <div
+                      class="mb-1"
+                    >
+                       
+                      <div
+                        class="rounded-full bg-purple-200 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                      >
+                        IG
+                      </div>
+                    </div>
+                    <div
+                      class="flex-grow flex flex-col items-center"
+                    >
+                       
+                      <h4
+                        class="m-0 text-center"
+                      >
+                        Isabel Garcia
+                      </h4>
+                       
+                       
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="grow"
+                >
+                  <div
+                    class="font-semibold text-gray-700 mb-1"
+                  >
+                    02:10
+                  </div>
+                  <div
+                    class="text-gray-800 leading-relaxed"
+                  >
+                    <div>
+                      Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
                     </div>
                   </div>
                 </div>
@@ -681,53 +1391,58 @@ exports[`should render TranscriptRow component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex border rounded mt-3 p-1 bg-gray-100"
+        class="flex border rounded mt-3 p-3 bg-white"
       >
         <div
           class="w-full"
         >
           <div
-            class="flex"
+            class="flex items-start space-x-4"
           >
             <div
-              class="w-full"
+              class="shrink-0"
             >
               <div
-                class="flex mt-1 items-center"
+                class="flex flex-col items-center mt-1"
               >
+                 
                 <div
-                  class="md:w-2/12"
+                  class="mb-1"
                 >
+                   
                   <div
-                    class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                    class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
                   >
                     JS
                   </div>
                 </div>
                 <div
-                  class="md:w-6/12"
+                  class="flex-grow flex flex-col items-center"
                 >
+                   
                   <h4
-                    class="m-0"
+                    class="m-0 text-center"
                   >
                     James Smith
                   </h4>
+                   
+                   
                 </div>
               </div>
+            </div>
+            <div
+              class="grow"
+            >
               <div
-                class="flex mt-1 items-center"
+                class="font-semibold text-gray-700 mb-1"
               >
-                <div
-                  class="md:w-2/12"
-                >
-                  00:10
-                </div>
-                <div
-                  class="md:w-10/12"
-                >
-                  <div>
-                    Good morning, everyone.
-                  </div>
+                00:10
+              </div>
+              <div
+                class="text-gray-800 leading-relaxed"
+              >
+                <div>
+                  Good morning, everyone.
                 </div>
               </div>
             </div>
@@ -738,53 +1453,58 @@ exports[`should render TranscriptRow component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex border rounded mt-3 p-1 bg-gray-100"
+      class="flex border rounded mt-3 p-3 bg-white"
     >
       <div
         class="w-full"
       >
         <div
-          class="flex"
+          class="flex items-start space-x-4"
         >
           <div
-            class="w-full"
+            class="shrink-0"
           >
             <div
-              class="flex mt-1 items-center"
+              class="flex flex-col items-center mt-1"
             >
+               
               <div
-                class="md:w-2/12"
+                class="mb-1"
               >
+                 
                 <div
-                  class="rounded-full bg-blue-500 flex justify-center items-center text-white font-bold w-10 h-10"
+                  class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
                 >
                   JS
                 </div>
               </div>
               <div
-                class="md:w-6/12"
+                class="flex-grow flex flex-col items-center"
               >
+                 
                 <h4
-                  class="m-0"
+                  class="m-0 text-center"
                 >
                   James Smith
                 </h4>
+                 
+                 
               </div>
             </div>
+          </div>
+          <div
+            class="grow"
+          >
             <div
-              class="flex mt-1 items-center"
+              class="font-semibold text-gray-700 mb-1"
             >
-              <div
-                class="md:w-2/12"
-              >
-                00:10
-              </div>
-              <div
-                class="md:w-10/12"
-              >
-                <div>
-                  Good morning, everyone.
-                </div>
+              00:10
+            </div>
+            <div
+              class="text-gray-800 leading-relaxed"
+            >
+              <div>
+                Good morning, everyone.
               </div>
             </div>
           </div>
