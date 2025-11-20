@@ -298,6 +298,221 @@ exports[`should render TranscriptSummary component 1`] = `
                 Transcript
               </h3>
               <div
+                class="bg-white rounded-lg shadow-md p-6 mb-4"
+              >
+                <h4
+                  class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+                >
+                  Keywords
+                </h4>
+                <div
+                  class="flex flex-wrap gap-2 mb-4"
+                >
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    madison
+                    <button
+                      aria-label="Remove madison"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    james
+                    <button
+                      aria-label="Remove james"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    quote
+                    <button
+                      aria-label="Remove quote"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    yesterday
+                    <button
+                      aria-label="Remove yesterday"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    isabel
+                    <button
+                      aria-label="Remove isabel"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                  >
+                    today
+                    <button
+                      aria-label="Remove today"
+                      class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="w-2 h-2"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        Remove pill
+                      </span>
+                    </button>
+                  </span>
+                </div>
+                <div
+                  class="flex gap-2"
+                >
+                  <input
+                    class="grow p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Add new keyword"
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    type="button"
+                  >
+                    Add
+                  </button>
+                </div>
+              </div>
+              <div
                 class="space-y-2"
               >
                 <div
@@ -351,9 +566,13 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Good morning, everyone. Thanks for joining today's call. I hope you all had a productive week.
-                          </div>
+                          Good morning, everyone. Thanks for joining 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            today
+                          </span>
+                          's call. I hope you all had a productive week.
                         </div>
                       </div>
                     </div>
@@ -410,15 +629,19 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Hi, 
-                            <span
-                              class="font-bold"
-                            >
-                              Madison
-                            </span>
-                            ! How are you doing today? I wanted to quickly touch base on the client proposal.
-                          </div>
+                          Hi, 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            Madison
+                          </span>
+                          ! How are you doing 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            today
+                          </span>
+                          ? I wanted to quickly touch base on the client proposal.
                         </div>
                       </div>
                     </div>
@@ -475,15 +698,13 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Very good, thanks, 
-                            <span
-                              class="font-bold"
-                            >
-                              James
-                            </span>
-                            ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
-                          </div>
+                          Very good, thanks, 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            James
+                          </span>
+                          ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
                         </div>
                       </div>
                     </div>
@@ -540,21 +761,19 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Oh, before I forget, can you please send me the 
-                            <span
-                              class="font-bold"
-                            >
-                              quote
-                            </span>
-                             we discussed 
-                            <span
-                              class="font-bold"
-                            >
-                              yesterday
-                            </span>
-                             for Project Alpha? I need it for the final budget review this afternoon.
-                          </div>
+                          Oh, before I forget, can you please send me the 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            quote
+                          </span>
+                           we discussed 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            yesterday
+                          </span>
+                           for Project Alpha? I need it for the final budget review this afternoon.
                         </div>
                       </div>
                     </div>
@@ -611,21 +830,19 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Sure, 
-                            <span
-                              class="font-bold"
-                            >
-                              Madison
-                            </span>
-                            . I will send you an email with the 
-                            <span
-                              class="font-bold"
-                            >
-                              quote
-                            </span>
-                             right after this meeting. I'll also attach the revised terms of service for their review.
-                          </div>
+                          Sure, 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            Madison
+                          </span>
+                          . I will send you an email with the 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            quote
+                          </span>
+                           right after this meeting. I'll also attach the revised terms of service for their review.
                         </div>
                       </div>
                     </div>
@@ -682,9 +899,7 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
-                          </div>
+                          Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
                         </div>
                       </div>
                     </div>
@@ -741,21 +956,19 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Thanks for bringing that up, 
-                            <span
-                              class="font-bold"
-                            >
-                              Isabel
-                            </span>
-                            . I'll follow up with the creative team immediately. We should be back on track by end of day 
-                            <span
-                              class="font-bold"
-                            >
-                              today
-                            </span>
-                            .
-                          </div>
+                          Thanks for bringing that up, 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            Isabel
+                          </span>
+                          . I'll follow up with the creative team immediately. We should be back on track by end of day 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            today
+                          </span>
+                          .
                         </div>
                       </div>
                     </div>
@@ -812,15 +1025,13 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Perfect, that sounds good. 
-                            <span
-                              class="font-bold"
-                            >
-                              James
-                            </span>
-                            , regarding the new marketing campaign, have you had a chance to review the initial drafts?
-                          </div>
+                          Perfect, that sounds good. 
+                          <span
+                            class="bg-yellow-200"
+                          >
+                            James
+                          </span>
+                          , regarding the new marketing campaign, have you had a chance to review the initial drafts?
                         </div>
                       </div>
                     </div>
@@ -877,9 +1088,7 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
-                          </div>
+                          Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
                         </div>
                       </div>
                     </div>
@@ -936,9 +1145,7 @@ exports[`should render TranscriptSummary component 1`] = `
                         <div
                           class="text-gray-800 leading-relaxed"
                         >
-                          <div>
-                            Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
-                          </div>
+                          Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
                         </div>
                       </div>
                     </div>
@@ -1245,6 +1452,221 @@ exports[`should render TranscriptSummary component 1`] = `
               Transcript
             </h3>
             <div
+              class="bg-white rounded-lg shadow-md p-6 mb-4"
+            >
+              <h4
+                class="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-4"
+              >
+                Keywords
+              </h4>
+              <div
+                class="flex flex-wrap gap-2 mb-4"
+              >
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  madison
+                  <button
+                    aria-label="Remove madison"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  james
+                  <button
+                    aria-label="Remove james"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  quote
+                  <button
+                    aria-label="Remove quote"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  yesterday
+                  <button
+                    aria-label="Remove yesterday"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  isabel
+                  <button
+                    aria-label="Remove isabel"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+                <span
+                  class="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  today
+                  <button
+                    aria-label="Remove today"
+                    class="ml-2 inline-flex items-center p-0.5 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-2 h-2"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      Remove pill
+                    </span>
+                  </button>
+                </span>
+              </div>
+              <div
+                class="flex gap-2"
+              >
+                <input
+                  class="grow p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Add new keyword"
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  type="button"
+                >
+                  Add
+                </button>
+              </div>
+            </div>
+            <div
               class="space-y-2"
             >
               <div
@@ -1298,9 +1720,13 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Good morning, everyone. Thanks for joining today's call. I hope you all had a productive week.
-                        </div>
+                        Good morning, everyone. Thanks for joining 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          today
+                        </span>
+                        's call. I hope you all had a productive week.
                       </div>
                     </div>
                   </div>
@@ -1357,15 +1783,19 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Hi, 
-                          <span
-                            class="font-bold"
-                          >
-                            Madison
-                          </span>
-                          ! How are you doing today? I wanted to quickly touch base on the client proposal.
-                        </div>
+                        Hi, 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          Madison
+                        </span>
+                        ! How are you doing 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          today
+                        </span>
+                        ? I wanted to quickly touch base on the client proposal.
                       </div>
                     </div>
                   </div>
@@ -1422,15 +1852,13 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Very good, thanks, 
-                          <span
-                            class="font-bold"
-                          >
-                            James
-                          </span>
-                          ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
-                        </div>
+                        Very good, thanks, 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          James
+                        </span>
+                        ! I'm doing well. The client proposal is almost ready, just finalizing a few figures.
                       </div>
                     </div>
                   </div>
@@ -1487,21 +1915,19 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Oh, before I forget, can you please send me the 
-                          <span
-                            class="font-bold"
-                          >
-                            quote
-                          </span>
-                           we discussed 
-                          <span
-                            class="font-bold"
-                          >
-                            yesterday
-                          </span>
-                           for Project Alpha? I need it for the final budget review this afternoon.
-                        </div>
+                        Oh, before I forget, can you please send me the 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          quote
+                        </span>
+                         we discussed 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          yesterday
+                        </span>
+                         for Project Alpha? I need it for the final budget review this afternoon.
                       </div>
                     </div>
                   </div>
@@ -1558,21 +1984,19 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Sure, 
-                          <span
-                            class="font-bold"
-                          >
-                            Madison
-                          </span>
-                          . I will send you an email with the 
-                          <span
-                            class="font-bold"
-                          >
-                            quote
-                          </span>
-                           right after this meeting. I'll also attach the revised terms of service for their review.
-                        </div>
+                        Sure, 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          Madison
+                        </span>
+                        . I will send you an email with the 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          quote
+                        </span>
+                         right after this meeting. I'll also attach the revised terms of service for their review.
                       </div>
                     </div>
                   </div>
@@ -1629,9 +2053,7 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
-                        </div>
+                        Speaking of Project Alpha, I've noticed a slight delay in the asset delivery. Is there anything I can do to help expedite that process?
                       </div>
                     </div>
                   </div>
@@ -1688,21 +2110,19 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Thanks for bringing that up, 
-                          <span
-                            class="font-bold"
-                          >
-                            Isabel
-                          </span>
-                          . I'll follow up with the creative team immediately. We should be back on track by end of day 
-                          <span
-                            class="font-bold"
-                          >
-                            today
-                          </span>
-                          .
-                        </div>
+                        Thanks for bringing that up, 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          Isabel
+                        </span>
+                        . I'll follow up with the creative team immediately. We should be back on track by end of day 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          today
+                        </span>
+                        .
                       </div>
                     </div>
                   </div>
@@ -1759,15 +2179,13 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Perfect, that sounds good. 
-                          <span
-                            class="font-bold"
-                          >
-                            James
-                          </span>
-                          , regarding the new marketing campaign, have you had a chance to review the initial drafts?
-                        </div>
+                        Perfect, that sounds good. 
+                        <span
+                          class="bg-yellow-200"
+                        >
+                          James
+                        </span>
+                        , regarding the new marketing campaign, have you had a chance to review the initial drafts?
                       </div>
                     </div>
                   </div>
@@ -1824,9 +2242,7 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
-                        </div>
+                        Yes, I did. Overall, they look promising. I have a few minor comments on the ad copy, which I'll send over in a separate email.
                       </div>
                     </div>
                   </div>
@@ -1883,9 +2299,7 @@ exports[`should render TranscriptSummary component 1`] = `
                       <div
                         class="text-gray-800 leading-relaxed"
                       >
-                        <div>
-                          Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
-                        </div>
+                        Great. I'll look out for those comments. Just a reminder that the deadline for feedback is tomorrow.
                       </div>
                     </div>
                   </div>

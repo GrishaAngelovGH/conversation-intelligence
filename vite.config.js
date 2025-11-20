@@ -14,7 +14,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      components: '/src/components'
+      components: '/src/components',
+      hooks: '/src/hooks',
     }
   },
   test: {
