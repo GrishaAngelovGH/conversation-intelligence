@@ -1,27 +1,14 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 
-import SellerDetails, { StatisticSummary, SellerInsights, CallHistory } from './SellerDetails'
+import SellerDetails from './SellerDetails'
 
-test('should render SellerDetails component', () => {
-  const view = render(<SellerDetails />)
+test('should render SellerDetails component with its child components', () => {
+  const { asFragment } = render(<SellerDetails />)
 
-  expect(view).toMatchSnapshot()
-})
+  expect(screen.getByText('James Smith')).toBeInTheDocument()
+  expect(screen.getByText('Win Rate')).toBeInTheDocument()
+  expect(screen.getByText('Sales Performance (Last 6 Months)')).toBeInTheDocument()
+  expect(screen.getByText('Call History')).toBeInTheDocument()
 
-test('should render StatisticSummary component', () => {
-  const view = render(<StatisticSummary />)
-
-  expect(view).toMatchSnapshot()
-})
-
-test('should render SellerInsights component', () => {
-  const view = render(<SellerInsights />)
-
-  expect(view).toMatchSnapshot()
-})
-
-test('should render CallHistory component', () => {
-  const view = render(<CallHistory />)
-
-  expect(view).toMatchSnapshot()
+  expect(asFragment()).toMatchSnapshot()
 })

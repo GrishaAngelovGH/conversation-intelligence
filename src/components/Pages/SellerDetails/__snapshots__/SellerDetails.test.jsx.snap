@@ -1,1441 +1,448 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render CallHistory component 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+exports[`should render SellerDetails component with its child components 1`] = `
+<DocumentFragment>
+  <div
+    class="p-6 bg-gray-50 min-h-screen"
+  >
+    <div
+      class="bg-white p-8 rounded-2xl shadow-lg flex items-center mb-8"
+    >
       <div
-        class="flex mt-3"
+        class="flex items-center space-x-6"
       >
         <div
-          class="w-full"
+          class="w-24 h-24 bg-blue-200 rounded-full flex justify-center items-center text-gray-800 font-bold text-3xl"
         >
-          <h4>
-            Call History
+          JS
+        </div>
+        <div>
+          <h2
+            class="text-3xl font-bold text-gray-900"
+          >
+            James Smith
+          </h2>
+          <p
+            class="text-blue-600 font-semibold"
+          >
+            Senior Account Executive
+          </p>
+          <div
+            class="flex items-center space-x-4 mt-2 text-sm text-gray-500"
+          >
+            <span>
+              Team: Enterprise Sales
+            </span>
+            <span
+              class="flex items-center"
+            >
+              <i
+                class="bi bi-envelope-fill mr-1"
+              />
+               james.smith@example.com
+            </span>
+            <span
+              class="flex items-center"
+            >
+              <i
+                class="bi bi-telephone-fill mr-1"
+              />
+               (123) 456-7890
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grow"
+      />
+      <div
+        class="flex items-center space-x-4"
+      >
+        <div
+          class="relative w-32 h-32"
+        >
+          <svg
+            class="w-full h-full"
+            viewBox="0 0 36 36"
+          >
+            <path
+              class="text-gray-200"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            />
+            <path
+              class="text-blue-600"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+              fill="none"
+              stroke="currentColor"
+              stroke-dasharray="85, 100"
+              stroke-dashoffset="-25"
+              stroke-width="3"
+              transform="rotate(-90 18 18)"
+            />
+          </svg>
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center"
+          >
+            <span
+              class="text-2xl font-bold text-gray-800"
+            >
+              85%
+            </span>
+            <span
+              class="text-xs text-gray-500"
+            >
+              Score
+            </span>
+          </div>
+        </div>
+        <div>
+          <h4
+            class="font-semibold text-gray-700"
+          >
+            Performance Score
           </h4>
-          <div
-            class="relative overflow-x-auto shadow-md sm:rounded-lg"
+          <p
+            class="text-sm text-gray-500"
           >
-            <table
-              class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
-            >
-              <thead
-                class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
-              >
-                <tr>
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  />
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  >
-                    Title
-                  </th>
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  >
-                    Added
-                  </th>
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  >
-                    Duration
-                  </th>
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  >
-                    Phone Number
-                  </th>
-                  <th
-                    class="px-6 py-3"
-                    scope="col"
-                  >
-                    Related Opportunity
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                >
-                  <td
-                    class="px-6 py-4"
-                  >
-                    <i
-                      class="bi bi-telephone"
-                    />
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Closing the deal
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    6 hours ago
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    31m 30s
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    123456789
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Not Set
-                  </td>
-                </tr>
-                <tr
-                  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                >
-                  <td
-                    class="px-6 py-4"
-                  >
-                    <i
-                      class="bi bi-telephone"
-                    />
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Initial discussion
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    3 days ago
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    35m 14s
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    123456789
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Not Set
-                  </td>
-                </tr>
-                <tr
-                  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                >
-                  <td
-                    class="px-6 py-4"
-                  >
-                    <i
-                      class="bi bi-telephone"
-                    />
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Initial catalog launch
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    3 days ago
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    45m 20s
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    123456789
-                  </td>
-                  <td
-                    class="px-6 py-4"
-                  >
-                    Not Set
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            Exceeds team average
+          </p>
         </div>
       </div>
     </div>
-  </body>,
-  "container": <div>
     <div
-      class="flex mt-3"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
     >
       <div
-        class="w-full"
+        class="bg-slate-100 p-4 rounded-lg shadow-md flex items-center space-x-4 transition-transform hover:scale-105"
       >
-        <h4>
-          Call History
-        </h4>
         <div
-          class="relative overflow-x-auto shadow-md sm:rounded-lg"
+          class="w-14 h-14 bg-blue-500 text-white rounded-full flex items-center justify-center"
         >
-          <table
-            class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+          <i
+            aria-hidden="true"
+            class="bi bi-trophy text-2xl"
+            role="img"
+          />
+        </div>
+        <div>
+          <h4
+            class="text-sm font-semibold text-slate-500"
           >
-            <thead
-              class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
-            >
-              <tr>
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                />
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                >
-                  Title
-                </th>
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                >
-                  Added
-                </th>
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                >
-                  Duration
-                </th>
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                >
-                  Phone Number
-                </th>
-                <th
-                  class="px-6 py-3"
-                  scope="col"
-                >
-                  Related Opportunity
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-              >
-                <td
-                  class="px-6 py-4"
-                >
-                  <i
-                    class="bi bi-telephone"
-                  />
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Closing the deal
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  6 hours ago
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  31m 30s
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  123456789
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Not Set
-                </td>
-              </tr>
-              <tr
-                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-              >
-                <td
-                  class="px-6 py-4"
-                >
-                  <i
-                    class="bi bi-telephone"
-                  />
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Initial discussion
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  3 days ago
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  35m 14s
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  123456789
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Not Set
-                </td>
-              </tr>
-              <tr
-                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-              >
-                <td
-                  class="px-6 py-4"
-                >
-                  <i
-                    class="bi bi-telephone"
-                  />
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Initial catalog launch
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  3 days ago
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  45m 20s
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  123456789
-                </td>
-                <td
-                  class="px-6 py-4"
-                >
-                  Not Set
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            Win Rate
+          </h4>
+          <p
+            class="text-2xl font-bold text-slate-800"
+          >
+            72%
+          </p>
         </div>
       </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`should render SellerDetails component 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
       <div
-        class="flex m-3"
+        class="bg-slate-100 p-4 rounded-lg shadow-md flex items-center space-x-4 transition-transform hover:scale-105"
       >
         <div
-          class="w-full"
+          class="w-14 h-14 bg-blue-500 text-white rounded-full flex items-center justify-center"
         >
-          <h3
-            class="font-bold"
+          <i
+            aria-hidden="true"
+            class="bi bi-currency-dollar text-2xl"
+            role="img"
+          />
+        </div>
+        <div>
+          <h4
+            class="text-sm font-semibold text-slate-500"
           >
-            Seller Details
-          </h3>
-          <div
-            class="flex"
+            Avg. Deal Size
+          </h4>
+          <p
+            class="text-2xl font-bold text-slate-800"
           >
-            <div
-              class="md:w-5/12"
-            >
-              <div
-                class="flex flex-col items-center mt-1"
-              >
-                 
-                <div
-                  class="mb-1"
-                >
-                   
-                  <div
-                    class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
-                  >
-                    JS
-                  </div>
-                </div>
-                <div
-                  class="flex-grow flex flex-col items-center"
-                >
-                   
-                  <h4
-                    class="m-0 text-center"
-                  >
-                    James Smith
-                  </h4>
-                   
-                   
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex mt-3 border rounded p-3 bg-gray-100 justify-center text-center"
+            $48,300
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-slate-100 p-4 rounded-lg shadow-md flex items-center space-x-4 transition-transform hover:scale-105"
+      >
+        <div
+          class="w-14 h-14 bg-blue-500 text-white rounded-full flex items-center justify-center"
+        >
+          <i
+            aria-hidden="true"
+            class="bi bi-telephone text-2xl"
+            role="img"
+          />
+        </div>
+        <div>
+          <h4
+            class="text-sm font-semibold text-slate-500"
           >
-            <div
-              class="w-1/6"
-            >
-              <div
-                class="font-bold text-gray-500"
-              >
-                Talk to listen ratio
-              </div>
-              <div
-                class="font-bold"
-              >
-                52/48%
-              </div>
-            </div>
-            <div
-              class="w-1/6"
-            >
-              <div
-                class="font-bold text-gray-500"
-              >
-                Talking speed
-              </div>
-              <div
-                class="font-bold"
-              >
-                156.8 wpm
-              </div>
-            </div>
-            <div
-              class="w-1/6"
-            >
-              <div
-                class="font-bold text-gray-500"
-              >
-                Switches per hour
-              </div>
-              <div
-                class="font-bold"
-              >
-                32.72
-              </div>
-            </div>
-            <div
-              class="w-1/4"
-            >
-              <div
-                class="font-bold text-gray-500"
-              >
-                Pause before speaking
-              </div>
-              <div
-                class="font-bold"
-              >
-                68.97ms
-              </div>
-            </div>
-            <div
-              class="w-1/4"
-            >
-              <div
-                class="font-bold text-gray-500"
-              >
-                Longest customer monologue
-              </div>
-              <div
-                class="font-bold"
-              >
-                37sec
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex mt-3"
+            Calls This Week
+          </h4>
+          <p
+            class="text-2xl font-bold text-slate-800"
           >
-            <div
-              class="w-full"
-            >
-              <h4>
-                Seller Insights
-              </h4>
-              <div
-                class="flex gap-2 text-center"
-              >
-                <div
-                  class="flex-1 border border-blue-500 rounded p-2"
-                >
-                  James Smith has been talking too fast in most conversations
-                </div>
-                <div
-                  class="flex-1 border border-blue-500 rounded p-2"
-                >
-                  James Smith's talk-to-listen ratio is 13% higher than the team's average
-                </div>
-                <div
-                  class="flex-1 border border-blue-500 rounded p-2"
-                >
-                  Positive customer sentiments is higher than the average in 38% of calls
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex mt-3"
+            34
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-slate-100 p-4 rounded-lg shadow-md flex items-center space-x-4 transition-transform hover:scale-105"
+      >
+        <div
+          class="w-14 h-14 bg-blue-500 text-white rounded-full flex items-center justify-center"
+        >
+          <i
+            aria-hidden="true"
+            class="bi bi-clock text-2xl"
+            role="img"
+          />
+        </div>
+        <div>
+          <h4
+            class="text-sm font-semibold text-slate-500"
           >
-            <div
-              class="w-full"
-            >
-              <h4>
-                Call History
-              </h4>
-              <div
-                class="relative overflow-x-auto shadow-md sm:rounded-lg"
-              >
-                <table
-                  class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
-                >
-                  <thead
-                    class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
-                  >
-                    <tr>
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      />
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      >
-                        Title
-                      </th>
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      >
-                        Added
-                      </th>
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      >
-                        Duration
-                      </th>
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      >
-                        Phone Number
-                      </th>
-                      <th
-                        class="px-6 py-3"
-                        scope="col"
-                      >
-                        Related Opportunity
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr
-                      class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                    >
-                      <td
-                        class="px-6 py-4"
-                      >
-                        <i
-                          class="bi bi-telephone"
-                        />
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Closing the deal
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        6 hours ago
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        31m 30s
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        123456789
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Not Set
-                      </td>
-                    </tr>
-                    <tr
-                      class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                    >
-                      <td
-                        class="px-6 py-4"
-                      >
-                        <i
-                          class="bi bi-telephone"
-                        />
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Initial discussion
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        3 days ago
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        35m 14s
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        123456789
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Not Set
-                      </td>
-                    </tr>
-                    <tr
-                      class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                    >
-                      <td
-                        class="px-6 py-4"
-                      >
-                        <i
-                          class="bi bi-telephone"
-                        />
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Initial catalog launch
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        3 days ago
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        45m 20s
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        123456789
-                      </td>
-                      <td
-                        class="px-6 py-4"
-                      >
-                        Not Set
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
+            Avg. Call Duration
+          </h4>
+          <p
+            class="text-2xl font-bold text-slate-800"
+          >
+            28m
+          </p>
         </div>
       </div>
     </div>
-  </body>,
-  "container": <div>
     <div
-      class="flex m-3"
+      class="grid grid-cols-1 lg:grid-cols-3 gap-8"
     >
       <div
-        class="w-full"
+        class="lg:col-span-2 bg-white p-6 rounded-2xl shadow-lg"
       >
         <h3
-          class="font-bold"
+          class="text-xl font-bold text-gray-800 mb-4"
         >
-          Seller Details
+          Sales Performance (Last 6 Months)
         </h3>
         <div
-          class="flex"
+          class="relative h-96"
+        >
+          <canvas
+            data-testid="sales-chart-canvas"
+            height="0"
+            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+            width="0"
+          />
+        </div>
+      </div>
+      <div
+        class="lg:col-span-1 bg-white p-6 rounded-2xl shadow-lg"
+      >
+        <h3
+          class="text-xl font-bold text-gray-800 mb-6"
+        >
+          Call History
+        </h3>
+        <div
+          class="relative pl-6"
         >
           <div
-            class="md:w-5/12"
+            class="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200"
+          />
+          <div
+            class="space-y-8"
           >
             <div
-              class="flex flex-col items-center mt-1"
+              class="relative"
             >
-               
               <div
-                class="mb-1"
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
               >
-                 
-                <div
-                  class="rounded-full bg-blue-500 flex justify-center items-center text-gray-800 font-bold w-10 h-10"
+                <i
+                  class="bi bi-telephone-outbound"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
                 >
-                  JS
-                </div>
-              </div>
-              <div
-                class="flex-grow flex flex-col items-center"
-              >
-                 
-                <h4
-                  class="m-0 text-center"
+                  Closing call with Acme Corp
+                </p>
+                <p
+                  class="text-sm text-gray-500"
                 >
-                  James Smith
-                </h4>
-                 
-                 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex mt-3 border rounded p-3 bg-gray-100 justify-center text-center"
-        >
-          <div
-            class="w-1/6"
-          >
-            <div
-              class="font-bold text-gray-500"
-            >
-              Talk to listen ratio
-            </div>
-            <div
-              class="font-bold"
-            >
-              52/48%
-            </div>
-          </div>
-          <div
-            class="w-1/6"
-          >
-            <div
-              class="font-bold text-gray-500"
-            >
-              Talking speed
-            </div>
-            <div
-              class="font-bold"
-            >
-              156.8 wpm
-            </div>
-          </div>
-          <div
-            class="w-1/6"
-          >
-            <div
-              class="font-bold text-gray-500"
-            >
-              Switches per hour
-            </div>
-            <div
-              class="font-bold"
-            >
-              32.72
-            </div>
-          </div>
-          <div
-            class="w-1/4"
-          >
-            <div
-              class="font-bold text-gray-500"
-            >
-              Pause before speaking
-            </div>
-            <div
-              class="font-bold"
-            >
-              68.97ms
-            </div>
-          </div>
-          <div
-            class="w-1/4"
-          >
-            <div
-              class="font-bold text-gray-500"
-            >
-              Longest customer monologue
-            </div>
-            <div
-              class="font-bold"
-            >
-              37sec
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex mt-3"
-        >
-          <div
-            class="w-full"
-          >
-            <h4>
-              Seller Insights
-            </h4>
-            <div
-              class="flex gap-2 text-center"
-            >
-              <div
-                class="flex-1 border border-blue-500 rounded p-2"
-              >
-                James Smith has been talking too fast in most conversations
-              </div>
-              <div
-                class="flex-1 border border-blue-500 rounded p-2"
-              >
-                James Smith's talk-to-listen ratio is 13% higher than the team's average
-              </div>
-              <div
-                class="flex-1 border border-blue-500 rounded p-2"
-              >
-                Positive customer sentiments is higher than the average in 38% of calls
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex mt-3"
-        >
-          <div
-            class="w-full"
-          >
-            <h4>
-              Call History
-            </h4>
-            <div
-              class="relative overflow-x-auto shadow-md sm:rounded-lg"
-            >
-              <table
-                class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
-              >
-                <thead
-                  class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+                  6 hours ago - 31m 30s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
                 >
-                  <tr>
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    />
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    >
-                      Title
-                    </th>
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    >
-                      Added
-                    </th>
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    >
-                      Duration
-                    </th>
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    >
-                      Phone Number
-                    </th>
-                    <th
-                      class="px-6 py-3"
-                      scope="col"
-                    >
-                      Related Opportunity
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr
-                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                  >
-                    <td
-                      class="px-6 py-4"
-                    >
-                      <i
-                        class="bi bi-telephone"
-                      />
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Closing the deal
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      6 hours ago
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      31m 30s
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      123456789
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Not Set
-                    </td>
-                  </tr>
-                  <tr
-                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                  >
-                    <td
-                      class="px-6 py-4"
-                    >
-                      <i
-                        class="bi bi-telephone"
-                      />
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Initial discussion
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      3 days ago
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      35m 14s
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      123456789
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Not Set
-                    </td>
-                  </tr>
-                  <tr
-                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                  >
-                    <td
-                      class="px-6 py-4"
-                    >
-                      <i
-                        class="bi bi-telephone"
-                      />
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Initial catalog launch
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      3 days ago
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      45m 20s
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      123456789
-                    </td>
-                    <td
-                      class="px-6 py-4"
-                    >
-                      Not Set
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`should render SellerInsights component 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="flex mt-3"
-      >
-        <div
-          class="w-full"
-        >
-          <h4>
-            Seller Insights
-          </h4>
-          <div
-            class="flex gap-2 text-center"
-          >
-            <div
-              class="flex-1 border border-blue-500 rounded p-2"
-            >
-              James Smith has been talking too fast in most conversations
+                  Opportunity-123
+                </p>
+              </div>
             </div>
             <div
-              class="flex-1 border border-blue-500 rounded p-2"
+              class="relative"
             >
-              James Smith's talk-to-listen ratio is 13% higher than the team's average
+              <div
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              >
+                <i
+                  class="bi bi-telephone-inbound"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
+                >
+                  Initial discussion with Tech Solutions
+                </p>
+                <p
+                  class="text-sm text-gray-500"
+                >
+                  3 days ago - 35m 14s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
+                >
+                  Opportunity-121
+                </p>
+              </div>
             </div>
             <div
-              class="flex-1 border border-blue-500 rounded p-2"
+              class="relative"
             >
-              Positive customer sentiments is higher than the average in 38% of calls
+              <div
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              >
+                <i
+                  class="bi bi-camera-video"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
+                >
+                  Product Demo for Retail Inc.
+                </p>
+                <p
+                  class="text-sm text-gray-500"
+                >
+                  3 days ago - 45m 20s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
+                >
+                  Opportunity-119
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              >
+                <i
+                  class="bi bi-telephone-outbound"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
+                >
+                  Follow-up on Q4 proposal
+                </p>
+                <p
+                  class="text-sm text-gray-500"
+                >
+                  5 days ago - 15m 50s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
+                >
+                  Opportunity-117
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              >
+                <i
+                  class="bi bi-calendar-event"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
+                >
+                  Quarterly Business Review
+                </p>
+                <p
+                  class="text-sm text-gray-500"
+                >
+                  1 week ago - 55m 10s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
+                >
+                  Opportunity-115
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="absolute -left-1.5 top-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              >
+                <i
+                  class="bi bi-headset"
+                />
+              </div>
+              <div
+                class="pl-12"
+              >
+                <p
+                  class="font-semibold text-gray-800"
+                >
+                  Support call with Client-X
+                </p>
+                <p
+                  class="text-sm text-gray-500"
+                >
+                  2 weeks ago - 12m 05s
+                </p>
+                <p
+                  class="text-sm text-gray-600 mt-1"
+                >
+                  Ticket-4567
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex mt-3"
-    >
-      <div
-        class="w-full"
-      >
-        <h4>
-          Seller Insights
-        </h4>
-        <div
-          class="flex gap-2 text-center"
-        >
-          <div
-            class="flex-1 border border-blue-500 rounded p-2"
-          >
-            James Smith has been talking too fast in most conversations
-          </div>
-          <div
-            class="flex-1 border border-blue-500 rounded p-2"
-          >
-            James Smith's talk-to-listen ratio is 13% higher than the team's average
-          </div>
-          <div
-            class="flex-1 border border-blue-500 rounded p-2"
-          >
-            Positive customer sentiments is higher than the average in 38% of calls
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`should render StatisticSummary component 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="flex mt-3 border rounded p-3 bg-gray-100 justify-center text-center"
-      >
-        <div
-          class="w-1/6"
-        >
-          <div
-            class="font-bold text-gray-500"
-          >
-            Talk to listen ratio
-          </div>
-          <div
-            class="font-bold"
-          >
-            52/48%
-          </div>
-        </div>
-        <div
-          class="w-1/6"
-        >
-          <div
-            class="font-bold text-gray-500"
-          >
-            Talking speed
-          </div>
-          <div
-            class="font-bold"
-          >
-            156.8 wpm
-          </div>
-        </div>
-        <div
-          class="w-1/6"
-        >
-          <div
-            class="font-bold text-gray-500"
-          >
-            Switches per hour
-          </div>
-          <div
-            class="font-bold"
-          >
-            32.72
-          </div>
-        </div>
-        <div
-          class="w-1/4"
-        >
-          <div
-            class="font-bold text-gray-500"
-          >
-            Pause before speaking
-          </div>
-          <div
-            class="font-bold"
-          >
-            68.97ms
-          </div>
-        </div>
-        <div
-          class="w-1/4"
-        >
-          <div
-            class="font-bold text-gray-500"
-          >
-            Longest customer monologue
-          </div>
-          <div
-            class="font-bold"
-          >
-            37sec
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex mt-3 border rounded p-3 bg-gray-100 justify-center text-center"
-    >
-      <div
-        class="w-1/6"
-      >
-        <div
-          class="font-bold text-gray-500"
-        >
-          Talk to listen ratio
-        </div>
-        <div
-          class="font-bold"
-        >
-          52/48%
-        </div>
-      </div>
-      <div
-        class="w-1/6"
-      >
-        <div
-          class="font-bold text-gray-500"
-        >
-          Talking speed
-        </div>
-        <div
-          class="font-bold"
-        >
-          156.8 wpm
-        </div>
-      </div>
-      <div
-        class="w-1/6"
-      >
-        <div
-          class="font-bold text-gray-500"
-        >
-          Switches per hour
-        </div>
-        <div
-          class="font-bold"
-        >
-          32.72
-        </div>
-      </div>
-      <div
-        class="w-1/4"
-      >
-        <div
-          class="font-bold text-gray-500"
-        >
-          Pause before speaking
-        </div>
-        <div
-          class="font-bold"
-        >
-          68.97ms
-        </div>
-      </div>
-      <div
-        class="w-1/4"
-      >
-        <div
-          class="font-bold text-gray-500"
-        >
-          Longest customer monologue
-        </div>
-        <div
-          class="font-bold"
-        >
-          37sec
-        </div>
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+  </div>
+</DocumentFragment>
 `;
