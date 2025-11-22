@@ -30,11 +30,11 @@ const TranscriptSummary = () => {
   }
 
   return (
-    <div className="flex mt-3 justify-center">
-      <div className="md:w-5/12">
+    <div className="flex flex-col md:flex-row justify-center gap-6 p-6 min-h-screen">
+      <div className="w-full md:w-5/12">
         <Tabs />
       </div>
-      <div className="md:w-5/12">
+      <div className="w-full md:w-5/12">
         <Transcript
           keywords={keywords}
           onAddKeyword={handleAddKeyword}

@@ -33,7 +33,7 @@ const KeywordPills = ({ keywords, onAddKeyword, onRemoveKeyword }) => {
           </span>
         ))}
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-1 sm:gap-2">
         <input
           type="text"
           value={newKeyword}
@@ -44,12 +44,12 @@ const KeywordPills = ({ keywords, onAddKeyword, onRemoveKeyword }) => {
             }
           }}
           placeholder="Add new keyword"
-          className="grow p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="grow p-1 sm:p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
           type="button"
           onClick={handleAdd}
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="px-2 py-1 sm:px-4 sm:py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           Add
         </button>

@@ -113,7 +113,7 @@ exports[`should render component 1`] = `
                 class="flex justify-center text-center"
               >
                 <div
-                  class="md:w-11/12"
+                  class="md:w-11/12 p-6"
                 >
                   <div
                     class="flex p-3 items-center"
@@ -875,7 +875,7 @@ exports[`should render component 1`] = `
               class="flex justify-center text-center"
             >
               <div
-                class="md:w-11/12"
+                class="md:w-11/12 p-6"
               >
                 <div
                   class="flex p-3 items-center"

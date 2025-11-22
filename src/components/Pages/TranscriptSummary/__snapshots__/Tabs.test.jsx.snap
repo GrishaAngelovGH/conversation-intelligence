@@ -9,22 +9,22 @@ exports[`should render Tabs component 1`] = `
         class="border-b-2 border-gray-200 mb-3"
       >
         <div
-          class="flex"
+          class="flex flex-wrap"
         >
           <button
-            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+            class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-bold border-b-2 border-blue-700 text-blue-700 bg-white shadow-sm"
           >
             Overview
           </button>
           <button
-            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+            class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
           >
             Action Items
           </button>
           <button
-            class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+            class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
           >
             Highlights
@@ -283,22 +283,22 @@ exports[`should render Tabs component 1`] = `
       class="border-b-2 border-gray-200 mb-3"
     >
       <div
-        class="flex"
+        class="flex flex-wrap"
       >
         <button
-          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+          class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-bold border-b-2 border-blue-700 text-blue-700 bg-white shadow-sm"
         >
           Overview
         </button>
         <button
-          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+          class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
         >
           Action Items
         </button>
         <button
-          class="py-3 px-6 text-lg text-center rounded-t-lg transition-colors duration-200 ease-in-out
+          class="py-3 px-2 text-center rounded-t-lg transition-colors duration-200 ease-in-out
               font-medium border-b-2 border-transparent text-gray-600 hover:text-blue-700 hover:border-blue-400 hover:bg-gray-50"
         >
           Highlights

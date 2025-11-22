@@ -108,16 +108,16 @@ exports[`KeywordPills > renders correctly with initial keywords 1`] = `
       </span>
     </div>
     <div
-      class="flex gap-2"
+      class="flex gap-1 sm:gap-2"
     >
       <input
-        class="grow p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="grow p-1 sm:p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         placeholder="Add new keyword"
         type="text"
         value=""
       />
       <button
-        class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="px-2 py-1 sm:px-4 sm:py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         type="button"
       >
         Add
