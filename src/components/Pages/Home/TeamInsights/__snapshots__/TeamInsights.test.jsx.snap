@@ -47,10 +47,10 @@ exports[`should render TeamInsights component 1`] = `
               class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
                 <div
-                  class="w-full md:w-3/12 flex items-center"
+                  class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                 >
                   <img
                     alt="John Smith"
@@ -64,22 +64,37 @@ exports[`should render TeamInsights component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-600"
+                  class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Metric: 
+                  </span>
                   Talk Ratio
                 </div>
                 <div
-                  class="w-full md:w-3/12 font-bold text-gray-800"
+                  class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Value: 
+                  </span>
                   68%
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                  class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Comparison: 
+                  </span>
                   +21% vs. Top Performers
                 </div>
                 <div
-                  class="w-full md:w-1/12 flex justify-end"
+                  class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                 >
                   <button
                     aria-label="Toggle details"
@@ -109,10 +124,10 @@ exports[`should render TeamInsights component 1`] = `
               class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
                 <div
-                  class="w-full md:w-3/12 flex items-center"
+                  class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                 >
                   <img
                     alt="Jane Smith"
@@ -126,22 +141,37 @@ exports[`should render TeamInsights component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-600"
+                  class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Metric: 
+                  </span>
                   Talk Ratio
                 </div>
                 <div
-                  class="w-full md:w-3/12 font-bold text-gray-800"
+                  class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Value: 
+                  </span>
                   51%
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                  class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Comparison: 
+                  </span>
                   -9% vs. Top Performers
                 </div>
                 <div
-                  class="w-full md:w-1/12 flex justify-end"
+                  class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                 >
                   <button
                     aria-label="Toggle details"
@@ -171,10 +201,10 @@ exports[`should render TeamInsights component 1`] = `
               class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
                 <div
-                  class="w-full md:w-3/12 flex items-center"
+                  class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                 >
                   <img
                     alt="Simon Doe"
@@ -188,22 +218,37 @@ exports[`should render TeamInsights component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-600"
+                  class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Metric: 
+                  </span>
                   Words Per Minute
                 </div>
                 <div
-                  class="w-full md:w-3/12 font-bold text-gray-800"
+                  class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Value: 
+                  </span>
                   118
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                  class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Comparison: 
+                  </span>
                   -21% vs. Top Performers
                 </div>
                 <div
-                  class="w-full md:w-1/12 flex justify-end"
+                  class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                 >
                   <button
                     aria-label="Toggle details"
@@ -233,10 +278,10 @@ exports[`should render TeamInsights component 1`] = `
               class="border-b border-gray-200 last:border-b-0"
             >
               <div
-                class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
                 <div
-                  class="w-full md:w-3/12 flex items-center"
+                  class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                 >
                   <img
                     alt="William Blake"
@@ -250,22 +295,37 @@ exports[`should render TeamInsights component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-600"
+                  class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Metric: 
+                  </span>
                   Words Per Minute
                 </div>
                 <div
-                  class="w-full md:w-3/12 font-bold text-gray-800"
+                  class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Value: 
+                  </span>
                   118
                 </div>
                 <div
-                  class="w-full md:w-3/12 text-gray-500 text-sm"
+                  class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                 >
+                  <span
+                    class="font-semibold md:hidden"
+                  >
+                    Comparison: 
+                  </span>
                   -21% vs. Top Performers
                 </div>
                 <div
-                  class="w-full md:w-1/12 flex justify-end"
+                  class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                 >
                   <button
                     aria-label="Toggle details"
@@ -339,10 +399,10 @@ exports[`should render TeamInsights component 1`] = `
             class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+              class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
               <div
-                class="w-full md:w-3/12 flex items-center"
+                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
               >
                 <img
                   alt="John Smith"
@@ -356,22 +416,37 @@ exports[`should render TeamInsights component 1`] = `
                 </span>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600"
+                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Metric: 
+                </span>
                 Talk Ratio
               </div>
               <div
-                class="w-full md:w-3/12 font-bold text-gray-800"
+                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Value: 
+                </span>
                 68%
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
+                class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Comparison: 
+                </span>
                 +21% vs. Top Performers
               </div>
               <div
-                class="w-full md:w-1/12 flex justify-end"
+                class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
               >
                 <button
                   aria-label="Toggle details"
@@ -401,10 +476,10 @@ exports[`should render TeamInsights component 1`] = `
             class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+              class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
               <div
-                class="w-full md:w-3/12 flex items-center"
+                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
               >
                 <img
                   alt="Jane Smith"
@@ -418,22 +493,37 @@ exports[`should render TeamInsights component 1`] = `
                 </span>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600"
+                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Metric: 
+                </span>
                 Talk Ratio
               </div>
               <div
-                class="w-full md:w-3/12 font-bold text-gray-800"
+                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Value: 
+                </span>
                 51%
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
+                class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Comparison: 
+                </span>
                 -9% vs. Top Performers
               </div>
               <div
-                class="w-full md:w-1/12 flex justify-end"
+                class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
               >
                 <button
                   aria-label="Toggle details"
@@ -463,10 +553,10 @@ exports[`should render TeamInsights component 1`] = `
             class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+              class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
               <div
-                class="w-full md:w-3/12 flex items-center"
+                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
               >
                 <img
                   alt="Simon Doe"
@@ -480,22 +570,37 @@ exports[`should render TeamInsights component 1`] = `
                 </span>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600"
+                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Metric: 
+                </span>
                 Words Per Minute
               </div>
               <div
-                class="w-full md:w-3/12 font-bold text-gray-800"
+                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Value: 
+                </span>
                 118
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
+                class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Comparison: 
+                </span>
                 -21% vs. Top Performers
               </div>
               <div
-                class="w-full md:w-1/12 flex justify-end"
+                class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
               >
                 <button
                   aria-label="Toggle details"
@@ -525,10 +630,10 @@ exports[`should render TeamInsights component 1`] = `
             class="border-b border-gray-200 last:border-b-0"
           >
             <div
-              class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+              class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
             >
               <div
-                class="w-full md:w-3/12 flex items-center"
+                class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
               >
                 <img
                   alt="William Blake"
@@ -542,22 +647,37 @@ exports[`should render TeamInsights component 1`] = `
                 </span>
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-600"
+                class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Metric: 
+                </span>
                 Words Per Minute
               </div>
               <div
-                class="w-full md:w-3/12 font-bold text-gray-800"
+                class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Value: 
+                </span>
                 118
               </div>
               <div
-                class="w-full md:w-3/12 text-gray-500 text-sm"
+                class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
               >
+                <span
+                  class="font-semibold md:hidden"
+                >
+                  Comparison: 
+                </span>
                 -21% vs. Top Performers
               </div>
               <div
-                class="w-full md:w-1/12 flex justify-end"
+                class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
               >
                 <button
                   aria-label="Toggle details"

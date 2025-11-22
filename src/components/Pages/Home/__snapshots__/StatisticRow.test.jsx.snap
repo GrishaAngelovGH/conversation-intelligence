@@ -6,7 +6,7 @@ exports[`should render StatisticRow component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
+        class="grid grid-cols-1 md:grid-cols-5 gap-4 my-8 px-3 cursor-default"
       >
         <div
           class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
@@ -98,7 +98,7 @@ exports[`should render StatisticRow component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
+      class="grid grid-cols-1 md:grid-cols-5 gap-4 my-8 px-3 cursor-default"
     >
       <div
         class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"

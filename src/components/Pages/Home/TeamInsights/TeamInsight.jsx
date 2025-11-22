@@ -9,21 +9,21 @@ const TeamInsight = ({ insight }) => {
 
   return (
     <div className="border-b border-gray-200 last:border-b-0">
-      <div className="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-        <div className="w-full md:w-3/12 flex items-center">
+      <div className="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+        <div className="w-full md:w-3/12 flex items-center mb-2 md:mb-0">
           <img src={insight.avatar} alt={insight.name} className="w-10 h-10 rounded-full mr-3" />
           <span className="font-semibold text-gray-800">{insight.name}</span>
         </div>
-        <div className="w-full md:w-3/12 text-gray-600">
-          {insight.metric}
+        <div className="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0">
+          <span className="font-semibold md:hidden">Metric: </span>{insight.metric}
         </div>
-        <div className="w-full md:w-3/12 font-bold text-gray-800">
-          {insight.value}
+        <div className="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0">
+          <span className="font-semibold md:hidden">Value: </span>{insight.value}
         </div>
-        <div className="w-full md:w-3/12 text-gray-500 text-sm">
-          {insight.comparison}
+        <div className="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0">
+          <span className="font-semibold md:hidden">Comparison: </span>{insight.comparison}
         </div>
-        <div className="w-full md:w-1/12 flex justify-end">
+        <div className="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0">
           <button
             aria-label="Toggle details"
             onClick={handleToggle}

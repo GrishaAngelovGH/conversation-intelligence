@@ -18,7 +18,7 @@ exports[`should render Home component 1`] = `
               class="md:w-6/12"
             >
               <h3
-                class="text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
+                class="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
               >
                 Good morning, 
                 James Smith
@@ -32,19 +32,19 @@ exports[`should render Home component 1`] = `
                 role="group"
               >
                 <button
-                  class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-blue-700 text-white hover:bg-blue-800 focus:bg-blue-800 focus:text-white dark:bg-blue-700 dark:text-white dark:hover:bg-blue-800 dark:focus:bg-blue-800 dark:focus:text-white rounded-l-md "
+                  class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-blue-700 text-white hover:bg-blue-800 focus:bg-blue-800 focus:text-white dark:bg-blue-700 dark:text-white dark:hover:bg-blue-800 dark:focus:bg-blue-800 dark:focus:text-white rounded-l-md "
                   type="button"
                 >
                   Last 7 days
                 </button>
                 <button
-                  class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  "
+                  class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  "
                   type="button"
                 >
                   Last 30 days
                 </button>
                 <button
-                  class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  rounded-r-md"
+                  class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  rounded-r-md"
                   type="button"
                 >
                   Last 90 days
@@ -53,7 +53,7 @@ exports[`should render Home component 1`] = `
             </div>
           </div>
           <div
-            class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
+            class="grid grid-cols-1 md:grid-cols-5 gap-4 my-8 px-3 cursor-default"
           >
             <div
               class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
@@ -347,10 +347,10 @@ exports[`should render Home component 1`] = `
                   class="border-b border-gray-200 last:border-b-0"
                 >
                   <div
-                    class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                    class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                   >
                     <div
-                      class="w-full md:w-3/12 flex items-center"
+                      class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                     >
                       <img
                         alt="John Smith"
@@ -364,22 +364,37 @@ exports[`should render Home component 1`] = `
                       </span>
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-600"
+                      class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Metric: 
+                      </span>
                       Talk Ratio
                     </div>
                     <div
-                      class="w-full md:w-3/12 font-bold text-gray-800"
+                      class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Value: 
+                      </span>
                       68%
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-500 text-sm"
+                      class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Comparison: 
+                      </span>
                       +21% vs. Top Performers
                     </div>
                     <div
-                      class="w-full md:w-1/12 flex justify-end"
+                      class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                     >
                       <button
                         aria-label="Toggle details"
@@ -409,10 +424,10 @@ exports[`should render Home component 1`] = `
                   class="border-b border-gray-200 last:border-b-0"
                 >
                   <div
-                    class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                    class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                   >
                     <div
-                      class="w-full md:w-3/12 flex items-center"
+                      class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                     >
                       <img
                         alt="Jane Smith"
@@ -426,22 +441,37 @@ exports[`should render Home component 1`] = `
                       </span>
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-600"
+                      class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Metric: 
+                      </span>
                       Talk Ratio
                     </div>
                     <div
-                      class="w-full md:w-3/12 font-bold text-gray-800"
+                      class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Value: 
+                      </span>
                       51%
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-500 text-sm"
+                      class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Comparison: 
+                      </span>
                       -9% vs. Top Performers
                     </div>
                     <div
-                      class="w-full md:w-1/12 flex justify-end"
+                      class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                     >
                       <button
                         aria-label="Toggle details"
@@ -471,10 +501,10 @@ exports[`should render Home component 1`] = `
                   class="border-b border-gray-200 last:border-b-0"
                 >
                   <div
-                    class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                    class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                   >
                     <div
-                      class="w-full md:w-3/12 flex items-center"
+                      class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                     >
                       <img
                         alt="Simon Doe"
@@ -488,22 +518,37 @@ exports[`should render Home component 1`] = `
                       </span>
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-600"
+                      class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Metric: 
+                      </span>
                       Words Per Minute
                     </div>
                     <div
-                      class="w-full md:w-3/12 font-bold text-gray-800"
+                      class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Value: 
+                      </span>
                       118
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-500 text-sm"
+                      class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Comparison: 
+                      </span>
                       -21% vs. Top Performers
                     </div>
                     <div
-                      class="w-full md:w-1/12 flex justify-end"
+                      class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                     >
                       <button
                         aria-label="Toggle details"
@@ -533,10 +578,10 @@ exports[`should render Home component 1`] = `
                   class="border-b border-gray-200 last:border-b-0"
                 >
                   <div
-                    class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                    class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                   >
                     <div
-                      class="w-full md:w-3/12 flex items-center"
+                      class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                     >
                       <img
                         alt="William Blake"
@@ -550,22 +595,37 @@ exports[`should render Home component 1`] = `
                       </span>
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-600"
+                      class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Metric: 
+                      </span>
                       Words Per Minute
                     </div>
                     <div
-                      class="w-full md:w-3/12 font-bold text-gray-800"
+                      class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Value: 
+                      </span>
                       118
                     </div>
                     <div
-                      class="w-full md:w-3/12 text-gray-500 text-sm"
+                      class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                     >
+                      <span
+                        class="font-semibold md:hidden"
+                      >
+                        Comparison: 
+                      </span>
                       -21% vs. Top Performers
                     </div>
                     <div
-                      class="w-full md:w-1/12 flex justify-end"
+                      class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                     >
                       <button
                         aria-label="Toggle details"
@@ -612,7 +672,7 @@ exports[`should render Home component 1`] = `
             class="md:w-6/12"
           >
             <h3
-              class="text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
+              class="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-700 to-purple-500"
             >
               Good morning, 
               James Smith
@@ -626,19 +686,19 @@ exports[`should render Home component 1`] = `
               role="group"
             >
               <button
-                class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-blue-700 text-white hover:bg-blue-800 focus:bg-blue-800 focus:text-white dark:bg-blue-700 dark:text-white dark:hover:bg-blue-800 dark:focus:bg-blue-800 dark:focus:text-white rounded-l-md "
+                class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-blue-700 text-white hover:bg-blue-800 focus:bg-blue-800 focus:text-white dark:bg-blue-700 dark:text-white dark:hover:bg-blue-800 dark:focus:bg-blue-800 dark:focus:text-white rounded-l-md "
                 type="button"
               >
                 Last 7 days
               </button>
               <button
-                class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  "
+                class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  "
                 type="button"
               >
                 Last 30 days
               </button>
               <button
-                class="px-4 py-2 text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  rounded-r-md"
+                class="px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium border border-gray-200 focus:z-10 focus:ring-2 focus:ring-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:focus:ring-blue-500 bg-white text-blue-700 hover:bg-gray-100 focus:text-blue-700 dark:bg-gray-700 dark:text-white dark:focus:text-white  rounded-r-md"
                 type="button"
               >
                 Last 90 days
@@ -647,7 +707,7 @@ exports[`should render Home component 1`] = `
           </div>
         </div>
         <div
-          class="grid grid-cols-1 md:grid-cols-5 gap-4 my-4 cursor-default"
+          class="grid grid-cols-1 md:grid-cols-5 gap-4 my-8 px-3 cursor-default"
         >
           <div
             class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center text-center"
@@ -941,10 +1001,10 @@ exports[`should render Home component 1`] = `
                 class="border-b border-gray-200 last:border-b-0"
               >
                 <div
-                  class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                  class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                 >
                   <div
-                    class="w-full md:w-3/12 flex items-center"
+                    class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                   >
                     <img
                       alt="John Smith"
@@ -958,22 +1018,37 @@ exports[`should render Home component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-600"
+                    class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Metric: 
+                    </span>
                     Talk Ratio
                   </div>
                   <div
-                    class="w-full md:w-3/12 font-bold text-gray-800"
+                    class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Value: 
+                    </span>
                     68%
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-500 text-sm"
+                    class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Comparison: 
+                    </span>
                     +21% vs. Top Performers
                   </div>
                   <div
-                    class="w-full md:w-1/12 flex justify-end"
+                    class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                   >
                     <button
                       aria-label="Toggle details"
@@ -1003,10 +1078,10 @@ exports[`should render Home component 1`] = `
                 class="border-b border-gray-200 last:border-b-0"
               >
                 <div
-                  class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                  class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                 >
                   <div
-                    class="w-full md:w-3/12 flex items-center"
+                    class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                   >
                     <img
                       alt="Jane Smith"
@@ -1020,22 +1095,37 @@ exports[`should render Home component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-600"
+                    class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Metric: 
+                    </span>
                     Talk Ratio
                   </div>
                   <div
-                    class="w-full md:w-3/12 font-bold text-gray-800"
+                    class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Value: 
+                    </span>
                     51%
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-500 text-sm"
+                    class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Comparison: 
+                    </span>
                     -9% vs. Top Performers
                   </div>
                   <div
-                    class="w-full md:w-1/12 flex justify-end"
+                    class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                   >
                     <button
                       aria-label="Toggle details"
@@ -1065,10 +1155,10 @@ exports[`should render Home component 1`] = `
                 class="border-b border-gray-200 last:border-b-0"
               >
                 <div
-                  class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                  class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                 >
                   <div
-                    class="w-full md:w-3/12 flex items-center"
+                    class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                   >
                     <img
                       alt="Simon Doe"
@@ -1082,22 +1172,37 @@ exports[`should render Home component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-600"
+                    class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Metric: 
+                    </span>
                     Words Per Minute
                   </div>
                   <div
-                    class="w-full md:w-3/12 font-bold text-gray-800"
+                    class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Value: 
+                    </span>
                     118
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-500 text-sm"
+                    class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Comparison: 
+                    </span>
                     -21% vs. Top Performers
                   </div>
                   <div
-                    class="w-full md:w-1/12 flex justify-end"
+                    class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                   >
                     <button
                       aria-label="Toggle details"
@@ -1127,10 +1232,10 @@ exports[`should render Home component 1`] = `
                 class="border-b border-gray-200 last:border-b-0"
               >
                 <div
-                  class="flex items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                  class="flex flex-col md:flex-row items-start md:items-center py-5 px-4 hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
                 >
                   <div
-                    class="w-full md:w-3/12 flex items-center"
+                    class="w-full md:w-3/12 flex items-center mb-2 md:mb-0"
                   >
                     <img
                       alt="William Blake"
@@ -1144,22 +1249,37 @@ exports[`should render Home component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-600"
+                    class="w-full md:w-3/12 text-gray-600 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Metric: 
+                    </span>
                     Words Per Minute
                   </div>
                   <div
-                    class="w-full md:w-3/12 font-bold text-gray-800"
+                    class="w-full md:w-3/12 font-bold text-gray-800 mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Value: 
+                    </span>
                     118
                   </div>
                   <div
-                    class="w-full md:w-3/12 text-gray-500 text-sm"
+                    class="w-full md:w-3/12 text-gray-500 text-sm mb-2 md:mb-0"
                   >
+                    <span
+                      class="font-semibold md:hidden"
+                    >
+                      Comparison: 
+                    </span>
                     -21% vs. Top Performers
                   </div>
                   <div
-                    class="w-full md:w-1/12 flex justify-end"
+                    class="w-full md:w-1/12 flex justify-end md:justify-center mt-2 md:mt-0 flex-shrink-0"
                   >
                     <button
                       aria-label="Toggle details"
