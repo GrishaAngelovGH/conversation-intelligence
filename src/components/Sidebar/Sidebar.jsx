@@ -27,6 +27,9 @@ const Sidebar = ({ isToggled, onToggle }) => {
           <NavLink to="/seller-details" onClick={onToggle} className={linkClassName}>
             <i className="bi bi-person"></i> <span className="font-bold">Seller Details</span>
           </NavLink>
+          <NavLink to="/coaching-dashboard" onClick={onToggle} className={linkClassName}>
+            <i className="bi bi-clipboard-check"></i> <span className="font-bold">Coaching Dashboard</span>
+          </NavLink>
         </nav>
       </div>
     </>

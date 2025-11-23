@@ -104,6 +104,21 @@ exports[`should render component 1`] = `
                     Seller Details
                   </span>
                 </a>
+                <a
+                  class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                  data-discover="true"
+                  href="/coaching-dashboard"
+                >
+                  <i
+                    class="bi bi-clipboard-check"
+                  />
+                   
+                  <span
+                    class="font-bold"
+                  >
+                    Coaching Dashboard
+                  </span>
+                </a>
               </nav>
             </div>
             <main
@@ -864,6 +879,21 @@ exports[`should render component 1`] = `
                   class="font-bold"
                 >
                   Seller Details
+                </span>
+              </a>
+              <a
+                class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+                data-discover="true"
+                href="/coaching-dashboard"
+              >
+                <i
+                  class="bi bi-clipboard-check"
+                />
+                 
+                <span
+                  class="font-bold"
+                >
+                  Coaching Dashboard
                 </span>
               </a>
             </nav>

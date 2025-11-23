@@ -8,6 +8,7 @@ import Sidebar from 'components/Sidebar'
 import Home from 'components/Pages/Home'
 import TranscriptSummary from 'components/Pages/TranscriptSummary'
 import SellerDetails from 'components/Pages/SellerDetails'
+import CoachingDashboard from 'components/Pages/CoachingDashboard'
 
 function App() {
   const [isToggled, setIsToggled] = useState(false)
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/transcript-summary" element={<TranscriptSummary />} />
                 <Route path="/seller-details" element={<SellerDetails />} />
+                <Route path="/coaching-dashboard" element={<CoachingDashboard />} />
               </Routes>
             </main>
           </div>

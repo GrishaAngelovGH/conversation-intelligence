@@ -59,6 +59,21 @@ exports[`Sidebar > should render correctly when not toggled (desktop view) 1`] =
           Seller Details
         </span>
       </a>
+      <a
+        class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+        data-discover="true"
+        href="/coaching-dashboard"
+      >
+        <i
+          class="bi bi-clipboard-check"
+        />
+         
+        <span
+          class="font-bold"
+        >
+          Coaching Dashboard
+        </span>
+      </a>
     </nav>
   </div>
 </DocumentFragment>
@@ -121,6 +136,21 @@ exports[`Sidebar > should render correctly when toggled (mobile overlay view) 1`
           class="font-bold"
         >
           Seller Details
+        </span>
+      </a>
+      <a
+        class="block border mt-1 ml-1 mb-1 p-2 no-underline rounded bg-transparent text-blue-800"
+        data-discover="true"
+        href="/coaching-dashboard"
+      >
+        <i
+          class="bi bi-clipboard-check"
+        />
+         
+        <span
+          class="font-bold"
+        >
+          Coaching Dashboard
         </span>
       </a>
     </nav>
