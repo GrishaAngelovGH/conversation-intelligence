@@ -9,7 +9,8 @@ const CallList = ({ calls, selectedCall, onSelectCall }) => (
             }`}
           onClick={() => onSelectCall(call)}
         >
-          Call with {call.agent} ({call.date})
+          <p className="font-semibold">Call with {call.agent} ({call.date})</p>
+          <p className="text-sm text-gray-600">{call.topic_summary}</p>
         </li>
       ))}
     </ul>

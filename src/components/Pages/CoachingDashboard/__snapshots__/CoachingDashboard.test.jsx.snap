@@ -27,17 +27,100 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
           <li
             class="p-2 border rounded-md cursor-pointer bg-blue-100"
           >
-            Call with John Doe (2025-11-19)
+            <p
+              class="font-semibold"
+            >
+              Call with John Doe (2025-12-19)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Damaged Package
+            </p>
           </li>
           <li
             class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
           >
-            Call with Jane Smith (2025-11-18)
+            <p
+              class="font-semibold"
+            >
+              Call with Jane Smith (2025-12-19)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Subscription Cancellation
+            </p>
           </li>
           <li
             class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
           >
-            Call with Peter Jones (2025-11-17)
+            <p
+              class="font-semibold"
+            >
+              Call with Peter Jones (2025-12-18)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Product Information
+            </p>
+          </li>
+          <li
+            class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
+          >
+            <p
+              class="font-semibold"
+            >
+              Call with John Doe (2025-12-18)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Internet Outage
+            </p>
+          </li>
+          <li
+            class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
+          >
+            <p
+              class="font-semibold"
+            >
+              Call with Jane Smith (2025-12-17)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Wrong Item Received
+            </p>
+          </li>
+          <li
+            class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
+          >
+            <p
+              class="font-semibold"
+            >
+              Call with John Doe (2025-12-17)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Flight Reservation Change
+            </p>
+          </li>
+          <li
+            class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
+          >
+            <p
+              class="font-semibold"
+            >
+              Call with Jane Smith (2025-12-17)
+            </p>
+            <p
+              class="text-sm text-gray-600"
+            >
+              Return Policy
+            </p>
           </li>
         </ul>
       </div>
@@ -62,13 +145,13 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
             <strong>
               Customer:
             </strong>
-             Hi, I'm having trouble with my recent order.
+             Hi, I'm having trouble with my recent order. The package arrived damaged.
           </p>
           <p>
             <strong>
               Agent:
             </strong>
-             I see. Could you please provide your order number?
+             I'm very sorry to hear that. Could you please provide your order number so I can look into this for you?
           </p>
           <p>
             <strong>
@@ -80,7 +163,13 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
             <strong>
               Agent:
             </strong>
-             Thank you. Let me check that for you.
+             Thank you. I see your order. We can send a replacement right away. Would that work for you?
+          </p>
+          <p>
+            <strong>
+              Customer:
+            </strong>
+             Yes, that would be great. Thank you for your help.
           </p>
         </div>
         <h2
@@ -100,7 +189,7 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
               Manager
             </p>
             <p>
-              Good opening, but try to be more energetic.
+              Good opening, and excellent empathy shown to the customer.
             </p>
           </div>
           <div
@@ -112,7 +201,31 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
               Manager
             </p>
             <p>
-              You should have offered a discount here.
+              You resolved the issue quickly and effectively. Great job.
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 p-3 rounded-md"
+          >
+            <p
+              class="font-semibold"
+            >
+              Manager
+            </p>
+            <p>
+              Remember to offer an apology upfront for the inconvenience.
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 p-3 rounded-md"
+          >
+            <p
+              class="font-semibold"
+            >
+              Manager
+            </p>
+            <p>
+              Consider asking if the customer would like expedited shipping for the replacement.
             </p>
           </div>
         </div>

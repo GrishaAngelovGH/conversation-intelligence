@@ -1,48 +1,10 @@
-import { useState } from 'react'
-
-import CallList from './CallList'
-import CallDetails from './CallDetails'
-
-const mockCalls = [
-  {
-    id: 1,
-    agent: 'John Doe',
-    date: '2025-11-19',
-    transcript: [
-      { speaker: 'Agent', text: 'Hello John, thank you for calling. How can I assist you today?' },
-      { speaker: 'Customer', text: 'Hi, I\'m having trouble with my recent order.' },
-      { speaker: 'Agent', text: 'I see. Could you please provide your order number?' },
-      { speaker: 'Customer', text: 'It\'s 12345.' },
-      { speaker: 'Agent', text: 'Thank you. Let me check that for you.' },
-    ],
-    comments: [
-      { id: 1, author: 'Manager', text: 'Good opening, but try to be more energetic.' },
-      { id: 2, author: 'Manager', text: 'You should have offered a discount here.' },
-    ]
-  },
-  {
-    id: 2,
-    agent: 'Jane Smith',
-    date: '2025-11-18',
-    transcript: [
-      { speaker: 'Agent', text: 'Thanks for calling, this is Jane.' },
-      { speaker: 'Customer', text: 'I want to cancel my subscription.' },
-    ],
-    comments: []
-  },
-  {
-    id: 3,
-    agent: 'Peter Jones',
-    date: '2025-11-17',
-    transcript: [
-      { speaker: 'Agent', text: 'Hello, you\'re speaking with Peter.' },
-    ],
-    comments: []
-  },
-]
+import { useState } from 'react';
+import CallList from './CallList';
+import CallDetails from './CallDetails';
+import { mockCalls } from './mockData';
 
 const CoachingDashboard = () => {
-  const [calls, setCalls] = useState(mockCalls)
+  const [calls, setCalls] = useState(mockCalls);
   const [selectedCall, setSelectedCall] = useState(mockCalls[0])
   const [newComment, setNewComment] = useState('')
 
