@@ -27,17 +27,17 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
           <li
             class="p-2 border rounded-md cursor-pointer bg-blue-100"
           >
-            Call with John Doe (2025-12-19)
+            Call with John Doe (2025-11-19)
           </li>
           <li
             class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
           >
-            Call with Jane Smith (2025-12-18)
+            Call with Jane Smith (2025-11-18)
           </li>
           <li
             class="p-2 border rounded-md cursor-pointer hover:bg-gray-100"
           >
-            Call with Peter Jones (2025-12-17)
+            Call with Peter Jones (2025-11-17)
           </li>
         </ul>
       </div>
