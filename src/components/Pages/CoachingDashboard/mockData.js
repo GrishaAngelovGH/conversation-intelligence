@@ -2,7 +2,7 @@ export const mockCalls = [
   {
     id: 1,
     agent: 'John Doe',
-    date: '2025-12-19',
+    date: '2025-11-19',
     topic_summary: 'Damaged Package',
     transcript: [
       { speaker: 'Agent', text: 'Hello John, thank you for calling. How can I assist you today?' },
@@ -22,7 +22,7 @@ export const mockCalls = [
   {
     id: 2,
     agent: 'Jane Smith',
-    date: '2025-12-19',
+    date: '2025-11-19',
     topic_summary: 'Subscription Cancellation',
     transcript: [
       { speaker: 'Agent', text: 'Thanks for calling, this is Jane. How can I help?' },
@@ -40,7 +40,7 @@ export const mockCalls = [
   {
     id: 3,
     agent: 'Peter Jones',
-    date: '2025-12-18',
+    date: '2025-11-18',
     topic_summary: 'Product Information',
     transcript: [
       { speaker: 'Agent', text: 'Hello, you\'re speaking with Peter. How may I assist you?' },
@@ -57,7 +57,7 @@ export const mockCalls = [
   {
     id: 4,
     agent: 'John Doe',
-    date: '2025-12-18',
+    date: '2025-11-18',
     topic_summary: 'Internet Outage',
     transcript: [
       { speaker: 'Agent', text: 'Good morning, this is John. How can I help you today?' },
@@ -74,7 +74,7 @@ export const mockCalls = [
   {
     id: 5,
     agent: 'Jane Smith',
-    date: '2025-12-17',
+    date: '2025-11-17',
     topic_summary: 'Wrong Item Received',
     transcript: [
       { speaker: 'Agent', text: 'Hi, this is Jane speaking. How may I help you?' },
@@ -90,7 +90,7 @@ export const mockCalls = [
   {
     id: 6,
     agent: 'John Doe',
-    date: '2025-12-17',
+    date: '2025-11-17',
     topic_summary: 'Flight Reservation Change',
     transcript: [
       { speaker: 'Agent', text: 'Good afternoon, this is John. How can I assist you with your flight today?' },
@@ -107,7 +107,7 @@ export const mockCalls = [
   {
     id: 7,
     agent: 'Jane Smith',
-    date: '2025-12-17',
+    date: '2025-11-17',
     topic_summary: 'Return Policy',
     transcript: [
       { speaker: 'Agent', text: 'This is Jane, how can I help?' },
@@ -121,4 +121,4 @@ export const mockCalls = [
       { id: 18, author: 'Manager', text: 'Ensure to highlight any exceptions to the policy if applicable.' },
     ]
   },
-]
+];
