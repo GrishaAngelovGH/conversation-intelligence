@@ -49,6 +49,6 @@ describe('CallDetails', () => {
 
   it('should show a message when no call is selected', () => {
     render(<CallDetails selectedCall={null} />)
-    expect(screen.getByText('Select a call to see the details.')).toBeInTheDocument()
+    expect(screen.getByText('Select a call from the list to view its details.')).toBeInTheDocument();
   })
 })
