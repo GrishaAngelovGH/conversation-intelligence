@@ -1,5 +1,4 @@
 import { renderHook, act } from '@testing-library/react'
-import { beforeEach } from 'vitest'
 import { useAnnotations } from './useAnnotations'
 
 const mockCallWithAnnotations = {

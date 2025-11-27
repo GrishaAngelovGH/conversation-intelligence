@@ -51,6 +51,7 @@ export default [
         test: 'readonly',
         expect: 'readonly',
         vi: 'readonly',
+        beforeEach: 'readonly',
         afterEach: 'readonly',
       }
     }

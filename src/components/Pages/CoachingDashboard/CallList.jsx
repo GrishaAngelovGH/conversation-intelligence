@@ -1,5 +1,5 @@
 const CallList = ({ calls, selectedCall, onSelectCall }) => (
-  <div className="w-1/3 bg-white p-4 rounded-lg shadow-md mr-4 overflow-y-auto">
+  <div className="w-full md:w-1/3 bg-white p-4 rounded-lg shadow-md mr-4 overflow-y-auto">
     <h2 className="text-2xl font-bold mb-4 text-gray-800">Call Reviews</h2>
     <ul className="space-y-3">
       {calls.map((call) => (

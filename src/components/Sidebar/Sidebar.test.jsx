@@ -1,6 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import { vi, beforeEach } from 'vitest'
 
 import Sidebar from './Sidebar'
 

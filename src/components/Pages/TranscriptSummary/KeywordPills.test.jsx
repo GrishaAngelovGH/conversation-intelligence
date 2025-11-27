@@ -1,5 +1,4 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import { vi, beforeEach } from 'vitest'
 
 import KeywordPills from './KeywordPills'
 

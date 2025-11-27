@@ -40,7 +40,7 @@ const CoachingDashboard = () => {
   return (
     <div className="p-4 h-full flex flex-col">
       <h1 className="text-2xl font-bold mb-4">Coaching Dashboard</h1>
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-4 flex-1 pb-5">
         <CallList
           calls={calls}
           selectedCall={selectedCall}
