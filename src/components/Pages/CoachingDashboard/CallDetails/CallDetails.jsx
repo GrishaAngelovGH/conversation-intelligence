@@ -1,25 +1,38 @@
 import { useState, useEffect } from 'react'
+import { useAnnotations } from 'hooks/useAnnotations'
 
-const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddComment }) => {
+import AnnotationBubbleMenu from './AnnotationBubbleMenu'
+import AnnotationNotePopup from './AnnotationNotePopup'
+import AnnotationTooltip from './AnnotationTooltip'
+
+const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddComment, onUpdateCall }) => {
+  const {
+    transcriptLines,
+    selectedTextInfo,
+    showNotePopup,
+    tooltip,
+    callDetailsRef,
+    handleTextSelect,
+    handleBubbleMenuClick,
+    handleNoteConfirm,
+    handleNoteCancel,
+    getCharacterOffsetWithin,
+    renderContent,
+  } = useAnnotations(selectedCall, onUpdateCall)
+
   const [isPlaying, setIsPlaying] = useState(false)
-  const [currentUtterance, setCurrentUtterance] = useState(null)
 
   useEffect(() => {
     return () => {
-      if (currentUtterance) {
-        speechSynthesis.cancel()
-      }
-      setIsPlaying(false)
+      speechSynthesis.cancel()
     }
-  }, [selectedCall, currentUtterance])
+  }, [selectedCall])
 
   const handlePlayTranscript = () => {
     if (!selectedCall || !selectedCall.transcript.length) return
 
     if (speechSynthesis.speaking) {
       speechSynthesis.cancel()
-      setIsPlaying(false)
-      setCurrentUtterance(null)
       return
     }
 
@@ -29,21 +42,39 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
     utterance.onstart = () => setIsPlaying(true)
     utterance.onend = () => {
       setIsPlaying(false)
-      setCurrentUtterance(null)
     }
     utterance.onerror = () => {
       setIsPlaying(false)
-      setCurrentUtterance(null)
     }
 
     speechSynthesis.speak(utterance)
-    setCurrentUtterance(utterance)
   }
 
   return (
-    <div className="flex-1 bg-white p-4 rounded-lg shadow-md overflow-y-auto">
+    <div ref={callDetailsRef} className="flex-1 bg-white p-4 rounded-lg shadow-md overflow-y-auto relative">
       {selectedCall ? (
         <>
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6 rounded-md">
+            <div className="flex">
+              <div className="shrink-0">
+                <svg className="h-5 w-5 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div className="ml-3">
+                <p className="text-sm text-blue-700 font-medium">
+                  <strong>Annotation Workflow:</strong>
+                  <br />
+                  1. To create an annotation, highlight any text in the transcript. A small bubble icon will appear next to your selection. Click it to add your note.
+                  <br />
+                  2. To view an annotation&apos;s message, hover over the annotated text.
+                  <br />
+                  3. To clear an annotation, hover over the annotated text. A small &apos;X&apos; icon will appear; click it to remove the annotation.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold text-gray-800">Call Transcript</h2>
             <button
@@ -55,7 +86,7 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
             </button>
           </div>
           <div className="space-y-4 mb-6">
-            {selectedCall.transcript.map((line, index) => (
+            {transcriptLines.map((line, index) => (
               <div
                 key={index}
                 className={`flex items-start ${line.speaker === 'Agent' ? 'justify-end' : 'justify-start'
@@ -73,7 +104,26 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
                     }`}
                 >
                   <p className="font-semibold">{line.speaker}:</p>
-                  <p>{line.text}</p>
+                  <p ref={el => {
+                    if (el) {
+                      el.onmouseup = () => {
+                        const selection = window.getSelection()
+                        if (selection && selection.toString().length > 0 && el.contains(selection.anchorNode) && el.contains(selection.focusNode)) {
+                          const selectedText = selection.toString()
+                          const range = selection.getRangeAt(0)
+                          const rect = range.getBoundingClientRect()
+                          const { start, end } = getCharacterOffsetWithin(range, el)
+                          if (start !== null && end !== null) {
+                            handleTextSelect(selectedText, { start, end }, { x: rect.left, y: rect.top, width: rect.width, height: rect.height }, index)
+                          } else {
+                            handleTextSelect(null)
+                          }
+                        } else {
+                          handleTextSelect(null)
+                        }
+                      }
+                    }
+                  }}>{renderContent(line.text, selectedCall.keywords || [], line.annotations || [], index)}</p>
                 </div>
                 {line.speaker === 'Agent' && (
                   <div className="shrink-0 ml-3 w-8 h-8 flex items-center justify-center rounded-full bg-blue-500">
@@ -120,6 +170,25 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
           <p className="text-gray-500 text-lg">Select a call from the list to view its details.</p>
         </div>
       )}
+      {selectedTextInfo && selectedTextInfo.position && !showNotePopup && (
+        <AnnotationBubbleMenu
+          position={selectedTextInfo.position}
+          onClick={handleBubbleMenuClick}
+        />
+      )}
+      {showNotePopup && selectedTextInfo && selectedTextInfo.position && (
+        <AnnotationNotePopup
+          position={selectedTextInfo.position}
+          selectedText={selectedTextInfo.text}
+          onConfirm={handleNoteConfirm}
+          onCancel={handleNoteCancel}
+        />
+      )}
+      <AnnotationTooltip
+        note={tooltip.note}
+        position={tooltip.position}
+        visible={tooltip.visible}
+      />
     </div>
   )
 }

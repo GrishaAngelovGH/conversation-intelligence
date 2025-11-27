@@ -1,10 +1,11 @@
-import { useState } from 'react';
-import CallList from './CallList';
-import CallDetails from './CallDetails';
-import { mockCalls } from './mockData';
+import { useState } from 'react'
+import { mockCalls } from './mockData'
+
+import CallList from './CallList'
+import CallDetails from './CallDetails'
 
 const CoachingDashboard = () => {
-  const [calls, setCalls] = useState(mockCalls);
+  const [calls, setCalls] = useState(mockCalls)
   const [selectedCall, setSelectedCall] = useState(mockCalls[0])
   const [newComment, setNewComment] = useState('')
 
@@ -46,10 +47,15 @@ const CoachingDashboard = () => {
           onSelectCall={handleSelectCall}
         />
         <CallDetails
+          key={selectedCall ? selectedCall.id : 'no-call-selected'}
           selectedCall={selectedCall}
           newComment={newComment}
           onNewCommentChange={setNewComment}
           onAddComment={handleAddComment}
+          onUpdateCall={updatedCall => {
+            setCalls(calls.map(call => call.id === updatedCall.id ? updatedCall : call))
+            setSelectedCall(updatedCall)
+          }}
         />
       </div>
     </div>
