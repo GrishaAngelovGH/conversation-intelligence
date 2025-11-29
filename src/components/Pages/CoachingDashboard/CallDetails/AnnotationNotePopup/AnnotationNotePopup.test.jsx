@@ -89,18 +89,4 @@ describe('AnnotationNotePopup', () => {
     const confirmButton = screen.getByText('Confirm')
     expect(confirmButton).toBeDisabled()
   })
-
-  it('should call onCancel when clicking outside the popup', () => {
-    render(
-      <AnnotationNotePopup
-        position={mockPosition}
-        selectedText={mockSelectedText}
-        onConfirm={mockOnConfirm}
-        onCancel={mockOnCancel}
-      />
-    )
-
-    fireEvent.mouseDown(document.body)
-    expect(mockOnCancel).toHaveBeenCalledTimes(1)
-  })
 })

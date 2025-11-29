@@ -12,6 +12,8 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
     showNotePopup,
     tooltip,
     callDetailsRef,
+    bubbleMenuRef,
+    annotationNotePopupRef,
     handleTextSelect,
     handleBubbleMenuClick,
     handleNoteConfirm,
@@ -172,12 +174,14 @@ const CallDetails = ({ selectedCall, newComment, onNewCommentChange, onAddCommen
       )}
       {selectedTextInfo && selectedTextInfo.position && !showNotePopup && (
         <AnnotationBubbleMenu
+          ref={bubbleMenuRef}
           position={selectedTextInfo.position}
           onClick={handleBubbleMenuClick}
         />
       )}
       {showNotePopup && selectedTextInfo && selectedTextInfo.position && (
         <AnnotationNotePopup
+          ref={annotationNotePopupRef}
           position={selectedTextInfo.position}
           selectedText={selectedTextInfo.text}
           onConfirm={handleNoteConfirm}

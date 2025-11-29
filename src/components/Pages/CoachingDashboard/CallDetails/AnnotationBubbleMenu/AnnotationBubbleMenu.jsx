@@ -1,4 +1,4 @@
-const AnnotationBubbleMenu = ({ position, onClick }) => {
+const AnnotationBubbleMenu = ({ position, onClick, ref }) => {
   if (!position) return null
 
   // Calculate position to be slightly above and to the right of the selection
@@ -12,6 +12,7 @@ const AnnotationBubbleMenu = ({ position, onClick }) => {
 
   return (
     <div
+      ref={ref}
       role="button"
       aria-label="Add a note"
       style={style}

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useMemo, useEffect } from 'react'
+import { useState, useRef, useMemo, useEffect, Fragment } from 'react'
 
 export const useAnnotations = (selectedCall, onUpdateCall) => {
   const [localAnnotations, setLocalAnnotations] = useState({})
@@ -6,6 +6,8 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
   const [showNotePopup, setShowNotePopup] = useState(false)
   const [tooltip, setTooltip] = useState({ visible: false, note: '', position: null })
   const callDetailsRef = useRef(null)
+  const bubbleMenuRef = useRef(null)
+  const annotationNotePopupRef = useRef(null)
 
   // Derive the transcript lines to be rendered by merging the original transcript
   // with the locally created annotations. This is memoized for performance.
@@ -24,7 +26,7 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
   }, [selectedCall?.transcript, localAnnotations])
 
   const handleTextSelect = (text, range, position, lineIndex) => {
-    if (text || selectedTextInfo) {
+    if (text && callDetailsRef.current) {
       const parentRect = callDetailsRef.current.getBoundingClientRect()
       const relativePosition = {
         x: position.x - parentRect.left,
@@ -33,6 +35,9 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
         height: position.height,
       }
       setSelectedTextInfo({ text, range, position: relativePosition, lineIndex })
+      setShowNotePopup(false)
+    } else {
+      setSelectedTextInfo(null)
       setShowNotePopup(false)
     }
   }
@@ -133,24 +138,32 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
   }
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (callDetailsRef.current && !callDetailsRef.current.contains(event.target)) {
+    const handleAnnotationDeselect = (event) => {
+      // If the click is inside the bubble menu or note popup, do not hide.
+      if (
+        (bubbleMenuRef.current && bubbleMenuRef.current.contains(event.target)) ||
+        (annotationNotePopupRef.current && annotationNotePopupRef.current.contains(event.target))
+      ) {
+        return
+      }
+
+      // For any other click, dismiss the annotation UI.
+      // We add a small timeout to allow other events (like a new text selection) to process first.
+      setTimeout(() => {
         const selection = window.getSelection()
-        if (!selection || selection.toString().length === 0) {
+        if (!selection || selection.toString().trim().length === 0) {
           setSelectedTextInfo(null)
           setShowNotePopup(false)
         }
-      }
+      }, 0)
     }
 
-    if (selectedTextInfo || showNotePopup) {
-      document.addEventListener('mousedown', handleClickOutside)
-    }
+    document.addEventListener('mouseup', handleAnnotationDeselect)
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('mouseup', handleAnnotationDeselect)
     }
-  }, [selectedTextInfo, showNotePopup, callDetailsRef])
+  }, [selectedTextInfo, showNotePopup, callDetailsRef, bubbleMenuRef, annotationNotePopupRef])
 
   const renderContent = (contentToRender, lineKeywords, lineAnnotations, lineIndex) => {
     const elements = []
@@ -189,7 +202,7 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
 
     marks.forEach((mark, i) => {
       if (mark.start > lastIndex) {
-        elements.push(<React.Fragment key={`text-${lastIndex}-${i}`}>{contentToRender.substring(lastIndex, mark.start)}</React.Fragment>)
+        elements.push(<Fragment key={`text-${lastIndex}-${i}`}>{contentToRender.substring(lastIndex, mark.start)}</Fragment>)
       }
 
       const segmentStart = Math.max(lastIndex, mark.start)
@@ -249,7 +262,7 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
     })
 
     if (lastIndex < contentToRender.length) {
-      elements.push(<React.Fragment key={`text-${lastIndex}`}>{contentToRender.substring(lastIndex)}</React.Fragment>)
+      elements.push(<Fragment key={`text-${lastIndex}`}>{contentToRender.substring(lastIndex)}</Fragment>)
     }
     return elements
   }
@@ -260,6 +273,8 @@ export const useAnnotations = (selectedCall, onUpdateCall) => {
     showNotePopup,
     tooltip,
     callDetailsRef,
+    bubbleMenuRef,
+    annotationNotePopupRef,
     handleTextSelect,
     handleBubbleMenuClick,
     handleNoteConfirm,

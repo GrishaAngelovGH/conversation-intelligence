@@ -1,22 +1,7 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState } from 'react'
 
-const AnnotationNotePopup = ({ position, selectedText, onConfirm, onCancel }) => {
+const AnnotationNotePopup = ({ position, selectedText, onConfirm, onCancel, ref }) => {
   const [note, setNote] = useState('')
-  const popupRef = useRef(null)
-
-  // Effect to close popup if clicked outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (popupRef.current && !popupRef.current.contains(event.target)) {
-        onCancel()
-      }
-    }
-
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [onCancel])
 
   if (!position) return null
 
@@ -41,7 +26,7 @@ const AnnotationNotePopup = ({ position, selectedText, onConfirm, onCancel }) =>
   }
 
   return (
-    <div ref={popupRef} style={style}>
+    <div ref={ref} style={style}>
       <p className="text-sm text-gray-600 mb-2">Note for: &quot;{selectedText}&quot;</p>
       <textarea
         className="w-full p-2 border rounded resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
