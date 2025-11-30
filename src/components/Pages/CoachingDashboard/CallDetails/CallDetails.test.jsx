@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen } from '@testing-library/react'
+import { act, render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 import { useAnnotations } from 'hooks/useAnnotations'
@@ -94,7 +94,7 @@ describe('CallDetails', () => {
 
     const playButton = screen.getByText(/Play Transcript/i)
     await act(async () => {
-      fireEvent.click(playButton)
+      await userEvent.click(playButton)
     })
 
     const pauseButton = await screen.findByText(/Pause Transcript/i)
@@ -102,7 +102,7 @@ describe('CallDetails', () => {
     expect(speechSynthesis.speak).toHaveBeenCalledTimes(1)
 
     await act(async () => {
-      fireEvent.click(pauseButton)
+      await userEvent.click(pauseButton)
     })
 
     const playButtonAgain = await screen.findByText(/Play Transcript/i)
@@ -137,7 +137,7 @@ describe('CallDetails', () => {
     }
     vi.spyOn(window, 'getSelection').mockReturnValue(mockSelection)
 
-    fireEvent.mouseUp(transcriptParagraph)
+    await userEvent.click(transcriptParagraph)
 
     expect(mockUseAnnotations.handleTextSelect).toHaveBeenCalledWith(
       'question',
@@ -167,7 +167,7 @@ describe('CallDetails', () => {
     const bubbleButton = screen.getByRole('button', { name: 'Add a note' })
     expect(bubbleButton).toBeInTheDocument()
 
-    fireEvent.click(bubbleButton)
+    await userEvent.click(bubbleButton)
     expect(mockUseAnnotations.handleBubbleMenuClick).toHaveBeenCalledTimes(1)
 
     useAnnotations.mockReturnValueOnce({
@@ -181,7 +181,7 @@ describe('CallDetails', () => {
     const confirmButton = screen.getByText('Confirm')
 
     await userEvent.type(noteTextarea, 'This is a test note.')
-    fireEvent.click(confirmButton)
+    await userEvent.click(confirmButton)
 
     expect(mockUseAnnotations.handleNoteConfirm).toHaveBeenCalledWith('This is a test note.')
   })
@@ -189,22 +189,25 @@ describe('CallDetails', () => {
   it('should allow adding a comment', async () => {
     const onNewCommentChange = vi.fn()
     const onAddComment = vi.fn()
+    const commentText = 'This is a test comment.'
+
     render(
       <CallDetails
         selectedCall={mockSelectedCall}
-        newComment=""
+        newComment={commentText}
         onNewCommentChange={onNewCommentChange}
         onAddComment={onAddComment}
       />
     )
 
     const commentTextarea = screen.getByPlaceholderText('Add a comment...')
-    await userEvent.type(commentTextarea, 'This is a test comment.')
-    expect(onNewCommentChange).toHaveBeenCalled()
+    expect(commentTextarea).toHaveValue(commentText)
 
     const addButton = screen.getByText('Add Comment')
-    fireEvent.click(addButton)
+    await userEvent.click(addButton)
+
     expect(onAddComment).toHaveBeenCalledTimes(1)
+    expect(onAddComment).toHaveBeenCalledWith(commentText)
   })
 
   it('should call handleClearAnnotation when the clear icon is clicked on an annotation', async () => {
@@ -242,7 +245,7 @@ describe('CallDetails', () => {
     const clearButton = screen.getByTestId('clear-annotation-button')
 
     await act(async () => {
-      fireEvent.click(clearButton)
+      await userEvent.click(clearButton)
     })
 
     expect(useAnnotations().handleClearAnnotation).toHaveBeenCalledTimes(1)

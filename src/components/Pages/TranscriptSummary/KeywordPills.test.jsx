@@ -1,4 +1,5 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 
 import KeywordPills from './KeywordPills'
 
@@ -31,7 +32,7 @@ describe('KeywordPills', () => {
     expect(asFragment()).toMatchSnapshot()
   })
 
-  test('adds a new keyword on button click', () => {
+  test('adds a new keyword on button click', async () => {
     const keywords = ['existing']
     render(
       <KeywordPills
@@ -44,15 +45,15 @@ describe('KeywordPills', () => {
     const input = screen.getByPlaceholderText('Add new keyword')
     const addButton = screen.getByRole('button', { name: /add/i })
 
-    fireEvent.change(input, { target: { value: 'newkeyword' } })
-    fireEvent.click(addButton)
+    await userEvent.type(input, 'newkeyword')
+    await userEvent.click(addButton)
 
     expect(mockOnAddKeyword).toHaveBeenCalledTimes(1)
     expect(mockOnAddKeyword).toHaveBeenCalledWith('newkeyword')
     expect(input).toHaveValue('')
   })
 
-  test('adds a new keyword on Enter key press', () => {
+  test('adds a new keyword on Enter key press', async () => {
     const keywords = ['existing']
     render(
       <KeywordPills
@@ -64,15 +65,15 @@ describe('KeywordPills', () => {
 
     const input = screen.getByPlaceholderText('Add new keyword')
 
-    fireEvent.change(input, { target: { value: 'enterkey' } })
-    fireEvent.keyDown(input, { key: 'Enter', code: 'Enter' });
+    await userEvent.type(input, 'enterkey')
+    await userEvent.keyboard('{Enter}')
 
     expect(mockOnAddKeyword).toHaveBeenCalledTimes(1)
     expect(mockOnAddKeyword).toHaveBeenCalledWith('enterkey')
     expect(input).toHaveValue('')
   })
 
-  test('removes a keyword on "x" button click', () => {
+  test('removes a keyword on "x" button click', async () => {
     const keywords = ['toremove']
     render(
       <KeywordPills
@@ -83,13 +84,13 @@ describe('KeywordPills', () => {
     )
 
     const removeButton = screen.getByRole('button', { name: /remove toremove/i })
-    fireEvent.click(removeButton)
+    await userEvent.click(removeButton)
 
     expect(mockOnRemoveKeyword).toHaveBeenCalledTimes(1)
     expect(mockOnRemoveKeyword).toHaveBeenCalledWith('toremove')
   })
 
-  test('does not add duplicate keywords', () => {
+  test('does not add duplicate keywords', async () => {
     const keywords = ['duplicate']
     render(
       <KeywordPills
@@ -102,14 +103,14 @@ describe('KeywordPills', () => {
     const input = screen.getByPlaceholderText('Add new keyword')
     const addButton = screen.getByRole('button', { name: /add/i })
 
-    fireEvent.change(input, { target: { value: 'duplicate' } })
-    fireEvent.click(addButton)
+    await userEvent.type(input, 'duplicate')
+    await userEvent.click(addButton)
 
     expect(mockOnAddKeyword).not.toHaveBeenCalled()
     expect(input).toHaveValue('duplicate')
   })
 
-  test('does not add empty or whitespace-only keywords', () => {
+  test('does not add empty or whitespace-only keywords', async () => {
     const keywords = []
     render(
       <KeywordPills
@@ -122,12 +123,12 @@ describe('KeywordPills', () => {
     const input = screen.getByPlaceholderText('Add new keyword')
     const addButton = screen.getByRole('button', { name: /add/i })
 
-    fireEvent.change(input, { target: { value: '' } })
-    fireEvent.click(addButton)
+    await userEvent.clear(input)
+    await userEvent.click(addButton)
     expect(mockOnAddKeyword).not.toHaveBeenCalled()
 
-    fireEvent.change(input, { target: { value: '   ' } })
-    fireEvent.click(addButton)
+    await userEvent.type(input, '   ')
+    await userEvent.click(addButton)
     expect(mockOnAddKeyword).not.toHaveBeenCalled()
   })
 })

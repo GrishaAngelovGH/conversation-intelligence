@@ -40,7 +40,7 @@ const KeywordPills = ({ keywords, onAddKeyword, onRemoveKeyword }) => {
           onChange={(e) => setNewKeyword(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') {
-              handleAdd();
+              handleAdd()
             }
           }}
           placeholder="Add new keyword"

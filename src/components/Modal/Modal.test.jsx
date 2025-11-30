@@ -1,4 +1,5 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import Modal from './Modal'
 import { describe, it, expect, vi } from 'vitest'
 
@@ -33,10 +34,10 @@ describe('Modal', () => {
     expect(screen.getByText('Modal Content')).toBeInTheDocument()
   })
 
-  it('should call onClose when the close button is clicked', () => {
+  it('should call onClose when the close button is clicked', async () => {
     const onClose = vi.fn()
     render(<Modal isOpen={true} onClose={onClose} />)
-    fireEvent.click(screen.getByText('Close'))
+    await userEvent.click(screen.getByText('Close'))
     expect(onClose).toHaveBeenCalledTimes(1)
   })
 })

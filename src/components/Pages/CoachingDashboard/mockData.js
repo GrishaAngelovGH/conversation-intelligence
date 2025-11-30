@@ -121,4 +121,4 @@ export const mockCalls = [
       { id: 18, author: 'Manager', text: 'Ensure to highlight any exceptions to the policy if applicable.' },
     ]
   },
-];
+]

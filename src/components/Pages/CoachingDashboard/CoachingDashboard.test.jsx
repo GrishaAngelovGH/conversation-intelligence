@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 import CoachingDashboard from './CoachingDashboard'
@@ -17,7 +17,7 @@ describe('CoachingDashboard', () => {
     const addButton = screen.getByText('Add Comment')
 
     await userEvent.type(commentTextarea, commentText)
-    fireEvent.click(addButton)
+    await userEvent.click(addButton)
 
     expect(screen.getByText(commentText)).toBeInTheDocument()
   })

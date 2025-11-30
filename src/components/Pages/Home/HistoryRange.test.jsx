@@ -1,4 +1,5 @@
-import { render, fireEvent } from '@testing-library/react'
+import { render } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 
 import HistoryRange from './HistoryRange'
@@ -16,11 +17,11 @@ describe('HistoryRange', () => {
     expect(asFragment()).toMatchSnapshot()
   })
 
-  test('should call onRangeChange with the correct key when a button is clicked', () => {
+  test('should call onRangeChange with the correct key when a button is clicked', async () => {
     const { getByText } = render(
       <HistoryRange range="7d" onRangeChange={mockOnRangeChange} />
     )
-    fireEvent.click(getByText('Last 30 days'))
+    await userEvent.click(getByText('Last 30 days'))
     expect(mockOnRangeChange).toHaveBeenCalledWith('30d')
   })
 

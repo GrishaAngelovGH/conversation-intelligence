@@ -1,5 +1,5 @@
 import SellerProfileCard from './SellerProfileCard'
-import SellerPerformanceMetricGrid from './SellerPerformanceMetricGrid';
+import SellerPerformanceMetricGrid from './SellerPerformanceMetricGrid'
 import SalesPerformanceChart from './SalesPerformanceChart'
 import CallHistoryTimeline from './CallHistoryTimeline'
 

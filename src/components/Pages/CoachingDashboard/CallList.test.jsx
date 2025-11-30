@@ -1,4 +1,5 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 
 import CallList from './CallList'
 
@@ -18,11 +19,11 @@ describe('CallList', () => {
     expect(screen.getByText('Subscription Cancellation')).toBeInTheDocument()
   })
 
-  it('should call onSelectCall when a call is clicked', () => {
+  it('should call onSelectCall when a call is clicked', async () => {
     const onSelectCall = vi.fn()
     render(<CallList calls={mockCalls} onSelectCall={onSelectCall} />)
 
-    fireEvent.click(screen.getByText('John Doe'))
+    await userEvent.click(screen.getByText('John Doe'))
 
     expect(onSelectCall).toHaveBeenCalledWith(mockCalls[0])
   })

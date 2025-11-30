@@ -1,3 +1,3 @@
-import CoachingDashboard from './CoachingDashboard';
+import CoachingDashboard from './CoachingDashboard'
 
-export default CoachingDashboard;
+export default CoachingDashboard

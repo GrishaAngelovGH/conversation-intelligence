@@ -159,119 +159,115 @@ describe('useAnnotations', () => {
     const bubbleMenuDiv = document.createElement('div')
     const notePopupDiv = document.createElement('div')
     const outsideDiv = document.createElement('div')
-  
+
     // Append them to the body so they are part of the document
     document.body.appendChild(callDetailsDiv)
     document.body.appendChild(bubbleMenuDiv)
     document.body.appendChild(notePopupDiv)
     document.body.appendChild(outsideDiv)
-  
+
     beforeEach(() => {
-      // Reset mocks and clear any previous selection
       vi.spyOn(window, 'getSelection').mockReturnValue({
         toString: () => '',
-        removeAllRanges: () => {},
+        removeAllRanges: () => { },
       })
       vi.useFakeTimers() // Use fake timers for setTimeout
     })
 
     afterEach(() => {
-        vi.runOnlyPendingTimers()
-        vi.useRealTimers() // Restore real timers
+      vi.runOnlyPendingTimers()
+      vi.useRealTimers()
     })
-  
+
     it('should hide bubble when clicking completely outside', () => {
       const { result } = renderHook(() => useAnnotations(mockCallWithAnnotations, mockOnUpdateCall))
-  
-      // Setup refs
+
       result.current.callDetailsRef.current = callDetailsDiv
       result.current.bubbleMenuRef.current = bubbleMenuDiv
       result.current.annotationNotePopupRef.current = notePopupDiv
-  
+
       // 1. Simulate text selection
       act(() => {
         vi.spyOn(window, 'getSelection').mockReturnValue({
-            toString: () => 'question',
-            removeAllRanges: () => {},
+          toString: () => 'question',
+          removeAllRanges: () => { },
         })
         result.current.handleTextSelect('question', { start: 10, end: 18 }, { x: 10, y: 20, width: 50, height: 15 }, 1)
       })
       expect(result.current.selectedTextInfo).not.toBeNull()
-  
+
       // 2. Simulate the clearing of the selection and a click outside
       act(() => {
         vi.spyOn(window, 'getSelection').mockReturnValue({
           toString: () => '',
-          removeAllRanges: () => {},
+          removeAllRanges: () => { },
         })
         // Manually dispatch the event
         const mouseUpEvent = new MouseEvent('mouseup', { bubbles: true, cancelable: true })
         outsideDiv.dispatchEvent(mouseUpEvent)
         vi.runAllTimers() // Fast-forward timers for setTimeout
       })
-  
+
       // 3. Assert that the state was cleared
       expect(result.current.selectedTextInfo).toBeNull()
     })
-  
+
     it('should NOT hide bubble when clicking on the bubble menu', () => {
       const { result } = renderHook(() => useAnnotations(mockCallWithAnnotations, mockOnUpdateCall))
-  
-      // Setup refs
+
       result.current.callDetailsRef.current = callDetailsDiv
       result.current.bubbleMenuRef.current = bubbleMenuDiv
       result.current.annotationNotePopupRef.current = notePopupDiv
-  
+
       // 1. Simulate text selection
       act(() => {
         vi.spyOn(window, 'getSelection').mockReturnValue({
-            toString: () => 'question',
-            removeAllRanges: () => {},
+          toString: () => 'question',
+          removeAllRanges: () => { },
         })
         result.current.handleTextSelect('question', { start: 10, end: 18 }, { x: 10, y: 20, width: 50, height: 15 }, 1)
       })
       expect(result.current.selectedTextInfo).not.toBeNull()
-  
+
       // 2. Simulate a click on the bubble menu
       act(() => {
         const mouseUpEvent = new MouseEvent('mouseup', { bubbles: true, cancelable: true })
         bubbleMenuDiv.dispatchEvent(mouseUpEvent)
         vi.runAllTimers() // Fast-forward timers for setTimeout
       })
-  
+
       // 3. Assert that the state was NOT cleared
       expect(result.current.selectedTextInfo).not.toBeNull()
     })
-  
+
     it('should hide bubble when clicking inside transcript but clearing selection', () => {
       const { result } = renderHook(() => useAnnotations(mockCallWithAnnotations, mockOnUpdateCall))
-  
-      // Setup refs
+
       result.current.callDetailsRef.current = callDetailsDiv
       result.current.bubbleMenuRef.current = bubbleMenuDiv
       result.current.annotationNotePopupRef.current = notePopupDiv
-  
+
       // 1. Simulate text selection
       act(() => {
         vi.spyOn(window, 'getSelection').mockReturnValue({
-            toString: () => 'question',
-            removeAllRanges: () => {},
+          toString: () => 'question',
+          removeAllRanges: () => { },
         })
         result.current.handleTextSelect('question', { start: 10, end: 18 }, { x: 10, y: 20, width: 50, height: 15 }, 1)
       })
       expect(result.current.selectedTextInfo).not.toBeNull()
-  
+
       // 2. Simulate clearing the selection and clicking inside the transcript area
       act(() => {
         vi.spyOn(window, 'getSelection').mockReturnValue({
           toString: () => '',
-          removeAllRanges: () => {},
+          removeAllRanges: () => { },
         })
         const mouseUpEvent = new MouseEvent('mouseup', { bubbles: true, cancelable: true })
         callDetailsDiv.dispatchEvent(mouseUpEvent)
         vi.runAllTimers() // Fast-forward timers for setTimeout
       })
-  
+
       // 3. Assert that the state was cleared
       expect(result.current.selectedTextInfo).toBeNull()
     })
