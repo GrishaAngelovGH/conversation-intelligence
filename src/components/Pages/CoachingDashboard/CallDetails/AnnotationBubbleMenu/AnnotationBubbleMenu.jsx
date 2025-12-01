@@ -4,9 +4,9 @@ const AnnotationBubbleMenu = ({ position, onClick, ref }) => {
   // Calculate position to be slightly above and to the right of the selection
   const style = {
     position: 'absolute',
-    left: `${position.x + position.width}px`, // To the right of the selection
-    top: `${position.y - 40}px`, // Slightly above the selection
-    transform: 'translate(-50%, -50%)', // Center the bubble relative to its calculated position
+    left: `${position.x + position.width / 2}px`, // Center horizontally
+    top: `${position.y + position.height + 15}px`, // Below the selection
+    transform: 'translateX(-50%)', // Center the bubble horizontally
     zIndex: 1000
   }
 

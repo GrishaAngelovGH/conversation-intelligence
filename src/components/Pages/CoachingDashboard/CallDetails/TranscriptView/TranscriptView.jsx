@@ -1,4 +1,11 @@
+import { useRef } from 'react'
+import MagnifyingGlass from './MagnifyingGlass'
+import { useMagnifyingGlass } from 'hooks/useMagnifyingGlass'
+
 const TranscriptView = ({ transcriptLines, onTextSelect, getCharacterOffsetWithin, renderContent, selectedCall }) => {
+  const transcriptContainerRef = useRef(null)
+  const { magnifiedText, magnifierPosition, handleMouseDown } = useMagnifyingGlass(transcriptContainerRef)
+
   const handleTextSelectionInTranscript = (el, lineIndex) => {
     if (el) {
       el.onmouseup = () => {
@@ -21,7 +28,9 @@ const TranscriptView = ({ transcriptLines, onTextSelect, getCharacterOffsetWithi
   }
 
   return (
-    <div className="space-y-4 mb-6">
+    <div className="space-y-4 mb-6" ref={transcriptContainerRef} onMouseDown={handleMouseDown}>
+      <MagnifyingGlass selectedText={magnifiedText} position={magnifierPosition} />
+
       {transcriptLines.map((line, index) => (
         <div
           key={index}
@@ -32,14 +41,9 @@ const TranscriptView = ({ transcriptLines, onTextSelect, getCharacterOffsetWithi
               <i className="bi bi-person-fill text-lg text-gray-600"></i>
             </div>
           )}
-          <div
-            className={`relative p-3 rounded-lg max-w-[70%] ${line.speaker === 'Agent'
-                ? 'bg-blue-500 text-white'
-                : 'bg-gray-200 text-gray-800'
-              }`}
-          >
+          <div className={`relative p-3 rounded-lg max-w-[70%] ${line.speaker === 'Agent' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}>
             <p className="font-semibold">{line.speaker}:</p>
-            <p ref={el => handleTextSelectionInTranscript(el, index)}>
+            <p ref={(el) => handleTextSelectionInTranscript(el, index)}>
               {renderContent(line.text, selectedCall.keywords || [], line.annotations || [], index)}
             </p>
           </div>

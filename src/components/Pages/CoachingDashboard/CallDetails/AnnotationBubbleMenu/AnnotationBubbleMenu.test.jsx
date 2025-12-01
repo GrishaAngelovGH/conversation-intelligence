@@ -16,8 +16,9 @@ describe('AnnotationBubbleMenu', () => {
     expect(bubbleButton).toBeInTheDocument()
 
     expect(bubbleButton).toHaveStyle({
-      left: `${position.x + position.width}px`,
-      top: `${position.y - 40}px`,
+      left: `${position.x + position.width / 2}px`,
+      top: `${position.y + position.height + 15}px`,
+      transform: 'translateX(-50%)',
     })
   })
 

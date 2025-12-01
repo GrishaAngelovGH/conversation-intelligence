@@ -316,6 +316,16 @@ exports[`CoachingDashboard > should render the CoachingDashboard component and m
           class="space-y-4 mb-6"
         >
           <div
+            class="fixed px-4 py-2 bg-white/95 border border-gray-300 rounded-lg shadow-lg text-lg leading-relaxed z-50 flex items-center gap-2 transition-opacity duration-100 ease-out pointer-events-none"
+            data-testid="magnifying-glass"
+            style="top: 20px; left: 0px; opacity: 0; visibility: hidden;"
+          >
+            <i
+              class="bi bi-search"
+            />
+            <span />
+          </div>
+          <div
             class="flex items-start justify-end"
           >
             <div
